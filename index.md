@@ -6,3 +6,5 @@
 
 </body>
 </html>
+
+{% include footer.html %}
