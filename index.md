@@ -4,7 +4,4 @@
 
 <p>by Studio 20</p>
 
-</body>
-</html>
-
 {% include footer.html %}
