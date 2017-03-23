@@ -1,5 +1,6 @@
 ---
 layout: default
+page.title: Test
 ---
 
 hey
