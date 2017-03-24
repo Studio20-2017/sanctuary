@@ -3,7 +3,6 @@ layout: default
 title: Characters
 ---
 
-<<<<<<< HEAD
 <div class="charselect">
  <h1> Choose a character</h1>
 </div>
