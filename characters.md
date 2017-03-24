@@ -13,9 +13,9 @@ title: Characters
 
  <script type="text/javascript">
    $('.slider-for').slick({
-=======
+
  $('.slider-for').slick({
->>>>>>> origin/master
+
   slidesToShow: 1,
   slidesToScroll: 1,
   arrows: false,
@@ -32,5 +32,3 @@ $('.slider-nav').slick({
 });
 <<<<<<< HEAD
   </script>
-=======
->>>>>>> origin/master
