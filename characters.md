@@ -4,7 +4,11 @@ title: Characters
 ---
 
 <div class="charselect">
- <h1> Choose a character</h1>
+
+  <div>Rosa</div>
+  <div>Teddy</div>
+  <div>Joco</div>
+
 </div>
 
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
