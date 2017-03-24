@@ -3,6 +3,7 @@ layout: default
 title: Characters
 ---
 
+<<<<<<< HEAD
 <div class="charselect">
  <h1> Choose a character</h1>
 </div>
@@ -13,6 +14,9 @@ title: Characters
 
  <script type="text/javascript">
    $('.slider-for').slick({
+=======
+ $('.slider-for').slick({
+>>>>>>> origin/master
   slidesToShow: 1,
   slidesToScroll: 1,
   arrows: false,
@@ -27,4 +31,7 @@ $('.slider-nav').slick({
   centerMode: true,
   focusOnSelect: true
 });
+<<<<<<< HEAD
   </script>
+=======
+>>>>>>> origin/master
