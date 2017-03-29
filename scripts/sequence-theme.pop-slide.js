@@ -26,7 +26,7 @@ var sequenceElement = document.getElementById("sequence");
 // See: http://sequencejs.com/documentation/#options
 var options = {
   animateCanvasDuration: 350,
-  autoPlay: true,
+  autoPlay: false,
   preloader: true,
   fadeStepWhenSkipped: false,
   moveActiveStepToTop: false
