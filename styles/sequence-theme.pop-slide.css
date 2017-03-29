@@ -26,7 +26,7 @@
 body,
 html,
 .seq {
-  height: 100% !important; 
+  height: 100% !important;
   max-height: 100% !important;
   background-color: white;
 }
@@ -289,12 +289,25 @@ html,
     text-decoration: none;
   }
 
+  /* styles for the "currently selected" person */
   .seq .seq-pagination > *.seq-current {
     /* width: 22%; */
     background: transparent;
     border: 1px;
     border-color: black;
     border-bottom-color: black;
+  }
+
+  /* hide person title by default */
+  .seq-pagination li a span {
+    display: none;
+  }
+  /* but if it's seq-current, hide the image and show the title */
+  .seq-pagination .seq-current a img {
+    display: none;
+  }
+  .seq-pagination .seq-current a span {
+    display: inline;
   }
 }
 
@@ -369,5 +382,6 @@ html,
     transform: translateY(0) translateZ(0);
   }
 }
+
 
 /*# sourceMappingURL=sequence-theme.pop-slide.css.map */
