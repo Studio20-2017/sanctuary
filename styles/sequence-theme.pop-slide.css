@@ -285,17 +285,12 @@ html,
   }
 
   .seq .seq-pagination > * a {
-    /* Overflow text with an ellipsis (...) */
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
     color: white;
     text-decoration: none;
-
   }
 
   .seq .seq-pagination > *.seq-current {
-    width: 22%;
+    /* width: 22%; */
     background: transparent;
     border: 1px;
     border-color: black;
