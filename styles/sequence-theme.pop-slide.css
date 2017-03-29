@@ -293,9 +293,7 @@ html,
   .seq .seq-pagination > *.seq-current {
     /* width: 22%; */
     background: transparent;
-    border: 1px;
-    border-color: black;
-    border-bottom-color: black;
+ 
   }
 
   /* hide person title by default */
