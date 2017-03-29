@@ -42,7 +42,7 @@ html,
   /* Center the Sequence container on the page */
   margin: 0 auto;
   padding: 0;
-  font-family: sans-serif;
+  font-family: "Futura", sans-serif;
 }
 
 .seq.seq-active .seq-preloader {
