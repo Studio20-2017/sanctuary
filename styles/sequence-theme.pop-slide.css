@@ -271,6 +271,7 @@ html,
     font-size: 24px;
     font-weight: bold;
     background: transparent;
+    text-transform: uppercase;
     color: white;
     -webkit-transition-duration: .35s;
     transition-duration: .35s;
