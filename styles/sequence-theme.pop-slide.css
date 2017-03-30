@@ -176,10 +176,6 @@ html,
   display: inline-block;
   position: absolute;
   z-index: 3;
-  bottom: 20px;
-  left: 50%;
-  width: 90%;
-  margin-left: -47%;
   padding: 0 2%;
   line-height: 1.2;
   background: transparent;
@@ -225,8 +221,6 @@ html,
 
 @media only screen and (min-width: 480px) {
   .seq .seq-title {
-    width: 65%;
-    margin-left: -33.5%;
     border-bottom-color: white;
   }
 }
@@ -318,10 +312,6 @@ html,
   }
 
   .seq .seq-title {
-    width: 35%;
-    top: 20px;
-    left: auto;
-    right: 20px;
     margin-left: auto;
     bottom: auto;
     border-bottom-color: white;
