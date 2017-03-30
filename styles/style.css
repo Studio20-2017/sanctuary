@@ -1,0 +1,22 @@
+div {
+  width: 100%;
+  height: 500px;
+  
+}
+h1 {
+  text-align: center;
+  padding-top: 250px;
+  margin: 0;
+}
+#first {
+  background: blue;
+}
+#second {
+  background: pink;
+}
+#third {
+  background: green;
+}
+#fourth {
+  background: purple;
+}
