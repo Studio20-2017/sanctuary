@@ -144,7 +144,10 @@ html,
 }
 
 .seq .seq-step3 {
-  background-color: black;
+  background-image: url("../images/JocoGif.gif");
+}
+.seq .seq-step3 video {
+  display: none;
 }
 
 .seq .seq-step4 {
@@ -219,10 +222,19 @@ background-color: black;
   bottom: 70px;
 }
 
+/* anything bigger than mobile size */
 @media only screen and (min-width: 480px) {
   .seq .seq-title {
     border-bottom-color: white;
   }
+  .seq .seq-step3 {
+  	background-image: none;
+  	background-color: black;
+  }
+  .seq .seq-step3 video {
+    display: block;
+  }
+
 }
 
 @media only screen and (min-width: 640px) {
