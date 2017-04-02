@@ -22,6 +22,10 @@ function scroll4() {
 $('html, body').animate({
     scrollTop: $("#fourth").offset().top
 }, 1000);}
+    
+$(document.body).on('click', 'button', function () {
+    $(this).parent().addClass('change');
+});
   </script>
 
 </head>
