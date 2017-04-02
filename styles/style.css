@@ -19,6 +19,13 @@ button {
     margin: 4px 2px;
     cursor: pointer;
 }
+.change {
+    animation: change 3s step-end both;
+}
+
+@keyframes change {
+    to   { background-color: red }
+}
 .Column
 {
     display: table-cell;  
