@@ -6,6 +6,7 @@
     border-spacing: 5px; 
     background-color: grey;
     position: fixed;
+    top: 0;
 }
 button {
     background-color: grey;
