@@ -5,6 +5,7 @@
     table-layout: fixed;
     border-spacing: 5px; 
     background-color: grey;
+    position: fixed;
 }
 button {
     background-color: grey;
