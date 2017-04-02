@@ -9,6 +9,7 @@
 }
 button {
     background-color: rgba(192,192,192, 0);
+    color: white;
     border: none;
     padding: 12px 28px;
     text-align: center;
@@ -17,9 +18,6 @@ button {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-}
-p {
-    color: black;
 }
 .change {
     animation: change 3s step-end both;
