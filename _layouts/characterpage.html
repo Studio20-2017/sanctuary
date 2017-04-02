@@ -5,6 +5,22 @@
   <link rel="stylesheet" type="text/css" href="styles/style.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script>
+    $(document).scroll(function() {
+	// height of the entire page in pixels
+	var total = $(document).height();
+	// how far we are scrolled down
+	var distance = $(document).scrollTop();
+
+	var pct = 100 * distance / total;
+
+  //console.log(total);
+  //console.log(distance);
+  //console.log(pct);
+
+  // set the width of our #progress_elapsed div to the percent that we got
+  $("#progress_elapsed").css("width", pct + "%");
+});
+    
   function scroll1() {
 $('html, body').animate({
     scrollTop: $("#first").offset().top
