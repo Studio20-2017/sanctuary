@@ -4,12 +4,12 @@
     width: 100%; 
     table-layout: fixed;
     border-spacing: 5px; 
-    background-color: grey;
+    background-color: none;
     position: fixed;
     top: 0;
 }
 button {
-    background-color: grey;
+    background-color: none;
     border: none;
     color: white;
     padding: 12px 28px;
@@ -36,7 +36,7 @@ button {
 			position: fixed;
 			top: 0;
 		}
-		#progress_elapsed {
+#progress_elapsed {
 			height: 100%;
 			width: 0; /* we'll set this in the javascript below */
 			margin: 0;
