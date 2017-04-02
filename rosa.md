@@ -3,6 +3,10 @@ layout: characterpage
 scripts: characterpage
 title: Rosa
 ---
+<div id="progress_bar">
+  <div id="progress_elapsed">
+  </div>
+</div>
 <div class="Row" align="center">
   <div class="Column"><button onclick="scroll1()">Video</button></div>
   <div class="Column"><button  onclick="scroll2()">Data</button></div>
