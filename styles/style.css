@@ -24,25 +24,6 @@ button {
 {
     display: table-cell;  
 }
-#progress_bar {
-			width: 100%;
-			height: 30px;
-			margin: 0;
-			padding: 0;
-			border: 1px solid black;
-
-			/* this makes the progress bar div "stick" to the top of your window
-			   even if you scroll down */
-			position: fixed;
-			top: 0;
-		}
-#progress_elapsed {
-			height: 100%;
-			width: 0; /* we'll set this in the javascript below */
-			margin: 0;
-			padding: 0;
-			background: blue;
-		}
 
 .boxes {
   width: 100%;
