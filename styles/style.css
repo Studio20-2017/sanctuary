@@ -10,7 +10,6 @@
 button {
     background-color: rgba(192,192,192, 0);
     border: none;
-    color: black;
     padding: 12px 28px;
     text-align: center;
     text-decoration: none;
@@ -19,12 +18,15 @@ button {
     margin: 4px 2px;
     cursor: pointer;
 }
+p {
+    color: black;
+}
 .change {
     animation: change 3s step-end both;
 }
 
 @keyframes change {
-    to   { background-color: red }
+    to   { color: red }
 }
 .Column
 {
