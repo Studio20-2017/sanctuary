@@ -4,7 +4,7 @@ scripts: characterpage
 title: Rosa
 ---
 
-</div>
+
 <div class="Row" align="center">
   <div class="Column"><button onclick="scroll1()">Video</button></div>
   <div class="Column"><button  onclick="scroll2()">Data</button></div>
