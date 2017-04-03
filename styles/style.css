@@ -4,6 +4,7 @@
     border: solid;
     border-radius: 10px;
     border-color: grey;
+    background: grey;
     width: 50%;
     margin-left: 25%;
     table-layout: fixed;
@@ -15,7 +16,7 @@
 button {
     background-color: transparent;
     border: none;
-    color: grey;
+    color: blue;
     padding: 12px 28px;
     text-align: center;
     text-decoration: none;
