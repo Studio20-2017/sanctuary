@@ -5,11 +5,11 @@ title: Rosa
 ---
 
 
-<div class="Row" align="center">
-<div class="Column"><button onclick="scroll1()"><span>Video</span></button></div>
-<div class="Column"><button  onclick="scroll2()"><span>Data</span></button></div>
-<div class="Column"><button  onclick="scroll3()"><span>360</span></button></div>
-<div class="Column"><button  onclick="scroll4()"><span>Video 2</span></button></div>
+<div class="Row">
+  <div class="Column"><button onclick="scroll1()"><span>Video</span></button></div>
+  <div class="Column"><button  onclick="scroll2()"><span>Data</span></button></div>
+  <div class="Column"><button  onclick="scroll3()"><span>360</span></button></div>
+  <div class="Column"><button  onclick="scroll4()"><span>Video 2</span></button></div>
 </div>
 <div class="boxes" id="first"><div class="boxes" id="first"><iframe src="https://player.vimeo.com/video/210800050" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div></div>
