@@ -25,7 +25,10 @@ $('html, body').animate({
 }, 1000);}
     
 $(document.body).on('click', 'span', function () {
-    $(this).parent().addClass('change');
+   var clicked = $(this);
+  setTimeout(function() {
+    clicked.parent().addClass('bgred');
+  }, 3000); 
 });
   </script>
 
