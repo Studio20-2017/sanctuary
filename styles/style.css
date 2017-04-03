@@ -1,6 +1,8 @@
 .Row
 {
     display: table;
+    border: solid;
+    border-radius: 10px;
     border-color: grey;
     width: 50%;
     margin-left: 25%;
@@ -12,10 +14,7 @@
 }
 button {
     background-color: transparent;
-    border-right: none;
-    border-left: none;
-    border-top: none;
-    border-bottom: solid;
+    border: none;
     color: grey;
     padding: 12px 28px;
     text-align: center;
