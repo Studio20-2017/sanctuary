@@ -5,39 +5,13 @@
   <title>{{ page.title }}</title>
   <link rel="stylesheet" type="text/css" href="styles/style.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
- <script> $(function() {
-					$.scrollify({
-						section : ".boxes",
-					});
-				});
-  </script>
+ 
 </head>
 <body>
 
 {{ content }}
   
 <script>
- $.scrollify({
-		section : "boxes",
-		sectionName : "first",
-	 sectionName : "second",
-	 sectionName : "third",
-	 sectionName : "fourth",
-		interstitialSection : "",
-		easing: "easeOutExpo",
-		scrollSpeed: 1100,
-		offset : 0,
-		scrollbars: true,
-		standardScrollElements: "",
-		setHeights: true,
-		overflowScroll: true,
-		updateHash: true,
-		touchScroll:true,
-		before:function() {},
-		after:function() {},
-		afterResize:function() {},
-		afterRender:function() {}
-	});
   function scroll1() {
 $('html, body').animate({
     scrollTop: $("#first").offset().top
@@ -54,7 +28,7 @@ function scroll4() {
 $('html, body').animate({
     scrollTop: $("#fourth").offset().top
 }, 1000)
-  
+ 
  ;}
     
   </script>
