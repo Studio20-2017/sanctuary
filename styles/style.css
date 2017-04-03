@@ -1,35 +1,40 @@
 .Row
 {
     display: table;
-    width: 100%; 
+    border-color: grey;
+    width: 50%;
+    margin-left: 25%;
     table-layout: fixed;
     border-spacing: 5px; 
     position: fixed;
     top: 0;
+    float: left;
 }
 button {
-    background-color: rgba(192,192,192, 0.6);
-    color: white;
-    border: none;
+    background-color: transparent;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: solid;
+    color: grey;
     padding: 12px 28px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
-    cursor: pointer;
 }
-.bgred {
-  background-color: red;
-}
-.change {
-    animation: change 3s step-end both;
+button:hover {
+  background-color: #e7e7e7;
 }
 .Column
 {
-    display: table-cell;  
+    display: table-cell;
+    text-align: center;
 }
-
+span {
+  color: black;
+}
 .boxes {
   width: 100%;
   height:100vh;
