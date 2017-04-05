@@ -10,7 +10,7 @@ body {
   font-size: 34px;
   font-style: italic;
   letter-spacing: -1px;
-  width: 1200px;
+  width: 6000px;
   position: absolute;
   top: 0px;
   left: 0px;
@@ -20,7 +20,7 @@ body {
 .section {
   margin: 0px;
   bottom: 0px;
-  width: 4000px;
+  width: 2000px;
   float: left;
   height: 100%;
   text-shadow: 1px 1px 2px #f0f0f0;
