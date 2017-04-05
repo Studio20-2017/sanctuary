@@ -92,6 +92,17 @@ $('html, body').animate({
 $('#Video2-button').css("background", "yellow");
 }
 
+// PROGRESS BAR DISSAPEARS
+
+function dissapear() {
+$('.row").on('mouseenter', function() {
+ $(this).css('background' , 'yellow');
+});
+
+$('.row").on('mouseleave', function() {
+ $(this).css('background' , 'yellow');
+});
+}
   </script>
 
 
