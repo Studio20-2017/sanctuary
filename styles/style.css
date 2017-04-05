@@ -1,10 +1,11 @@
+/* BASICS CSS */
+
 .Row
 {
     display: table;
-    border: solid;
+    border: none;
     border-radius: 10px;
-    border-color: grey;
-    background: grey;
+    background-color: rgba(0, 0, 0, 0.5);
     width: 50%;
     margin-left: 25%;
     table-layout: fixed;
@@ -13,6 +14,21 @@
     top: 0;
     float: left;
 }
+
+.Column
+{
+    display: table-cell;
+    text-align: center;
+}
+
+.boxes {
+  width: 100%;
+  height:100vh;
+  min-height:100vh;  
+}
+
+/* BUTTONS CSS */
+
 button {
     background-color: transparent;
     border: none;
@@ -24,27 +40,23 @@ button {
     font-size: 16px;
     margin: 4px 2px;
 }
-button:hover {
+
+button: hover {
   background-color: #e7e7e7;
 }
-.Column
-{
-    display: table-cell;
-    text-align: center;
-}
-span {
-  color: black;
-}
-.boxes {
-  width: 100%;
-  height:100vh;
-  min-height:100vh;  
-}
+
 h1 {
   text-align: center;
   padding-top: 250px;
   margin: 0;
 }
+
+span {
+  color: black;
+}
+
+/* BOXES STYLE CSS */
+
 #first {
   background: blue;
 }
@@ -56,4 +68,22 @@ h1 {
 }
 #fourth {
   background: purple;
+}
+
+/* PROGRESS BAR CSS */
+
+#Video-button {
+  background: grey;
+}
+
+#Data-button {
+  background: grey;
+}
+
+#Threesixty-button {
+  background: grey;
+}
+
+#Video2-button {
+  background: grey;
 }
