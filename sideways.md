@@ -37,12 +37,10 @@ body {
 
 .black {
   color: #fff;
-  background: #000 url(http://i.imgur.com/pZWuILO.jpg) no-repeat top right;
 }
 
 .white {
   color: #000;
-  background: #fff url(http://i.imgur.com/LVp6aFC.jpg) no-repeat top right;
 }
 
 .section ul {
