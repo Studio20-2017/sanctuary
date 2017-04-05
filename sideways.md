@@ -37,12 +37,12 @@ body {
 
 .black {
   color: #fff;
-  background-color:blue
+  background-color:blue;
 }
 
 .white {
   color: #000;
-  background-color:yellow;
+  background-color:green;
 }
 
 .section ul {
