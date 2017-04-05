@@ -10,7 +10,7 @@ body {
   font-size: 34px;
   font-style: italic;
   letter-spacing: -1px;
-  width: 12000px;
+  width: 1200px;
   position: absolute;
   top: 0px;
   left: 0px;
