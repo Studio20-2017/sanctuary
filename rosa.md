@@ -3,8 +3,8 @@
   <meta charset="UTF-8">
   <title>Rosa</title>
   <link rel="stylesheet" type="text/css" href="styles/style.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2542/jquery.scrollie.min_1.js"></script>
+  <script src="scripts/jquery.min.js"></script>
+  <script src="scripts/jquery.scrollie.min_1.js"></script>
  
 </head>
 <body>
