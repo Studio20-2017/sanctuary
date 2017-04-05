@@ -1,3 +1,4 @@
+</style>
 * {
   margin: 0;
   padding: 0;
@@ -82,6 +83,7 @@ body {
   text-decoration: none;
   color: #000;
 }
+</style>
 
 <div class="section black" id="section1">
   <h2>Section 1</h2>
