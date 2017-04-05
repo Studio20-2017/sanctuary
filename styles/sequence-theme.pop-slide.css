@@ -342,11 +342,11 @@ background-color: black;
 #one p:hover img{ display:none; }
   
   
-     /* .seq .seq-pagination > *.seq-current { */
+  .seq .seq-pagination > *.seq-current { 
     /* width: 22%; */
-   /* background: transparent; */
+  background: transparent; 
  
- /* } */
+  } 
 
   /* hide person title by default */
   .seq-pagination li a span {
