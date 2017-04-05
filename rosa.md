@@ -94,16 +94,16 @@ $('#Video2-button').css("background", "yellow");
 
 // PROGRESS BAR DISSAPEARS
 
-function dissapear() {
-$('.row').on('mouseenter', function() {
- $(this).css('background' , 'yellow');
-});
-}
+// function dissapear() {
+// $('.row').on('mouseenter', function() {
+// $(this).css('background' , 'opacity 1');
+// });
+// }
 
-$('.row').on('mouseleave', function() {
-  $(this).css('background' , 'yellow');
-});
-}
+// $('.row').on('mouseleave', function() {
+// $(this).css('background' , 'opacity 0');
+// });
+// }
   </script>
 
 
