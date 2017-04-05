@@ -107,7 +107,7 @@ body {
 <div class="section black" id="section1">
   <h2>Section 1</h2>
   <ul class="nav">
-    <li>1</li>
+    <li>Video</li>
     <li><a href="#section2">Data</a></li>
     <li><a href="#section3">360</a></li>
   </ul>
@@ -116,7 +116,7 @@ body {
   <h2>Section 2</h2>
   <ul class="nav">
     <li><a href="#section1">Video</a></li>
-    <li>2</li>
+    <li>Data</li>
     <li><a href="#section3">360</a></li>
   </ul>
 </div>
@@ -125,7 +125,7 @@ body {
   <ul class="nav">
     <li><a href="#section1">Video</a></li>
     <li><a href="#section2">Data</a></li>
-    <li>3</li>
+    <li>360</li>
   </ul>
 </div>
 </html>
