@@ -337,11 +337,16 @@ background-color: black;
   }
 
   /* styles for the "currently selected" person */
-  .seq .seq-pagination > *.seq-current {
+ #one p>span{ display:none; }
+#one p:hover span{ display:inline; }
+#one p:hover img{ display:none; }
+  
+  
+     /* .seq .seq-pagination > *.seq-current { */
     /* width: 22%; */
-    background: transparent;
+   /* background: transparent; */
  
-  }
+ /* } */
 
   /* hide person title by default */
   .seq-pagination li a span {
