@@ -44,7 +44,7 @@ body {
 
 .white {
   color: #000;
-  background-color:cyan;
+  background-color:red;
 }
 
 .section ul {
