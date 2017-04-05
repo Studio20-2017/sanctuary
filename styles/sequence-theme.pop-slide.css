@@ -349,7 +349,7 @@ background-color: black;
   }
   /* but if it's seq-current, hide the image and show the title */
   .seq-pagination .seq-current a img {
-    display: none;
+    display: inline;
   }
   .seq-pagination .seq-current a span {
     display: inline;
