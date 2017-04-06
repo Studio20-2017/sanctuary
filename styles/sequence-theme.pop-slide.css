@@ -460,4 +460,10 @@ color: white;
 #logo {
   position: absolute;
   z-index: 9999;
+ top: 25px;
+ right: 30px;
+}
+
+#logo img {
+ width: 290px;
 }
