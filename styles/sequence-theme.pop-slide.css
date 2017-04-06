@@ -21,7 +21,7 @@
  * Copyright © 2015 Ian Lunn Design Limited unless otherwise stated.
 
  TO FIGURE OUR FADE OUT CHECK
- -webkit-transition-duration 
+ -webkit-transition-duration
 
  */
 
@@ -180,6 +180,7 @@ html,
   transform: translateZ(0);
 }
 
+/* fallback photos for mobile */
 .seq .seq-step1 {
   background-image: url("../images/step1.gif");
 }
@@ -191,17 +192,18 @@ html,
 .seq .seq-step3 {
   background-image: url("../images/JocoGif.gif");
 }
-.seq .seq-step3 video {
+.seq .seq-step4 {
+
+}
+.seq .seq-step5 {
+}
+
+/* on mobile by defualt hide the video files */
+.seq .seq-step1 video, .seq .seq-step2 video, .seq .seq-step3 video, .seq .seq-step4 video, .seq .seq-step5 video {
   display: none;
 }
 
-.seq .seq-step4 {
-background-color: black;
-}
 
-.seq .seq-step5 {
-  background-color: black;
-}
 
 .seq small {
   /* Image credits */
@@ -267,16 +269,29 @@ background-color: black;
   bottom: 70px;
 }
 
+video{
+  object-fit: cover;
+}
+
+
+/* mobile size */
+@media only screen and (max-width: 479px) {
+  .seq .seq-pagination > li a img,
+  .seq .seq-pagination > li a span {
+    display: none !important;
+  }
+}
+
 /* anything bigger than mobile size */
 @media only screen and (min-width: 480px) {
   .seq .seq-title {
     border-bottom-color: white;
   }
-  .seq .seq-step3 {
+  .seq .seq-step1, .seq .seq-step2, .seq .seq-step3, .seq .seq-step4, .seq .seq-step5 {
   	background-image: none;
   	background-color: black;
   }
-  .seq .seq-step3 video {
+  .seq .seq-step1 video, .seq .seq-step2 video, .seq .seq-step3 video, .seq .seq-step4 video, .seq .seq-step5 video {
     display: block;
   }
 
@@ -323,8 +338,8 @@ background-color: black;
     background: transparent;
     text-transform: uppercase;
     color: white;
-    -webkit-transition-duration: .35s;
-    transition-duration: .35s;
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
     -webkit-transform-origin: 0 100%;
     -ms-transform-origin: 0 100%;
     transform-origin: 0 100%;
@@ -342,15 +357,15 @@ background-color: black;
 
   /* styles for the "currently selected" person */
  #one p>span{ display:none; }
-#one p:hover span{ display:inline; }
+#one p:hover span{ display:block; }
 #one p:hover img{ display:none; }
-  
-  
-  .seq .seq-pagination > *.seq-current { 
+
+
+  .seq .seq-pagination > *.seq-current {
     /* width: 22%; */
-  background: transparent; 
- 
-  } 
+  background: transparent;
+
+  }
 
   /* hide person title by default */
   .seq-pagination li a span {
@@ -358,10 +373,10 @@ background-color: black;
   }
   /* but if it's seq-current, hide the image and show the title */
   .seq-pagination .seq-current a img {
-    display: inline;
+    display: none;
   }
   .seq-pagination .seq-current a span {
-    display: inline;
+    display: block;
   }
 }
 
@@ -377,12 +392,6 @@ background-color: black;
     margin-left: auto;
     bottom: auto;
     border-bottom-color: white;
-    -webkit-transition-duration: .35s;
-    transition-duration: .35s;
-    -webkit-transition-property: -webkit-transform;
-    transition-property: transform;
-    -webkit-transition-timing-function: cubic-bezier(0.230, 1.000, 0.320, 1.000);
-    transition-timing-function: cubic-bezier(0.230, 1.000, 0.320, 1.000);
   }
 
   .seq .seq-title .seq-button {
@@ -436,8 +445,14 @@ background-color: black;
 .seq-title a {
 text-decoration: none;
 font-size: 20px;
-color: white; 
+color: white;
 
 }
-
+.seq .seq-pagination > li:hover a img,
+.seq-current a img {
+    display: none;
+}
+.seq .seq-pagination > li:hover a span {
+    display: block;
+}
 /* sourceMappingURL=sequence-theme.pop-slide.css.map */
