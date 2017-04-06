@@ -5,7 +5,7 @@
   <link rel="stylesheet" type="text/css" href="styles/style.css">
   <script src="scripts/jquery.min.js"></script>
   <script src="scripts/jquery.scrollie.min_1.js"></script>
- 
+
 </head>
 <body>
 
@@ -21,6 +21,33 @@
 <div class="boxes" id="second"><h1 id="progress-second">DATA VIZ</h1></div>
 <div class="boxes" id="third"><h1 id="progress-third">360</h1></div>
 <div class="boxes" id="fourth"><h1 id="progress-fourth">VIDEO 2</h1></div>
+
+<script>
+var iframe = $('#first iframe')[0];
+var player = $f(iframe);
+
+// When the player is ready, add listeners for pause, finish, and playProgress
+player.addEvent('ready', function() {        
+    player.addEvent('finish', finishVideoOne);
+});
+
+function finishVideoOne(id) {
+  /*
+    console.log("VIDEO IS OVER");
+
+    $('html, body').stop().animate({
+        'scrollTop': $('#gridContainer').offset().top
+    }, 900, 'swing', function () {
+
+        //$(".menu").css( "display", "block" );
+
+
+    });
+  */
+  alert('finished');
+
+}
+</script>
 
 
   <script>
