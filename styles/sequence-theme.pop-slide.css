@@ -456,3 +456,8 @@ color: white;
     display: block;
 }
 /* sourceMappingURL=sequence-theme.pop-slide.css.map */
+
+#logo {
+  position: absolute;
+  z-index: 9999;
+}
