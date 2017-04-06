@@ -34,3 +34,23 @@ var options = {
 
 // Launch Sequence on the element, and with the options we specified above
 var mySequence = sequence(sequenceElement, options);
+
+
+// when you click another character...
+mySequence.animationEnded = function(id, sequence) {
+  // ...pause all the videos
+  document.getElementById('video1').pause();
+  document.getElementById('video2').pause();
+  document.getElementById('video3').pause();
+  document.getElementById('video4').pause();
+  document.getElementById('video5').pause();
+
+  // ...and then play the video for the character we went to
+  document.getElementById('video'+id).play();
+}
+
+// when the page first loads...
+$(function () {
+  // ...automatically start the first video
+  document.getElementById('video1').play();
+})
