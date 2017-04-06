@@ -16,14 +16,14 @@
   <div class="Column" id="Video2-button"><button onclick="scroll4()"><span>Video 2</span></button></div>
 </div>
 <div class="boxes" id="first">
-  <iframe src="https://player.vimeo.com/video/210800050" width="100%" height="100%" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  <iframe id="player1" src="https://player.vimeo.com/video/210800050?api=1&player_id=player1" width="100%" height="100%" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
 </div>
 <div class="boxes" id="second"><h1 id="progress-second">DATA VIZ</h1></div>
 <div class="boxes" id="third"><h1 id="progress-third">360</h1></div>
 <div class="boxes" id="fourth"><h1 id="progress-fourth">VIDEO 2</h1></div>
 
 <script>
-var iframe = $('#first iframe')[0];
+var iframe = $('#player1')[0];
 var player = $f(iframe);
 
 // When the player is ready, add listeners for pause, finish, and playProgress
