@@ -34,20 +34,7 @@ $(function() {
   });
 
   function finishVideoOne(id) {
-    /*
-      console.log("VIDEO IS OVER");
-
-      $('html, body').stop().animate({
-          'scrollTop': $('#gridContainer').offset().top
-      }, 900, 'swing', function () {
-
-          //$(".menu").css( "display", "block" );
-
-
-      });
-    */
-    alert('finished');
-
+    scroll2();
   }
 });
 </script>
