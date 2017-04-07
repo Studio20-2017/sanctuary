@@ -8,6 +8,7 @@
   <link href="styles/sequence-theme.pop-slide.css" rel="stylesheet" media="all">
   <script src="scripts/jquery.min.js"></script>
 
+
   <style>
     body {
       margin: 0;
@@ -68,10 +69,13 @@
           </div>
         </li>
 
-        <li class="seq-step4">
+        <li class="seq-step4" value="PLAY"  onmouseover="play()">
          <video id="video4" loop style="width:100%;height:100%">
             <source src="images/Rosa Portrait.mp4" type="video/mp4">
           </video>
+			<audio id="rosa">
+			 <source src="audio/rosaclip.mp3" type="audio/mp3">
+			</audio>
           <div style="top: 48%; left: 23%;" data-seq class="seq-title">   <a href="rosa.html">Rosa <br> "My greatest pain in life is that <br>I will never be able to see myself perform live." <br> Follow Rosa.</a>
 
           </div>
@@ -88,7 +92,7 @@
       </ul>
     </div>
     <ul role="navigation" aria-label="Pagination" class="seq-pagination" id="one">
-      <li><a href="#step1" rel="step1" title="Go to slide 1"><img style="width:100%" src="images/kanyethumb.jpeg"><span>The Dreamer</span></a></li>
+      <li><a href="#step1" rel="step1" title="Go to slide 1" onclick=><img style="width:100%" src="images/kanyethumb.jpeg"><span>The Dreamer</span></a></li>
       <li><a href="#step2" rel="step2" title="Go to slide 2"><img style="width:100%" src="images/tswiftthumb.jpeg"><span>Taylor Swift</span></a></li>
       <li><a href="#step3" rel="step3" title="Go to slide 3"><img style="width:100%" src="images/tswiftthumb.jpeg"><span style="margin-bottom:40%">The Poet</span></a></li>
       <li><a href="#step4" rel="step4" title="Go to slide 4"><img style="width:100%" src="images/tswiftthumb.jpeg"><span>The Holocaust Survivor</span></a></li>
@@ -109,5 +113,12 @@
   <script src="scripts/hammer.min.js"></script>
   <script src="scripts/sequence.min.js"></script>
   <script src="scripts/sequence-theme.pop-slide.js"></script>
+  <script>
+  function play(){
+       var audio = document.getElementById("rosa");
+       audio.play();
+                 }
+   </script>
+ 
 </body>
 </html>
