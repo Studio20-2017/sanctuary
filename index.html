@@ -65,7 +65,7 @@
           </div>
         </li>
 
-        <li class="seq-step4" value="PLAY"  onmouseover="play()">
+        <li class="seq-step4" value="PLAY"  onmouseover="play4()">
          <video id="video4" loop style="width:100%;height:100%">
             <source src="images/Rosa Portrait.mp4" type="video/mp4">
           </video>
@@ -77,10 +77,13 @@
           </div>
         </li>
 
-        <li class="seq-step5">
+        <li class="seq-step5" value="PLAY"  onmouseover="play5()">
           <video id="video5" loop style="width:100%;height:100%">
-            <source src="images/Teddy_video portrait.mp4" type="video/mp4">
+            <source src="images/Teddy_video portrait.mp4" type="video/mp4"> 
           </video>
+          <audio id="teddy">
+			 <source src="audio/teddy.mp3" type="audio/mp3">
+			</audio>
           <div style="top: 48%; left: 23%;" data-seq class="seq-title">   <a href="rosa.html">Teddy <br> "I'm not a businessman. <br> I'm a business, man." <br> Follow Teddy.</a>
 
           </div>
@@ -125,10 +128,14 @@
   <script src="scripts/sequence-theme.pop-slide.js"></script>
   <script>
   
-  function play() {
+  function play4() {
        var audio = document.getElementById("rosa");
        audio.play();
                  }
+  function play5() {
+       var audio = document.getElementById("teddy");
+       audio.play();
+                 }               
    </script>
 
    <script src="https://code.jquery.com/jquery-2.1.4.min.js"> </script>
