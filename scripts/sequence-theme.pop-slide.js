@@ -29,7 +29,11 @@ var options = {
   autoPlay: false,
   preloader: true,
   fadeStepWhenSkipped: false,
-  moveActiveStepToTop: false
+  moveActiveStepToTop: false,
+  keyNavigation: true,
+  animateCanvas: false,
+  phaseThreshold: false,
+  reverseWhenNavigatingBackwards: true
 }
 
 // Launch Sequence on the element, and with the options we specified above

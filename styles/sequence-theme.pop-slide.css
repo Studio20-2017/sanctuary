@@ -141,37 +141,7 @@ html,
   height: 100%;
 }
 
-/* navigation button */
 
-.arrow {
-  width: 0; 
-	height: 0; 
-	border-top: 25px solid transparent;
-	border-bottom: 25px solid transparent;
-  
-  position: absolute;
-}
-
-.arrow-right {
-	border-left: 15px solid #fff;
-  right: 0;
-}
-
-.arrow-left {
-	border-right: 15px solid #fff; 
-  left: 0;
-}
-
-.container {
-  margin: 15% auto;
-  font-size: 24px;
-  position: relative;
-  width: 15em;
-}
-
-.header {
-  text-align: center;
-}
 .seq .seq-screen,
 .seq .seq-canvas,
 .seq .seq-canvas > * {
@@ -210,6 +180,48 @@ html,
   -ms-transform: translateZ(0);
   transform: translateZ(0);
 }
+
+.nav {
+  /* #1 */
+  position: absolute;
+  z-index: 100;
+  left: 0;
+  right: 0;
+  bottom: 2.5em;
+  max-width: 640px;
+  width: 100%;
+
+  /* #2 */
+  border: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.seq-next,
+.seq-prev {
+  /* #1 */
+  padding: 0;
+  background: transparent;
+  border: none;
+
+  /* #2 */
+  padding: .75em;
+  cursor: pointer;
+  color: white;
+  font-size: .75em;
+  text-transform: uppercase;
+
+  /* #3 */
+  opacity: .7;
+  transition-duration: .25s;
+  transition-property: opacity;
+}
+
+.seq-next:hover,
+.seq-prev:hover {
+  opacity: 1;
+}
+
 
 /* fallback photos for mobile */
 .seq .seq-step1 {
