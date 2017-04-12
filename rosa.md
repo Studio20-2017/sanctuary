@@ -80,13 +80,18 @@ $(function() {
   <script>
 // PROGRESS BAR DISSAPEARS
 
-$('body').on('mouseenter', function() {
- $('.Row').css('opacity' , '1');
+var mouseStillTimer;
+
+$('body').on('mousemove', function() {
+  window.clearTimeout(mouseStillTimer);
+
+  $('.Row').css('opacity' , '1');
+ 
+  mouseStillTimer = window.setTimeout(function() {
+    $('.Row').css('opacity' , '0');
+   }, 3000);
 });
 
-$('body').on('mouseleave', function() {
-  $('.Row').css('opacity' , '0');
-});
 
   </script>
 
