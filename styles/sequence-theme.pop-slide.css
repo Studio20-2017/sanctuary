@@ -222,7 +222,6 @@ html,
   opacity: 1;
 }
 
-
 /* fallback photos for mobile */
 .seq .seq-step1 {
   background-image: url("../images/step1.gif");
