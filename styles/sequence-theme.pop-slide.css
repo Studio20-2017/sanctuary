@@ -46,7 +46,7 @@ html,
   /* Center the Sequence container on the page */
   margin: 0 auto;
   padding: 0;
-  font-family: "Futura", sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
 .seq.seq-active .seq-preloader {
@@ -239,8 +239,12 @@ html,
   opacity: .7;
   transition-duration: .25s;
   transition-property: opacity;
+  position: absolute;
+  margin: 0 auto;
+  left: 5%;
   z-index:99999;
   bottom:0px;
+
 }
 
 .seq-next:hover,
@@ -302,7 +306,7 @@ html,
 
 .seq .seq-title h2 {
   margin: .6em 0 .4em 0;
-  font-family: "Futura", sans-serif;
+  font-family: "Quattrocento", serif;
   font-size: 1em;
 }
 
@@ -312,7 +316,7 @@ html,
   padding: .2em .6em;
   background: #FFFFF;
   color: white;
-  font-family: "Futura", sans-serif;
+  font-family: "Quattrocento", serif;
   font-weight: 700;
   text-decoration: none;
 }
@@ -400,7 +404,7 @@ video{
     margin: 0 1%;
     padding: .625em 1%;
     cursor: pointer;
-    font-family: "Futura", sans-serif;
+    font-family: "Oswald", sans-serif;
     line-height: 1.4;
     font-size: 24px;
     background: transparent;
@@ -556,6 +560,21 @@ color: white;
   z-index: 99999;
   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
   font-size: 20px;
+  opacity: 0.7;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  text-decoration: none;
+    color: #f1f1f1;
+}
+#mute {
+  position: absolute; 
+  margin: 0 auto; 
+  left: 2%;
+  bottom: 5%; 
+  z-index: 99999;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size: 15px;
   opacity: 0.7;
   text-align: center;
   text-transform: uppercase;
