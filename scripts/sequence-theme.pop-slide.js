@@ -79,4 +79,5 @@ var audio6 = document.getElementById("audio6");
 $(function () {
   // ...automatically start the first video
   document.getElementById('video1').play();
+  document.getElementById('audio1').play();
 })
