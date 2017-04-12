@@ -376,7 +376,12 @@ video{
     display: none;
   }
   .seq-pagination .seq-current a span {
+<<<<<<< Updated upstream
     display: block;
+=======
+    display: inline;
+    text-align: center; 
+>>>>>>> Stashed changes
   }
 }
 
