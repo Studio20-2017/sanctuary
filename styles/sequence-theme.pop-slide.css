@@ -197,7 +197,31 @@ html,
   padding: 0;
 }
 
-.seq-next,
+.seq-next{
+  /* #1 */
+  padding: 0;
+  background: transparent;
+  border: none;
+
+  /* #2 */
+  padding: .75em;
+  cursor: pointer;
+  color: white;
+  font-size: .75em;
+  text-transform: uppercase;
+
+  /* #3 */
+  opacity: .7;
+  transition-duration: .25s;
+  transition-property: opacity;
+  position: absolute;
+  margin: 0 auto;
+  right: 5%;
+}
+
+
+
+}
 .seq-prev {
   /* #1 */
   padding: 0;
