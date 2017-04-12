@@ -237,6 +237,9 @@ html,
   opacity: .7;
   transition-duration: .25s;
   transition-property: opacity;
+  position: absolute;
+  margin: 0 auto;
+  left: 5%;
 }
 
 .seq-next:hover,
