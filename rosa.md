@@ -38,7 +38,9 @@
 	
 <script>
 $(function() {
-  $('#fullpage').fullpage();
+  $('#fullpage').fullpage({
+		anchors:['first', 'second', 'third', 'fourth']
+  });
 
   var iframe = $('#player1')[0];
   var player = $f(iframe);
