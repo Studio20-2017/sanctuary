@@ -21,13 +21,13 @@
     display: table-cell;
     text-align: center;
 }
-.logo2 {
+#logo2 {
     position: fixed;
     z-index: 9999;
     right: 10px;
     top: 10px;
 }
-.logo2 img {   
+#logo2 img {   
     min-width: 150px;
     max-width: 250px;
     width: 40vmin;
