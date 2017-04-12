@@ -9,6 +9,9 @@
 
 
   <style>
+  
+  //this makes the letters glow in the progress bar
+  
   span.glow, span.glow:hover, span.glow:focus
 {
 	text-decoration: none;
@@ -35,9 +38,9 @@ span.glow:hover, span.glow:focus
 
 <div class="Row">
   <div class="Column" id="Video-button"><button onclick="scroll1()"><span class="glow">Video</span></button></div>
-  <div class="Column" id="Data-button"><button onclick="scroll2()"><span>Data</span></button></div>
-  <div class="Column" id="Threesixty-button"><button onclick="scroll3()"><span>360</span></button></div>
-  <div class="Column" id="Video2-button"><button onclick="scroll4()"><span>Video 2</span></button></div>
+  <div class="Column" id="Data-button"><button onclick="scroll2()"><span class="glow">Data</span></button></div>
+  <div class="Column" id="Threesixty-button"><button onclick="scroll3()"><span class="glow">360</span></button></div>
+  <div class="Column" id="Video2-button"><button onclick="scroll4()"><span class="glow">Video 2</span></button></div>
 </div>
 <div class="boxes" id="first">
   <iframe id="player1" src="https://player.vimeo.com/video/210800050?api=1&player_id=player1" width="100%" height="100%" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
