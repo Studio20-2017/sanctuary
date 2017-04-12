@@ -472,3 +472,8 @@ color: white;
 #logo img {
  width: 290px;
 }
+
+#about {
+  font-family: sans-serif;
+  font-size: 36p;
+}
