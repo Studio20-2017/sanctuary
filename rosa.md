@@ -27,19 +27,19 @@
 
 
 <div id="fullpage">
-	<div class="boxes section" id="first" data-menuanchor="first">
+	<div class="boxes section" id="first" data-menuanchor="firstSlide">
   	    <iframe id="player1" src="https://player.vimeo.com/video/210800050?api=1&player_id=player1" width="100%" height="100%" 		frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
 	</div>
-	<div class="boxes section" id="second" data-menuanchor="second"><h1 id="progress-second">DATA VIZ</h1></div>
-	<div class="boxes section" id="third" data-menuanchor="third"><h1 id="progress-third">360</h1></div>
-	<div class="boxes section" id="fourth" data-menuanchor="fourth"><h1 id="progress-fourth">VIDEO 2</h1></div>
+	<div class="boxes section" id="second" data-menuanchor="secondSlide"><h1 id="progress-second">DATA VIZ</h1></div>
+	<div class="boxes section" id="third" data-menuanchor="thirdSlide"><h1 id="progress-third">360</h1></div>
+	<div class="boxes section" id="fourth" data-menuanchor="fourthSlide"><h1 id="progress-fourth">VIDEO 2</h1></div>
 </div>
 	
 	
 <script>
 $(function() {
   $('#fullpage').fullpage({
-		anchors:['first', 'second', 'third', 'fourth']
+		anchors:['firstSlide', 'secondSlide', 'thirdSlide', 'fourthSlide']
   });
 
   var iframe = $('#player1')[0];
