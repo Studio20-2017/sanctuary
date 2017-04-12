@@ -7,14 +7,23 @@
   <script src="scripts/jquery.scrollie.min_1.js"></script>
   <script type="text/javascript" src="https://f.vimeocdn.com/js/froogaloop2.min.js"></script>
 
+
+
+  
 </head>
 <body>
 
+<header>
+<div id="logo">
+	<a href="https://studio20-2017.github.io/sanctuary/"><img src="images/logos/logo_t.png"></a>
+</div>
+</header>
+
 <div class="Row">
-  <div class="Column" id="Video-button"><button onclick="scroll1()"><span>Video</span></button></div>
-  <div class="Column" id="Data-button"><button onclick="scroll2()"><span>Data</span></button></div>
-  <div class="Column" id="Threesixty-button"><button onclick="scroll3()"><span>360</span></button></div>
-  <div class="Column" id="Video2-button"><button onclick="scroll4()"><span>Video 2</span></button></div>
+  <div class="Column" id="Video-button"><button onclick="scroll1()"><span class="glow">Video</span></button></div>
+  <div class="Column" id="Data-button"><button onclick="scroll2()"><span class="glow">Data</span></button></div>
+  <div class="Column" id="Threesixty-button"><button onclick="scroll3()"><span class="glow">360</span></button></div>
+  <div class="Column" id="Video2-button"><button onclick="scroll4()"><span class="glow">Video 2</span></button></div>
 </div>
 <div class="boxes" id="first">
   <iframe id="player1" src="https://player.vimeo.com/video/210800050?api=1&player_id=player1" width="100%" height="100%" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
@@ -121,6 +130,7 @@ $('#Video2-button').css("background", "yellow");
 // $(this).css('background' , 'opacity 0');
 // });
 // }
+
   </script>
 
 
