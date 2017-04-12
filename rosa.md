@@ -80,12 +80,12 @@ $(function() {
   <script>
 // PROGRESS BAR DISSAPEARS
 
-$('.row').on('mouseenter', function() {
- $(this).css('opacity' , '1');
+$('body').on('mouseenter', function() {
+ $('.Row').css('opacity' , '1');
 });
 
-$('.row').on('mouseleave', function() {
-  $(this).css('opacity' , '0');
+$('body').on('mouseleave', function() {
+  $('.Row').css('opacity' , '0');
 });
 
   </script>
