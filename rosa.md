@@ -8,26 +8,11 @@
   <script type="text/javascript" src="https://f.vimeocdn.com/js/froogaloop2.min.js"></script>
 
 
-<style>
-#logo {
-  position: absolute;
-  z-index: 9999;
- top: 25px;
- right: 30px;
-}
 
-#logo img {
- width: 290px;
-}
-</style>
-  
+
 </head>
 <body>
-<header>
-<div id="logo">
-	<a href="https://studio20-2017.github.io/sanctuary/"><img src="images/logos/logo_t.png"></a>
-</div>
-</header>
+
 
 <div class="Row">
   <div class="Column" id="Video-button"><button onclick="scroll1()"><span class="glow">Video</span></button></div>
@@ -35,6 +20,11 @@
   <div class="Column" id="Threesixty-button"><button onclick="scroll3()"><span class="glow">360</span></button></div>
   <div class="Column" id="Video2-button"><button onclick="scroll4()"><span class="glow">Video 2</span></button></div>
 </div>
+
+<div id="logo2">
+	<a href="https://studio20-2017.github.io/sanctuary/"><img src="images/logos/logo_t.png"></a>
+</div>
+
 <div class="boxes" id="first">
   <iframe id="player1" src="https://player.vimeo.com/video/210800050?api=1&player_id=player1" width="100%" height="100%" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
 </div>
