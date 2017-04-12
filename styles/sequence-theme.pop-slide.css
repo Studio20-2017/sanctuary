@@ -598,4 +598,12 @@ span.glow:hover, span.glow:focus
 	text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
 }
 
+#button {
+position: absolute;
+margin: 0 auto;
+left: 20%;
+right: 50%;
+width: 50%;
+}
+
   
