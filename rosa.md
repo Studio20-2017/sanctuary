@@ -80,16 +80,13 @@ $(function() {
   <script>
 // PROGRESS BAR DISSAPEARS
 
-// function dissapear() {
-// $('.row').on('mouseenter', function() {
-// $(this).css('background' , 'opacity 1');
-// });
-// }
+$('.row').on('mouseenter', function() {
+ $(this).css('opacity' , '1');
+});
 
-// $('.row').on('mouseleave', function() {
-// $(this).css('background' , 'opacity 0');
-// });
-// }
+$('.row').on('mouseleave', function() {
+  $(this).css('opacity' , '0');
+});
 
   </script>
 
