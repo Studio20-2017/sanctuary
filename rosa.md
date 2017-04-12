@@ -15,10 +15,10 @@
 
 
 <div class="Row">
-  <div class="Column" id="Video-button"><button onclick="scroll1()"><span class="glow">Video</span></button></div>
-  <div class="Column" id="Data-button"><button onclick="scroll2()"><span class="glow">Data</span></button></div>
-  <div class="Column" id="Threesixty-button"><button onclick="scroll3()"><span class="glow">360</span></button></div>
-  <div class="Column" id="Video2-button"><button onclick="scroll4()"><span class="glow">Video 2</span></button></div>
+  <div class="Column" id="Video-button"><a href="#firstSlide"><span class="glow">Video</span></a></div>
+  <div class="Column" id="Data-button"><a href="#secondSlide"><span class="glow">Data</span></a></div>
+  <div class="Column" id="Threesixty-button"><a href="#thirdSlide"><span class="glow">360</span></a></div>
+  <div class="Column" id="Video2-button"><a href="#fourthSlide"><span class="glow">Video 2</span></a></div>
 </div>
 
 <div id="logo2">
