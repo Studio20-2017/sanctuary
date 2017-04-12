@@ -439,14 +439,12 @@ video{
   .seq-pagination .seq-current a img {
 <<<<<<< HEAD
     display: inline-block;
-    opacity: 1;
     -moz-box-shadow:  0 0 40px 20px #fff,
     -webkit-box-shadow: 0 0 20px #fff;
     box-shadow: 0px 0px 20px #fff;
 =======
     display: none;
     display: inline;
-    opacity: 0.5;
 >>>>>>> origin/master
   }
   .seq-pagination .seq-current a span {
