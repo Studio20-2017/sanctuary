@@ -8,30 +8,7 @@
   <script type="text/javascript" src="https://f.vimeocdn.com/js/froogaloop2.min.js"></script>
 
 
-  <style>
-  
-  //this makes the letters glow in the progress bar
-  
-  span.glow, span.glow:hover, span.glow:focus
-{
-	text-decoration: none;
-	color: #aaf;
-	text-shadow: none;
-	-webkit-transition: 500ms linear 0s;
-	-moz-transition: 500ms linear 0s;
-	-o-transition: 500ms linear 0s;
-	transition: 500ms linear 0s;
-	outline: 0 none;
-}
 
-span.glow:hover, span.glow:focus
-{
-	color: #fff;
-	text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
-}
-
-  </style>
-  
   
 </head>
 <body>
