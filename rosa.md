@@ -26,15 +26,21 @@
 	<a href="https://studio20-2017.github.io/sanctuary/"><img src="images/logos/logo_t.png"></a>
 </div>
 
-	<div class="boxes" id="first">
-  	<iframe id="player1" src="https://player.vimeo.com/video/210800050?api=1&player_id=player1" width="100%" height="100%" 		frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
-	</div>
-	<div class="boxes" id="second"><h1 id="progress-second">DATA VIZ</h1></div>
-	<div class="boxes" id="third"><h1 id="progress-third">360</h1></div>
-	<div class="boxes" id="fourth"><h1 id="progress-fourth">VIDEO 2</h1></div>
 
+<div id="fullpage">
+	<div class="boxes section" id="first">
+  	    <iframe id="player1" src="https://player.vimeo.com/video/210800050?api=1&player_id=player1" width="100%" height="100%" 		frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+	</div>
+	<div class="boxes section" id="second"><h1 id="progress-second">DATA VIZ</h1></div>
+	<div class="boxes section" id="third"><h1 id="progress-third">360</h1></div>
+	<div class="boxes section" id="fourth"><h1 id="progress-fourth">VIDEO 2</h1></div>
+</div>
+	
+	
 <script>
 $(function() {
+  $('#fullpage').fullpage();
+
   var iframe = $('#player1')[0];
   var player = $f(iframe);
 
