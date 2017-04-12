@@ -31,7 +31,7 @@ var options = {
   fadeStepWhenSkipped: false,
   moveActiveStepToTop: false,
   keyNavigation: true,
-  animateCanvas: false,
+  animateCanvas: true,
   phaseThreshold: false,
   reverseWhenNavigatingBackwards: true
 }
