@@ -85,10 +85,10 @@ var mouseStillTimer;
 $('body').on('mousemove', function() {
   window.clearTimeout(mouseStillTimer);
 
-  $('.Row').css('opacity' , '1');
+  $('.Row').fadeIn(600);
  
   mouseStillTimer = window.setTimeout(function() {
-    $('.Row').css('opacity' , '0');
+    $('.Row').fadeOut(600);
    }, 3000);
 });
 
