@@ -562,6 +562,21 @@ color: white;
   text-decoration: none;
     color: #f1f1f1;
 }
+#mute {
+  position: absolute; 
+  margin: 0 auto; 
+  left: 2%;
+  bottom: 5%; 
+  z-index: 99999;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size: 15px;
+  opacity: 0.7;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  text-decoration: none;
+    color: #f1f1f1;
+}
 
   
  /*this makes the letters glow in the progress bar*/
