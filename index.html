@@ -48,19 +48,25 @@
           </div>
         </li>
 
-        <li class="seq-step2">
+        <li class="seq-step2" value="PLAY"  onmouseover="play2()" onmouseout="stop2()">
          <video id="video2" loop style="width:100%;height:100%">
             <source src="images/Rose.mp4" type="video/mp4">
           </video>
-          <div style="top: 48%; left: 23%;" data-seq class="seq-title">   <a href="rosa.html">Taylor Swift <br> "Got a long list of ex-lovers. <br> They'll tell you I'm insane." <br> Follow Taylor.</a>
+          <audio id="henry">
+			 <source src="audio/henry.mp3" type="audio/mp3">
+			</audio>
+          <div style="top: 48%; left: 23%;" data-seq class="seq-title">   <a href="rosa.html">Henry <br> "Got a long list of ex-lovers. <br> They'll tell you I'm insane." <br> Follow Henry.</a>
           </div>
         </li>
 
-        <li class="seq-step3">
+        <li class="seq-step3" value="PLAY"  onmouseover="play3()" onmouseout="stop3()">
          <video id="video3" loop style="width:100%;height:100%">
             <source src="images/Joco2.mp4" type="video/mp4">
           </video>
-          <div style="top: 48%; left: 23%;" data-seq class="seq-title">  <a href="rosa.html">Joco <br>"I hate when I’m on a flight and I wake up with a water bottle next to me like<br> oh great now I gotta be responsible for this water bottle."<br> Follow Joco.</a>
+          <audio id="bertha">
+			 <source src="audio/bertha.mp3" type="audio/mp3">
+			</audio>
+          <div style="top: 48%; left: 23%;" data-seq class="seq-title">  <a href="rosa.html">Bertha <br>"I hate when I’m on a flight and I wake up with a water bottle next to me like<br> oh great now I gotta be responsible for this water bottle."<br> Follow Bertha.</a>
 
           </div>
         </li>
@@ -127,7 +133,24 @@
   <script src="scripts/sequence.min.js"></script>
   <script src="scripts/sequence-theme.pop-slide.js"></script>
   <script>
-  
+   function play2() {
+   var audio = document.getElementById("henry");
+       audio.play();
+                 }
+function stop2() {
+var audio = document.getElementById("henry");
+		audio.pause()
+		audio.currentTime = 0;
+		} 
+ function play3() {
+   var audio = document.getElementById("bertha");
+       audio.play();
+                 }
+function stop3() {
+var audio = document.getElementById("bertha");
+		audio.pause()
+		audio.currentTime = 0;
+		} 
 
   function play4() {
    var audio = document.getElementById("rosa");
