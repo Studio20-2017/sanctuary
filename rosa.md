@@ -9,7 +9,7 @@
 
 
   <style>
-  a.glow, a.glow:hover, a.glow:focus
+  span.glow, span.glow:hover, span.glow:focus
 {
 	text-decoration: none;
 	color: #aaf;
@@ -21,7 +21,7 @@
 	outline: 0 none;
 }
 
-a.glow:hover, a.glow:focus
+span.glow:hover, span.glow:focus
 {
 	color: #fff;
 	text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
