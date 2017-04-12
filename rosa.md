@@ -13,6 +13,12 @@
 </head>
 <body>
 
+<header>
+<div id="logo">
+	<a href="https://studio20-2017.github.io/sanctuary/"><img src="images/logos/logo_t.png"></a>
+</div>
+</header>
+
 <div class="Row">
   <div class="Column" id="Video-button"><button onclick="scroll1()"><span class="glow">Video</span></button></div>
   <div class="Column" id="Data-button"><button onclick="scroll2()"><span class="glow">Data</span></button></div>
