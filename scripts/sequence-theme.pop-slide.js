@@ -71,7 +71,6 @@ var audio6 = document.getElementById("audio6");
   document.getElementById('video'+id).play();
   var audio = document.getElementById("audio"+id);
    audio.play();
-
 }
 
 

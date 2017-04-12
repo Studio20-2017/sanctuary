@@ -30,8 +30,9 @@
 
 <div>
 <a id="about" href="about.html">About</a>
-<a id="mute">Mute Audio</a>
 </div>
+<div> 
+<a id="mute" href="#" onclick="mute()">Mute Audio</a>
 
 </header>
 	
@@ -141,7 +142,11 @@
   <a class="arrow arrow-left" role="button"></a>
   <a class="arrow arrow-right" role="button"></a>
 </div>
-  
+<script>
+function mute() {
+var mute = document.getElementById("audio"+id);
+	mute.pause();
+}
 
   <script src="scripts/imagesloaded.pkgd.min.js"></script>
   <script src="scripts/hammer.min.js"></script>
