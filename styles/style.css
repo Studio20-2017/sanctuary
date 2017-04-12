@@ -88,3 +88,35 @@ span {
   background: grey;
 }
 
+
+/* navigation button */
+
+.arrow {
+  width: 0; 
+	height: 0; 
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+  
+  position: absolute;
+}
+
+.arrow-right {
+	border-left: 15px solid #000;
+  right: 0;
+}
+
+.arrow-left {
+	border-right: 15px solid #000; 
+  left: 0;
+}
+
+.container {
+  margin: 15% auto;
+  font-size: 24px;
+  position: relative;
+  width: 15em;
+}
+
+.header {
+  text-align: center;
+}
