@@ -41,7 +41,24 @@ $(function() {
   $('#fullpage').fullpage({
 	anchors:['firstSlide', 'secondSlide', 'thirdSlide', 'fourthSlide'],
 	afterLoad: function(anchorLink, index){
-		alert(index);
+		if (index == 1) {
+		    $('#Video-button').css("background", "yellow");
+		}
+		if (index == 2) {
+		    $('#Video-button').css("background", "yellow");
+		    $('#Data-button').css("background", "yellow");
+		}
+		if (index == 3) {
+		    $('#Video-button').css("background", "yellow");
+		    $('#Data-button').css("background", "yellow");
+		    $('#Threesixty-button').css("background", "yellow");
+		}
+		if (index == 4) {
+		    $('#Video-button').css("background", "yellow");
+		    $('#Data-button').css("background", "yellow");
+		    $('#Threesixty-button').css("background", "yellow");
+		    $('#Video2-button').css("background", "yellow");
+		}
 	}
   });
 
@@ -61,74 +78,6 @@ $(function() {
 
 
   <script>
-// PROGRESS BAR GETS YELLOW WHILE SCROLLING
-
- $('#first').scrollie({
-    direction : 'both',
-    scrollOffset : 0,
-    scrollRatio : 2,
-    scrollingInView : function(){
-    $('#Video-button').css("background", "yellow");
-    },
-  });
-
- $('#progress-second').scrollie({
-    direction : 'both',
-    scrollOffset : -500,
-    scrollRatio : 2,
-    scrollingInView : function(){
-    $('#Data-button').css("background", "yellow");
-    },
-  });
-
-  $('#progress-third').scrollie({
-    direction : 'both',
-    scrollOffset : -500,
-    scrollRatio : 2,
-    scrollingInView : function(){
-    $('#Threesixty-button').css("background", "yellow");
-    },
-  });
-
-   $('#progress-fourth').scrollie({
-    direction : 'both',
-    scrollOffset : -500,
-    scrollRatio : 2,
-    scrollingInView : function(){
-    $('#Video2-button').css("background", "yellow");
-    },
-  });
-
- // PROGRESS BAR GETS YELLOW ON CLICK
-
-  function scroll1() {
-$('html, body').animate({
-    scrollTop: $("#first").offset().top
-}, 1000);
-$('#Video-button').css("background", "yellow");
-}
-
-function scroll2() {
-$('html, body').animate({
-    scrollTop: $("#second").offset().top
-}, 1000);
-$('#Data-button').css("background", "yellow");
-}
-
-function scroll3() {
-$('html, body').animate({
-    scrollTop: $("#third").offset().top
-}, 1000);
-$('#Threesixty-button').css("background", "yellow");
-}
-
-function scroll4() {
-$('html, body').animate({
-    scrollTop: $("#fourth").offset().top
-}, 1000);
-$('#Video2-button').css("background", "yellow");
-}
-
 // PROGRESS BAR DISSAPEARS
 
 // function dissapear() {
