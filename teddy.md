@@ -9,26 +9,6 @@
 
 
 
-  <style>
-  a.glow, a.glow:hover, a.glow:focus
-{
-	text-decoration: none;
-	color: #aaf;
-	text-shadow: none;
-	-webkit-transition: 500ms linear 0s;
-	-moz-transition: 500ms linear 0s;
-	-o-transition: 500ms linear 0s;
-	transition: 500ms linear 0s;
-	outline: 0 none;
-}
-
-a.glow:hover, a.glow:focus
-{
-	color: #fff;
-	text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
-}
-
-  </style>
 
 </head>
 <body>
