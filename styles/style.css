@@ -89,34 +89,4 @@ span {
 }
 
 
-/* navigation button */
 
-.arrow {
-  width: 0; 
-	height: 0; 
-	border-top: 25px solid transparent;
-	border-bottom: 25px solid transparent;
-  
-  position: absolute;
-}
-
-.arrow-right {
-	border-left: 15px solid #fff;
-  right: 0;
-}
-
-.arrow-left {
-	border-right: 15px solid #fff; 
-  left: 0;
-}
-
-.container {
-  margin: 15% auto;
-  font-size: 24px;
-  position: relative;
-  width: 15em;
-}
-
-.header {
-  text-align: center;
-}
