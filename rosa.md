@@ -39,7 +39,10 @@
 <script>
 $(function() {
   $('#fullpage').fullpage({
-		anchors:['firstSlide', 'secondSlide', 'thirdSlide', 'fourthSlide']
+	anchors:['firstSlide', 'secondSlide', 'thirdSlide', 'fourthSlide'],
+	afterLoad: function(anchorLink, index){
+		alert(index);
+	}
   });
 
   var iframe = $('#player1')[0];
