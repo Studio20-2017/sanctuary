@@ -39,11 +39,14 @@
     <div class="seq-screen">
       <ul class="seq-canvas">
 
-        <li class="seq-step1 seq-in">
+        <li class="seq-step1 seq-in" value="PLAY"  onmouseover="play1()" onmouseout="stop1()">
           <video id="video1" loop style="width:100%;height:100%">
             <source src="images/Teddy_video portrait.mp4" type="video/mp4">
           </video>
-          <div style="top: 48%; left: 23%;" data-seq class="seq-title">   <a href="teddy.md">Teddy<br> "It ain't Ralph though."<br> Follow Kanye.</a>
+          <audio id="jesus">
+			 <source src="audio/jesus.mp3" type="audio/mp3">
+			</audio>
+          <div style="top: 48%; left: 23%;" data-seq class="seq-title">   <a href="teddy.md">Jesus<br> "It ain't Ralph though."<br> Follow Kanye.</a>
 
 
           </div>
@@ -146,6 +149,15 @@
   <script src="scripts/sequence.min.js"></script>
   <script src="scripts/sequence-theme.pop-slide.js"></script>
   <script>
+  function play1() {
+   var audio = document.getElementById("henry");
+       audio.play();
+                 }
+	function stop1() {
+var audio = document.getElementById("henry");
+		audio.pause()
+		audio.currentTime = 0;
+		} 
    function play2() {
    var audio = document.getElementById("henry");
        audio.play();
