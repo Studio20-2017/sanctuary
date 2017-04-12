@@ -437,13 +437,16 @@ video{
   }
   /* but if it's seq-current, hide the image and show the title */
   .seq-pagination .seq-current a img {
-    display: none;
+    display: inline-block;
+    opacity: 1;
+    -moz-box-shadow:  0 0 40px 20px #fff,
+    -webkit-box-shadow: 0 0 20px #fff;
+    box-shadow: 0px 0px 20px #fff;
   }
   .seq-pagination .seq-current a span {
 <<<<<<< Updated upstream
-    display: block;
+    display: inline-block;
 =======
-    display: inline;
     text-align: center; 
 >>>>>>> Stashed changes
   }
@@ -529,15 +532,26 @@ color: white;
 #logo {
   position: absolute;
   z-index: 9999;
- top: 25px;
- right: 30px;
+  top: 5%;
+  right: 2%;
 }
 
 #logo img {
- width: 290px;
+ width: 180px;
 }
 
 #about {
-  font-family: sans-serif;
-  font-size: 36p;
+  position: absolute; 
+  margin: 0 auto; 
+  left: 2%;
+  top: 5%; 
+  z-index: 99999;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size: 20px;
+  opacity: 0.7;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  text-decoration: none;
+    color: #f1f1f1;
 }
