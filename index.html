@@ -30,8 +30,13 @@
 
 <div>
 <a id="about" href="about.html">About</a>
+<<<<<<< HEAD
 <a href=""><img id="mute" src="images/mute.png"></a>
+=======
+>>>>>>> origin/master
 </div>
+<div> 
+<a id="mute" href="#" onclick="mute()">Mute Audio</a>
 
 </header>
 	
@@ -47,7 +52,7 @@
           <audio id="audio1">
 			 <source src="audio/jesus.mp3" type="audio/mp3">
 			</audio>
-          <div style="top: 48%; left: 23%;" data-seq class="seq-title">   <a href="teddy.md">Jesus<br> "It ain't Ralph though."<br> Follow Kanye.</a>
+          <div style="top: 48%; left: 23%;" data-seq class="seq-title">   Jesus<br> "It ain't Ralph though."<br><a href="teddy.md"> <img src="images/Start Journey Button.png"></a>
 
 
           </div>
@@ -125,8 +130,10 @@
 =======
 <<<<<<< HEAD
       <li><a href="#step1" rel="step1" title="Go to slide 1" onclick=><img style="width:100%" src="images/Teddy thumb.jpg"><span style="margin-bottom:40%">Teddy</span></a></li>
+<<<<<<< HEAD
+      <li><a href="#step2" rel="step2" title="Go to slide 2"><img style="width:100%" src="images/Jesus thumb.jpg"><span style="margin-bottom:40%">Jesus</span></a></li>
+=======
 >>>>>>> origin/master
-      <li><a href="#step2" rel="step2" title="Go to slide 2"><img style="width:100%" src="images/Jesus thumbnail.png"><span style="margin-bottom:40%">Jesus</span></a></li>
       <li><a href="#step3" rel="step3" title="Go to slide 3"><img style="width:100%" src="images/Henry thumb.jpg"><span style="margin-bottom:40%">Henry</span></a></li>
       <li><a href="#step4" rel="step4" title="Go to slide 4"><img style="width:100%" src="images/Rosa thumb.jpg"><span style="margin-bottom:40%">Rosa</span></a></li>
       <li><a href="#step5" rel="step5" title="Go to slide 5"><img style="width:100%" src="images/tswiftthumb.jpeg"><span style="margin-bottom:40%">Bertha</span></a></li>
@@ -141,7 +148,11 @@
   <a class="arrow arrow-left" role="button"></a>
   <a class="arrow arrow-right" role="button"></a>
 </div>
-  
+<script>
+function mute() {
+var mute = document.getElementById("audio"+id);
+	mute.pause();
+}
 
   <script src="scripts/imagesloaded.pkgd.min.js"></script>
   <script src="scripts/hammer.min.js"></script>

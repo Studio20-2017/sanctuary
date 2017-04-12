@@ -13,6 +13,7 @@
     position: fixed;
     top: 0;
     float: left;
+    z-index: 999;
 }
 
 .Column
@@ -29,7 +30,7 @@
 
 /* BUTTONS CSS */
 
-button {
+.Column a {
     background-color: transparent;
     border: none;
     color: blue;
@@ -41,7 +42,7 @@ button {
     margin: 4px 2px;
 }
 
-button: hover {
+.Column a:hover {
   background-color: #e7e7e7;
 }
 
