@@ -7,10 +7,13 @@
   <script src="scripts/jquery.scrollie.min_1.js"></script>
   <script type="text/javascript" src="https://f.vimeocdn.com/js/froogaloop2.min.js"></script>
 
+
+
+
 </head>
 <body>
 <div class="Row">
-  <div class="Column" id="Video-button"><button onclick="scroll1()"><span>Video</span></button></div>
+  <div class="Column" id="Video-button" class="glow"><button onclick="scroll1()"><span>Video</span></button></div>
   <div class="Column" id="Data-button"><button onclick="scroll2()"><span>Data</span></button></div>
   <div class="Column" id="Threesixty-button"><button onclick="scroll3()"><span>360</span></button></div>
   <div class="Column" id="Video2-button"><button onclick="scroll4()"><span>Video 2</span></button></div>
