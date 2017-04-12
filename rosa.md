@@ -8,11 +8,21 @@
   <script type="text/javascript" src="https://f.vimeocdn.com/js/froogaloop2.min.js"></script>
 
 
+<style>
+#logo {
+  position: absolute;
+  z-index: 9999;
+ top: 25px;
+ right: 30px;
+}
 
+#logo img {
+ width: 290px;
+}
+</style>
   
 </head>
 <body>
-
 <header>
 <div id="logo">
 	<a href="https://studio20-2017.github.io/sanctuary/"><img src="images/logos/logo_t.png"></a>
