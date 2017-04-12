@@ -7,11 +7,33 @@
   <script src="scripts/jquery.scrollie.min_1.js"></script>
   <script type="text/javascript" src="https://f.vimeocdn.com/js/froogaloop2.min.js"></script>
 
+
+  <style>
+  a.glow, a.glow:hover, a.glow:focus
+{
+	text-decoration: none;
+	color: #aaf;
+	text-shadow: none;
+	-webkit-transition: 500ms linear 0s;
+	-moz-transition: 500ms linear 0s;
+	-o-transition: 500ms linear 0s;
+	transition: 500ms linear 0s;
+	outline: 0 none;
+}
+
+a.glow:hover, a.glow:focus
+{
+	color: #fff;
+	text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
+}
+
+  </style>
+
 </head>
 <body>
 
 <div class="Row">
-  <div class="Column" id="Video-button"><button onclick="scroll1()"><span>Video</span></button></div>
+  <div class="Column" id="Video-button" class="glow"><button onclick="scroll1()"><span>Video</span></button></div>
   <div class="Column" id="Data-button"><button onclick="scroll2()"><span>Data</span></button></div>
   <div class="Column" id="Threesixty-button"><button onclick="scroll3()"><span>360</span></button></div>
   <div class="Column" id="Video2-button"><button onclick="scroll4()"><span>Video 2</span></button></div>
@@ -121,6 +143,7 @@ $('#Video2-button').css("background", "yellow");
 // $(this).css('background' , 'opacity 0');
 // });
 // }
+
   </script>
 
 
