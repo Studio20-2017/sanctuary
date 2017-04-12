@@ -65,7 +65,7 @@
           </div>
         </li>
 
-        <li class="seq-step4" value="PLAY"  onmouseover="play4()">
+        <li class="seq-step4" value="PLAY"  onmouseover="play4()" onmouseout="stop4()">
          <video id="video4" loop style="width:100%;height:100%">
             <source src="images/Rosa Portrait.mp4" type="video/mp4">
           </video>
@@ -77,7 +77,7 @@
           </div>
         </li>
 
-        <li class="seq-step5" value="PLAY"  onmouseover="play5()">
+        <li class="seq-step5" value="PLAY"  onmouseover="play5()" onmouseout="stop5()">
           <video id="video5" loop style="width:100%;height:100%">
             <source src="images/Teddy_video portrait.mp4" type="video/mp4"> 
           </video>
@@ -128,15 +128,25 @@
   <script src="scripts/sequence-theme.pop-slide.js"></script>
   <script>
   
+
   function play4() {
-       var audio = document.getElementById("rosa");
+   var audio = document.getElementById("rosa");
        audio.play();
                  }
-  function play5() {
-       var audio = document.getElementById("teddy");
+function stop4() {
+var audio = document.getElementById("rosa");
+		audio.pause();
+		}
+   function play5() {
+   var audio = document.getElementById("teddy");
        audio.play();
-                 }               
-   </script>
+                 }
+function stop5() {
+var audio = document.getElementById("teddy");
+		audio.pause();
+		}
+  
+</script>
 
    <script src="https://code.jquery.com/jquery-2.1.4.min.js"> </script>
 	<script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
