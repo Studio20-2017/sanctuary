@@ -27,12 +27,12 @@
 
 
 <div id="fullpage">
-	<div class="boxes section" id="first">
+	<div class="boxes section" id="first" data-menuanchor="first">
   	    <iframe id="player1" src="https://player.vimeo.com/video/210800050?api=1&player_id=player1" width="100%" height="100%" 		frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
 	</div>
-	<div class="boxes section" id="second"><h1 id="progress-second">DATA VIZ</h1></div>
-	<div class="boxes section" id="third"><h1 id="progress-third">360</h1></div>
-	<div class="boxes section" id="fourth"><h1 id="progress-fourth">VIDEO 2</h1></div>
+	<div class="boxes section" id="second" data-menuanchor="second"><h1 id="progress-second">DATA VIZ</h1></div>
+	<div class="boxes section" id="third" data-menuanchor="third"><h1 id="progress-third">360</h1></div>
+	<div class="boxes section" id="fourth" data-menuanchor="fourth"><h1 id="progress-fourth">VIDEO 2</h1></div>
 </div>
 	
 	
