@@ -25,7 +25,7 @@
 
  */
 
-@import url(https://fonts.googleapis.com/css?family=Ubuntu:700|Dosis:600,700);
+@import url(https://fonts.googleapis.com/css?family=Quattrocento:400,700|Oswald:400,700);
 
 body,
 html,
@@ -353,7 +353,14 @@ html,
 video{
   object-fit: cover;
 }
-
+.seq-pagination li a span {
+	font-family: 'Oswald', 'sans-serif';
+	text-transform: uppercase;
+}
+.seq-title {
+	color: white;
+    font-family: "Quattrocento", 'serif';
+}
 
 /* mobile size */
 @media only screen and (max-width: 479px) {
