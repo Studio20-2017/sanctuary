@@ -54,7 +54,7 @@ $(function() {
 		    $('#Threesixty-button').css("background", "yellow");
 		}
 		if (index == 4) {
-		    $('#Video-button').css("background", "yellow");
+		    $('#Video-button').css("background", "blue");
 		    $('#Data-button').css("background", "yellow");
 		    $('#Threesixty-button').css("background", "yellow");
 		    $('#Video2-button').css("background", "yellow");
@@ -82,7 +82,7 @@ $(function() {
 
 var mouseStillTimer;
 
-$('body').on('mousemove', function() {
+$('body').on('mousemove' || 'scroll', function() {
   window.clearTimeout(mouseStillTimer);
 
   $('.Row').fadeIn(300);
