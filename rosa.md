@@ -82,7 +82,7 @@ $(function() {
 
 var mouseStillTimer;
 
-$('body').on('mousemove', function() {
+$('body').on('mousemove' || 'scroll', function() {
   window.clearTimeout(mouseStillTimer);
 
   $('.Row').fadeIn(300);
