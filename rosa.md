@@ -37,6 +37,9 @@
 	
 	
 <script>
+
+//TO LOCK SCREEN AND GET PROGRESS BAR TO TURN YELLOW
+
 $(function() {
   $('#fullpage').fullpage({
 	anchors:['firstSlide', 'secondSlide', 'thirdSlide', 'fourthSlide'],
@@ -54,7 +57,7 @@ $(function() {
 		    $('#Threesixty-button').css("background", "yellow");
 		}
 		if (index == 4) {
-		    $('#Video-button').css("background", "yellow");
+		    $('#Video-button').css("background", "blue");
 		    $('#Data-button').css("background", "yellow");
 		    $('#Threesixty-button').css("background", "yellow");
 		    $('#Video2-button').css("background", "yellow");
@@ -82,7 +85,7 @@ $(function() {
 
 var mouseStillTimer;
 
-$('body').on('mousemove', function() {
+$('body').on('mousemove mousewheel DOMMouseScroll MozMousePixelScroll', function() {
   window.clearTimeout(mouseStillTimer);
 
   $('.Row').fadeIn(300);
