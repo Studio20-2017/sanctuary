@@ -66,9 +66,14 @@
       }
 
       .back {
-        background-color: #F4FFF8;
+        background-color: #FCF0AD;
         color: #4D4847;
       }
+      .pink {
+      	background-color: #F59DB9;
+      	color: black;
+      }
+
       .image{
       	position: relative;
      	width: fixed;
@@ -76,7 +81,7 @@
 
    	 #footer {
       position: absolute;
-      bottom: 80px;
+      bottom: 70px;
     }
 
      h1 {
@@ -85,13 +90,20 @@
   		font-weight: bold;
   		text-decoration: overline;
   		text-decoration-color: #450920;
-
      }
 
      h2 {
      	font-family: Oswald;
      	font-size: 18px;
      	color: #450920;
+     }
+
+     h3 {
+     	font-family: Oswald;
+     	font-size: 42px;
+     	color: white;
+     	text-decoration: overline;
+     	text-decoration-color: #8baaad;
      }
 
     </style>
@@ -108,6 +120,9 @@
 		<h1>About the project</h1>
 		<p> <b>Finding Sanctuary</b> 
 		is a project by graduate students from NYU’s graduate Studio 20 program and friends. </p>
+		<br>
+		<br>
+		<br>
 		<h1>About Studio 20</h1>
 		<p>
 		The <a href="https://journalism.nyu.edu/graduate/programs/studio-20-digital-first/">STUDIO 20</a> concentration at NYU offers master’s level instruction with a focus on innovation and adapting journalism to the web. 	
@@ -122,6 +137,7 @@
 	</div>
 
 	<div id="left">
+	    <h3> Meet the team </h3>
 	    <div id="Alessandra" class="card">
 	      <div class="front">
 	  		<img src="images/about/ale.jpg" width="200px">
@@ -266,6 +282,13 @@
         trigger: "click"
       });
     });
+    $(document).ready(function() {
+    $('card').click(function() {
+        $('back').each(function() {
+            $(this).css('background',randomColor());
+        });
+    });
+});
     </script>
   </body>
 </html>

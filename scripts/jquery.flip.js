@@ -369,5 +369,16 @@
   };
 
   $("#card").off(".flip");
+  
+  var safeColors = ['#FCF0AD','#F59DB9','#56c4e8','AE86BC','d0e17d','E9B561'];
+var rand = function() {
+    return Math.floor(Math.random()*6);
+};
+var randomColor = function() {
+    var r = safeColors[rand()];
+    var g = safeColors[rand()];
+    var b = safeColors[rand()];
+    return "#"+r+g+b;
+};
 
 }( jQuery ));
