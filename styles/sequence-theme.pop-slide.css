@@ -35,6 +35,15 @@ html,
   background-color: white;
 }
 
+@font-face {
+  font-family: 'Oswald';
+  src: url(fonts/oswald/Oswald-Bold.ttf);
+}
+
+.Oswald {
+  font-family: 'Oswald';
+  line-height:50%;
+}
 .seq {
   position: relative;
   /* Dimensions */
@@ -306,7 +315,11 @@ html,
 
 .seq .seq-title h2 {
   margin: .6em 0 .4em 0;
+<<<<<<< Updated upstream
   font-family: "Quattrocento", serif;
+=======
+  font-family: "Oswald", sans-serif;
+>>>>>>> Stashed changes
   font-size: 1em;
 }
 
@@ -316,7 +329,11 @@ html,
   padding: .2em .6em;
   background: #FFFFF;
   color: white;
+<<<<<<< Updated upstream
   font-family: "Quattrocento", serif;
+=======
+  font-family: "Oswald", sans-serif;
+>>>>>>> Stashed changes
   font-weight: 700;
   text-decoration: none;
 }
@@ -404,7 +421,11 @@ video{
     margin: 0 1%;
     padding: .625em 1%;
     cursor: pointer;
+<<<<<<< Updated upstream
     font-family: "Oswald", sans-serif;
+=======
+    font-family: "Oswald Bold", sans-serif;
+>>>>>>> Stashed changes
     line-height: 1.4;
     font-size: 24px;
     background: transparent;
@@ -553,6 +574,7 @@ color: white;
 }
 
 #about {
+<<<<<<< Updated upstream
   position: absolute; 
   margin: 0 auto; 
   left: 2%;
@@ -608,3 +630,9 @@ width: 22%;
 }
 
   
+=======
+  font-family: sans-serif;
+  font-size: 36p;
+}
+
+>>>>>>> Stashed changes

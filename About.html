@@ -1,36 +1,222 @@
 <html>
+
 <head>
   <meta charset="UTF-8">
-  <title>About</title>
-  <link rel="stylesheet" type="text/css" href="styles/style.css">
-  <link href="styles/sequence-theme.pop-slide.css" rel="stylesheet" media="all">
-	<script src="https://code.jquery.com/jquery-2.1.4.min.js"> </script>
-	<script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
-	<script>
-	$(document).ready(function(){
-    $("#Josh").flip();
-	});
-</script>
+  <title>about</title>
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="scripts/jquery.flip.min.js"></script>
+	<script src="scripts/jquery.flip.js"></script>
 
+<style type="text/css">
+      @import url('https://fonts.googleapis.com/css?family=Oswald:400,700%7CQuattrocento:400,700');
+      
+      body {
+        margin: 0;
+        padding: 0px;
+        font-family: Quattrocento;
+        position: relative;
+      }
+
+      #left {
+      	margin-right: 330px;
+      	background-color: #450920;
+      }
+      #right {
+      	height: 100%;
+      	width: 300;
+      	position: fixed;
+      	right: 0;
+      	top: 0;
+      	bottom: 0;
+      	color: black;
+      	padding: 20px;
+      }
+      
+      .card {
+        width: 200px;
+        height: 200px;
+        margin: 20px;
+        display: inline-block;
+        font-family: Quattrocento;
+      }
+      
+      .front, .back {
+        border: none;
+        padding: 10px;
+      }
+
+      .front {
+        background-color: none;
+        color: white;
+        font-family: Oswald;
+        font-weight: normal;
+      }
+
+      .back {
+        background-color: #F4FFF8;
+        color: #4D4847;
+      }
+      .image{
+      	position: relative;
+     	width: fixed;
+      }
+
+      .footer{
+      	position: bottom;
+      	width: 300px;
+      }
+
+    </style>
 </head>
 <body>
+	<div id="right">
+		<div id="logo">
+		<a href="https://studio20-2017.github.io/sanctuary/">
+		<img src="images/logos/logo_bw.png" width="300">
+		</a>
+		</div>
+		<p> <b>Finding Sanctuary</b> 
+		is a project by graduate students from NYU’s graduate Studio 20 program and friends. </p>
+		<div id="footer">
+		<img src="images/social.png" width="300px">
+		</div>
+	</div>
 
-<H2>About page</H2>
-<div id="logo">
-	<a href="index.html"><img src="images/logos/logo_bw.png"></a>
-</div>
-<div id="Josh"> 
-  <div class="front"> 
-  <img src="images/aboutsample.png">
-   <br>
-   
-  </div> 
-  <div class="back">
-   about text here
-  </div> 
-</div>
+	<div id="left">
+	    <div id="Alessandra" class="card">
+	      <div class="front">
+	  		<img src="images/about/ale.jpg" width="200px">
+	      </div>
 
+	      <div class="back">
+	          Alessandra loves VR.
+	      </div>
+	    </div>
 
+	    <div id="Andrey" class="card">
+	      <div class="front">
+	          <img src="images/about/andrey.jpg" width="200px">
+	      </div>
+	      <div class="back">
+	         Andrey likes cookies.
+	      </div> 
+	    </div>
 
-</body>
+	    <div id="Anissa" class="card">
+	      <div class="front">
+	          <img src="images/about/anissa.jpg" width="200px">
+	      </div>
+	      <div class="back">
+	          loves J. Cole.
+	      </div> 
+	    </div>
+
+	    <div id="Ayesha" class="card">
+	      <div class="front">
+	          <img src="images/about/ayesha.jpg" width="200px">
+	      </div>
+	      <div class="back">
+	          likes pizza.
+	      </div> 
+	    </div>
+
+	    <div id="Emma" class="card">
+	      <div class="front">
+	          <img src="images/about/emma.jpg" width="200px">
+	      </div>
+	      <div class="back">
+	          likes Australia.
+	      </div> 
+	    </div>
+
+	    <div id="Levi" class="card">
+	      <div class="front">
+	      <img src="images/about/levi.jpg" width="200px">
+	      </div>
+	      <div class="back">
+	          loves making videos.
+	      </div> 
+	    </div>
+
+	    <div id="Lindsay" class="card">
+	      <div class="front">
+	          <img src="images/about/lindsay.jpg" width="200px">
+	      </div>
+	      <div class="back">
+	          loves biking.
+	      </div> 
+	    </div>
+
+	    <div id="Maria" class="card">
+	      <div class="front">
+	          <img src="images/about/maria.jpg" width="200px">
+	      </div>
+	      <div class="back">
+	          loves dance.
+	      </div> 
+	    </div>
+
+	    <div id="Sanjana" class="card">
+	      <div class="front">
+	          <img src="images/about/sanjana.jpg" width="200px">
+	      </div>
+	      <div class="back">
+	          likes desserts.
+	      </div> 
+	    </div>
+
+	    <div id="Setareh" class="card">
+	      <div class="front">
+	         <img src="images/about/set.jpg" width="200px">
+	      </div>
+	      <div class="back">
+	          loves Glossier.
+	      </div> 
+	    </div>
+
+	    <div id="Sheba" class="card">
+	      <div class="front">
+	          <img src="images/about/sheba.jpg" width="200px">
+	      </div>
+	      <div class="back">
+	          loves Sampha.
+	      </div> 
+	    </div>
+
+	    <div id="Steph" class="card">
+	      <div class="front">
+	          <img src="images/about/steph.jpg" width="200px">
+	      </div>
+	      <div class="back">
+	          loves cats.
+	      </div> 
+	    </div>
+
+	    <div id="Josh" class="card">
+	      <div class="front">
+	      <img src="images/about/josh.jpg" width="200px">
+	      </div>
+	      <div class="back">
+	          loves the Duke men's basketball team.
+	      </div> 
+	    </div>
+
+	    <div id="Mike" class="card">
+	      <div class="front">
+	          Mike
+	      </div>
+	      <div class="back">
+	          loves cats.
+	      </div> 
+	    </div>
+    </div>
+
+    <script type="text/javascript">
+    $(function(){
+      $(".card").flip({
+        trigger: "hover"
+      });
+    });
+    </script>
+  </body>
 </html>

@@ -1,6 +1,8 @@
 /*! flip - v1.1.2 - 2016-10-20
 * https://github.com/nnattawat/flip
 * Copyright (c) 2016 Nattawat Nonsung; Licensed MIT */
+
+
 (function( $ ) {
   /*
    * Private attributes and method
@@ -29,10 +31,10 @@
   var Flip = function($el, options, callback) {
     // Define default setting
     this.setting = {
-      axis: "y",
+      axis: "x",
       reverse: false,
       trigger: "click",
-      speed: 500,
+      speed: 1200,
       forceHeight: false,
       forceWidth: false,
       autoSize: true,
@@ -365,5 +367,7 @@
 
     return this;
   };
+
+  $("#card").off(".flip");
 
 }( jQuery ));
