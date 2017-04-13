@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <title>about</title>
 	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-	<script src="scripts/jquery.flip.min.js"></script>
 	<script src="scripts/jquery.flip.js"></script>
 
 <style type="text/css">
@@ -18,9 +17,10 @@
       }
 
       #left {
-      	margin-right: 330px;
+      	margin-right: 400px;
       	background-color: #450920;
       }
+
       #right {
       	height: 100%;
       	width: 300;
@@ -29,17 +29,30 @@
       	top: 0;
       	bottom: 0;
       	color: black;
-      	padding: 20px;
+      	padding: 0 80px 80px;
       }
       
       .card {
         width: 200px;
         height: 200px;
         margin: 20px;
-        display: inline-block;
+        display: block;
+        float: left;
         font-family: Quattrocento;
+          cursor: pointer;
+          opacity: .8;
       }
-      
+      .card:hover {
+      	opacity: 1;
+      }
+
+      .card .front img {
+    -webkit-filter:grayscale(100%);
+    -moz-filter:grayscale(100%);
+    -ms-filter:grayscale(100%);
+    -o-filter:grayscale(100%);
+    filter:grayscale(100%);
+	  }
       .front, .back {
         border: none;
         padding: 10px;
@@ -61,24 +74,55 @@
      	width: fixed;
       }
 
-      .footer{
-      	position: bottom;
-      	width: 300px;
-      }
+   	 #footer {
+      position: absolute;
+      bottom: 80px;
+    }
+
+     h1 {
+     	font-family: Oswald;
+     	font-size: 32px;
+  		font-weight: bold;
+  		text-decoration: overline;
+  		text-decoration-color: #450920;
+
+     }
+
+     h2 {
+     	font-family: Oswald;
+     	font-size: 18px;
+     	color: #450920;
+     }
 
     </style>
 </head>
+
 <body>
 	<div id="right">
 		<div id="logo">
-		<a href="https://studio20-2017.github.io/sanctuary/">
-		<img src="images/logos/logo_bw.png" width="300">
+		<a href="https://studio20-2017.github.io/sanctuary/"><img src="images/logos/logo_bw.png" width="300">
 		</a>
 		</div>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<h1>About the project</h1>
 		<p> <b>Finding Sanctuary</b> 
 		is a project by graduate students from NYU’s graduate Studio 20 program and friends. </p>
+		<h1>About Studio 20</h1>
+		<p>
+		The <a href="https://journalism.nyu.edu/graduate/programs/studio-20-digital-first/">STUDIO 20</a> concentration at NYU offers master’s level instruction with a focus on innovation and adapting journalism to the web. 	
+		</p>
+		<h2>Special thanks:</h2>
+		<p>
+		TK
+		</p>
 		<div id="footer">
-		<img src="images/social.png" width="300px">
+		<img src="images/social.png" width="100px">
 		</div>
 	</div>
 
@@ -92,7 +136,15 @@
 	          Alessandra loves VR.
 	      </div>
 	    </div>
-
+ 		<div id="Andi" class="card">
+	      <div class="front">
+	  	  <img src="images/about/andi.jpg" width="200px">
+	      </div>
+	      <div class="back">
+	         Andi likes Xi'An Famous Foods.
+	      </div>
+	    </div>
+	    
 	    <div id="Andrey" class="card">
 	      <div class="front">
 	          <img src="images/about/andrey.jpg" width="200px">
@@ -107,7 +159,7 @@
 	          <img src="images/about/anissa.jpg" width="200px">
 	      </div>
 	      <div class="back">
-	          loves J. Cole.
+	          Anissa loves J. Cole.
 	      </div> 
 	    </div>
 
@@ -116,7 +168,7 @@
 	          <img src="images/about/ayesha.jpg" width="200px">
 	      </div>
 	      <div class="back">
-	          likes pizza.
+	          Ayesha likes pizza.
 	      </div> 
 	    </div>
 
@@ -125,7 +177,7 @@
 	          <img src="images/about/emma.jpg" width="200px">
 	      </div>
 	      <div class="back">
-	          likes Australia.
+	          Emma likes Australia.
 	      </div> 
 	    </div>
 
@@ -134,7 +186,7 @@
 	      <img src="images/about/levi.jpg" width="200px">
 	      </div>
 	      <div class="back">
-	          loves making videos.
+	          Levi loves making videos.
 	      </div> 
 	    </div>
 
@@ -143,7 +195,7 @@
 	          <img src="images/about/lindsay.jpg" width="200px">
 	      </div>
 	      <div class="back">
-	          loves biking.
+	          Lindsay loves biking.
 	      </div> 
 	    </div>
 
@@ -152,7 +204,7 @@
 	          <img src="images/about/maria.jpg" width="200px">
 	      </div>
 	      <div class="back">
-	          loves dance.
+	          Maria loves dance.
 	      </div> 
 	    </div>
 
@@ -161,7 +213,7 @@
 	          <img src="images/about/sanjana.jpg" width="200px">
 	      </div>
 	      <div class="back">
-	          likes desserts.
+	          Sanjana likes desserts.
 	      </div> 
 	    </div>
 
@@ -170,7 +222,7 @@
 	         <img src="images/about/set.jpg" width="200px">
 	      </div>
 	      <div class="back">
-	          loves Glossier.
+	          Setareh loves Glossier.
 	      </div> 
 	    </div>
 
@@ -179,7 +231,7 @@
 	          <img src="images/about/sheba.jpg" width="200px">
 	      </div>
 	      <div class="back">
-	          loves Sampha.
+	          Sheba loves Sampha.
 	      </div> 
 	    </div>
 
@@ -188,7 +240,7 @@
 	          <img src="images/about/steph.jpg" width="200px">
 	      </div>
 	      <div class="back">
-	          loves cats.
+	          <p>Steph loves cats. She has a 12 y/o cat named India who thinks she (India) is the queen of the world.</p>
 	      </div> 
 	    </div>
 
@@ -197,24 +249,26 @@
 	      <img src="images/about/josh.jpg" width="200px">
 	      </div>
 	      <div class="back">
-	          loves the Duke men's basketball team.
+	          Josh loves the Duke men's basketball team.
 	      </div> 
 	    </div>
 
 	    <div id="Mike" class="card">
 	      <div class="front">
-	          Mike
+	      <img src="images/about/mike.jpg" width="200px">
 	      </div>
 	      <div class="back">
-	          loves cats.
+	          Mike loves cats.
 	      </div> 
 	    </div>
+
+	    <br style="clear: both"/>
     </div>
 
     <script type="text/javascript">
     $(function(){
       $(".card").flip({
-        trigger: "hover"
+        trigger: "click"
       });
     });
     </script>
