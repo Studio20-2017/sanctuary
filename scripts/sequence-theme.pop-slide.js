@@ -48,6 +48,7 @@ mySequence.animationEnded = function(id, sequence) {
   document.getElementById('video3').pause();
   document.getElementById('video4').pause();
   document.getElementById('video5').pause();
+  document.getElementById('video6').pause();
 var audio1 = document.getElementById("audio1");
 		audio1.pause()
 		audio1.currentTime = 0;
@@ -69,8 +70,7 @@ var audio6 = document.getElementById("audio6");
 
   // ...and then play the video for the character we went to
   document.getElementById('video'+id).play();
-  var audio = document.getElementById("audio"+id);
-   audio.play();
+  document.getElementById("audio"+id).play();
 }
 
 
