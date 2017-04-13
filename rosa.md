@@ -37,6 +37,9 @@
 	
 	
 <script>
+
+//TO LOCK SCREEN AND GET PROGRESS BAR TO TURN YELLOW
+
 $(function() {
   $('#fullpage').fullpage({
 	anchors:['firstSlide', 'secondSlide', 'thirdSlide', 'fourthSlide'],
