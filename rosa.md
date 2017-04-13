@@ -85,7 +85,7 @@ $(function() {
 
 var mouseStillTimer;
 
-$('body').on('mousemove scroll', function() {
+$('body').on('mousemove mousewheel DOMMouseScroll MozMousePixelScroll', function() {
   window.clearTimeout(mouseStillTimer);
 
   $('.Row').fadeIn(300);
