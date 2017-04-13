@@ -28,6 +28,7 @@
 
 <div id="fullpage">
 	<div class="boxes section" id="first" data-menuanchor="firstSlide">
+  	    <div id="embedFix" style="z-index: 998; position: absolute; top:0; left:0; right:0; bottom: 51px">&nbsp;</div>
   	    <iframe id="player1" src="https://player.vimeo.com/video/210800050?api=1&player_id=player1" width="100%" height="100%" 		frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
 	</div>
 	<div class="boxes section" id="second" data-menuanchor="secondSlide"><h1 id="progress-second">DATA VIZ</h1></div>
