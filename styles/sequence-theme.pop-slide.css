@@ -375,11 +375,11 @@ video{
   .seq .seq-title {
     border-bottom-color: white;
   }
-  .seq .seq-step1, .seq .seq-step2, .seq .seq-step3, .seq .seq-step4, .seq .seq-step5 {
+  .seq .seq-step1, .seq .seq-step2, .seq .seq-step3, .seq .seq-step4, .seq .seq-step5, .seq .seq-step6{
   	background-image: none;
   	background-color: black;
   }
-  .seq .seq-step1 video, .seq .seq-step2 video, .seq .seq-step3 video, .seq .seq-step4 video, .seq .seq-step5 video {
+  .seq .seq-step1 video, .seq .seq-step2 video, .seq .seq-step3 video, .seq .seq-step4 video, .seq .seq-step5 video, .seq .seq-step6 video {
     display: block;
   }
 
