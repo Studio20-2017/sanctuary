@@ -54,7 +54,7 @@ $(function() {
 		    $('#Threesixty-button').css("background", "yellow");
 		}
 		if (index == 4) {
-		    $('#Video-button').css("background", "blue");
+		    $('#Video-button').css("background", "yellow");
 		    $('#Data-button').css("background", "yellow");
 		    $('#Threesixty-button').css("background", "yellow");
 		    $('#Video2-button').css("background", "yellow");
