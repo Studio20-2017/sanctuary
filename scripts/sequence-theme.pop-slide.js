@@ -49,28 +49,11 @@ mySequence.animationEnded = function(id, sequence) {
   document.getElementById('video4').pause();
   document.getElementById('video5').pause();
   document.getElementById('video6').pause();
-var audio1 = document.getElementById("audio1");
-		audio1.pause()
-		audio1.currentTime = 0;
-var audio2 = document.getElementById("audio2");
-		audio2.pause()
-		audio2.currentTime = 0;
-var audio3 = document.getElementById("audio3");
-		audio3.pause()
-		audio3.currentTime = 0;
-var audio4 = document.getElementById("audio4");
-		audio4.pause()
-		audio4.currentTime = 0;
-var audio5 = document.getElementById("audio5");
-		audio5.pause()
-		audio5.currentTime = 0;
-var audio6 = document.getElementById("audio6");
-		audio6.pause()
-		audio6.currentTime = 0;
+
 
   // ...and then play the video for the character we went to
   document.getElementById('video'+id).play();
-  document.getElementById("audio"+id).play();
+ 
 }
 
 
@@ -78,5 +61,5 @@ var audio6 = document.getElementById("audio6");
 $(function () {
   // ...automatically start the first video
   document.getElementById('video1').play();
-  document.getElementById('audio1').play();
+ 
 })
