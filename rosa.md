@@ -19,9 +19,7 @@
 <div class="boxes" id="first">
   <iframe id="player1" src="https://player.vimeo.com/video/210800050?api=1&player_id=player1" width="100%" height="100%" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
 </div>
-<div class="boxes" id="second"><img src="images/RosaDataPrototype2_RosaPage.png">
-<iframe height='355' scrolling='no' title='Rosa Quotes' src='//codepen.io/readingirl/embed/pPJyZE/?height=355&theme-id=0&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/readingirl/pen/pPJyZE/'>Rosa Quotes</a> by Lindsay Abrams (<a href='http://codepen.io/readingirl'>@readingirl</a>) on <a href='http://codepen.io'>CodePen</a>.
-</iframe>
+<div class="boxes" id="second"><img src="images/RosaDataPrototype_RosaPage.png">
 </div>
 <div class="boxes" id="third"><h1 id="progress-third">360</h1></div>
 <div class="boxes" id="fourth"><h1 id="progress-fourth">VIDEO 2</h1></div>
