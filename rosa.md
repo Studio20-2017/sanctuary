@@ -6,6 +6,7 @@
   <script src="scripts/jquery.min.js"></script>
   <script src="scripts/jquery.scrollie.min_1.js"></script>
   <script type="text/javascript" src="https://f.vimeocdn.com/js/froogaloop2.min.js"></script>
+  <script src="scripts/bootstrap-carousel.js"></script>
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.4/jquery.fullpage.css" />
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.4/jquery.fullpage.min.js"></script>
 
@@ -31,7 +32,9 @@
   	    <div id="embedFix" style="z-index: 998; position: absolute; top:0; left:0; right:0; bottom: 51px">&nbsp;</div>
   	    <iframe id="player1" src="https://player.vimeo.com/video/210800050?api=1&player_id=player1" width="100%" height="100%" 		frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
 	</div>
-	<div class="boxes section" id="second" data-menuanchor="secondSlide"><h1 id="progress-second">DATA VIZ</h1></div>
+<div class="boxes section" id="second" data-menuanchor="secondSlide"><h1 id="progress-second">data viz</h1
+
+</div>
 	<div class="boxes section" id="third" data-menuanchor="thirdSlide"><h1 id="progress-third">360</h1></div>
 	<div class="boxes section" id="fourth" data-menuanchor="fourthSlide"><h1 id="progress-fourth">VIDEO 2</h1></div>
 </div>
@@ -98,7 +101,12 @@ $('body').on('mousemove mousewheel DOMMouseScroll MozMousePixelScroll', function
 
 
   </script>
-
+<script>
+$('.carousel').carousel({
+    pause: true,
+    interval: false
+});
+</script>
 
 </body>
 </html>
