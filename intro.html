@@ -8,6 +8,8 @@
  body {
       margin: 0;
       padding: 0;
+      background-image: url("https://github.com/Studio20-2017/sanctuary/blob/master/images/logos/Finding%20Sanctuary%20White%20Background.png?raw=true");
+      background-repeat: no-repeat;
     }
 #player {
 	height: 100vh; 
@@ -33,14 +35,18 @@ a:hover {
 	background-color: white;
 	color: black;
 }
+img {
+  position: fixed;
+  top: 20%;
+  left: 20%;
+}
 </style>
 <script type="text/javascript" src="https://f.vimeocdn.com/js/froogaloop2.min.js"></script>
 <script src="scripts/jquery.min.js"></script>
 </head>
 <body>
 <a id="next" href="index.html">Skip Video</a>
-<!--<div id="player"><iframe id="player" src="https://player.vimeo.com/video/213306370" height="100%" width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>-->
-<img src="images/logos/Finding_Sanctuary_White_Background.png">
+<div id="player"><iframe id="player" src="https://player.vimeo.com/video/213306370" height="100%" width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 <script>
 $(function() {
   var iframe = $('#player')[0];
