@@ -46,7 +46,7 @@ img {
 </head>
 <body>
 <a id="next" href="home.html">Skip Video</a>
-<div id="player"><iframe id="player" src="https://player.vimeo.com/video/213306370?autoplay=1" height="100%" width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<iframe id="player" src="https://player.vimeo.com/video/213306370?autoplay=1&api=1&player_id=player" height="100%" width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <script>
 $(function() {
   var iframe = $('#player')[0];
@@ -55,15 +55,14 @@ $(function() {
   // When the player is ready, add listeners for pause, finish, and playProgress
   player.addEvent('ready', function() {        
       player.addEvent('finish', finishVideo);
-  });
-
+ });
+ 
   function finishVideo(id) {
-    jump();
+    window.location = 'https://studio20-2017.github.io/sanctuary/home.html';
   }
-  function jump() {
-	window.location.replace("index.html");
-	}
+  
 });
+
 </script>
 
 </body>
