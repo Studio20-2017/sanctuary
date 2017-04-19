@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Finding Sanctuary</title>
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+<style>
+ body {
+      margin: 0;
+      padding: 0;
+    }
+#player {
+	height: 100vh; 
+	min-height: 100vh; 
+	width: 100%;
+}	
+a {
+	position: fixed;
+    z-index: 9999;
+    right: 10px;
+    top: 10px;
+    background-color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    text-decoration: none;
+    font-family: Oswaldo;
+	font-size: 20px;
+	color: white;
+	padding: 5px;
+}
+a:hover {
+	background-color: white;
+	color: black;
+}
+</style>
+<script type="text/javascript" src="https://f.vimeocdn.com/js/froogaloop2.min.js"></script>
+<script src="scripts/jquery.min.js"></script>
+</head>
+<body>
+<a id="next" href="index.html">Skip Video</a>
+<!--<div id="player"><iframe id="player" src="https://player.vimeo.com/video/213306370" height="100%" width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>-->
+<img src="images/logos/Finding_Sanctuary_White_Background.png">
+<script>
+$(function() {
+  var iframe = $('#player')[0];
+  var player = $f(iframe);
+
+  // When the player is ready, add listeners for pause, finish, and playProgress
+  player.addEvent('ready', function() {        
+      player.addEvent('finish', finishVideo);
+  });
+
+  function finishVideo(id) {
+    jump();
+  }
+  function jump() {
+	window.location.replace("index.html");
+	}
+});
+</script>
+
+</body>
