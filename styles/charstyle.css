@@ -1,0 +1,158 @@
+/* BASICS CSS */
+
+/*.Row
+{
+    display: table;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 50%;
+    margin-left: 25%;
+    table-layout: fixed;
+    border-spacing: 5px; 
+    position: fixed;
+    top: 0;
+    float: left;
+    z-index: 999;
+} */
+
+#logo {
+  position: fixed;
+  top: 40px;
+  right: 40px;
+  width: 180px;
+}
+
+progress {
+  position: fixed;
+  right: -260px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 300px;
+  height: 15px;
+  border-radius: 20px;
+  -webkit-transform-origin: center left;
+  -webkit-transform: rotate(-90deg) translateX(-100%) border-radius: 6px;
+  transform-origin: center left;
+  transform: rotate(-270deg) translateX(60%);
+  margin-left: 2%;
+  z-index: 9999; 
+  display: none;
+  }
+  
+  progress::-webkit-progress-bar {
+    border: 0;
+    border-radius: 6px;
+  }
+  
+  progress::-webkit-progress-value {
+    border: 0;
+    border-radius: 6px;
+  }
+  
+  progress::-moz-progress-bar {
+    border: 0;
+    border-radius: 6px;
+  }
+
+progress::-webkit-progress-bar {
+  background: transparent;
+  border: 1px double #FFFFFF;
+  border-radius: 10px;
+}
+progress::-webkit-progress-value {
+  background: linear-gradient(90deg, #99CC32, #99CC32);
+}
+progress::-ms-fill {
+  background: linear-gradient(90deg, #000,#f00);
+}
+progress::-moz-progress-bar {
+  background: linear-gradient(90deg, #000,#f00);
+}
+
+
+.Column
+{
+    display: table-cell;
+    text-align: center;
+}
+#logo2 {
+    position: fixed;
+    z-index: 9999;
+    right: 10px;
+    top: 10px;
+}
+#logo2 img {   
+    min-width: 150px;
+    max-width: 250px;
+    width: 40vmin;
+}
+.boxes {
+  width: 100%;
+  height:100vh;
+  min-height:100vh;  
+}
+
+/* BUTTONS CSS */
+
+.Column a {
+    background-color: transparent;
+    border: none;
+    color: blue;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+.Column a:hover {
+  background-color: #e7e7e7;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 250px;
+  margin: 0;
+}
+
+span {
+  color: black;
+}
+
+/* BOXES STYLE CSS */
+
+#first {
+  background: blue;
+}
+#second {
+  background: pink;
+}
+#third {
+  background: green;
+}
+#fourth {
+  background: purple;
+}
+
+/* PROGRESS BAR CSS */
+
+#Video-button {
+  background: grey;
+}
+
+#Data-button {
+  background: grey;
+}
+
+#Threesixty-button {
+  background: grey;
+}
+
+#Video2-button {
+  background: grey;
+}
+
+
