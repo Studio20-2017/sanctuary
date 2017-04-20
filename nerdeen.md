@@ -1,7 +1,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Nirdeen</title>
+  <title>Nerdeen</title>
   <link rel="stylesheet" type="text/css" href="styles/style.css">
   <script src="scripts/jquery.min.js"></script>
   <script src="scripts/jquery.scrollie.min_1.js"></script>
