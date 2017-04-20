@@ -27,7 +27,7 @@
 </div>
 <script>
 $(function() {
-  var iframe = $('#player1')[0];
+  var iframe = $('#player1 #player2')[0];
   var player = $f(iframe);
 
   // When the player is ready, add listeners for pause, finish, and playProgress
