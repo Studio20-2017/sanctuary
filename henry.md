@@ -19,7 +19,7 @@
 <div class="boxes" id="first"><iframe id="player1" src="https://player.vimeo.com/video/212126446" width="100%" height="100%" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
 </div>
 <div class="boxes" id="second"><h1>DATA VIZ</h1></div>
-<div class="boxes" id="third"><h1>360</h1></div>
+<div class="boxes" id="third"><iframe id="player2" src="https://player.vimeo.com/video/214051232" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 <div class="boxes" id="fourth"><h1>VIDEO</h1></div>
 <script>
 $(function() {
