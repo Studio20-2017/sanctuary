@@ -208,7 +208,6 @@ html,
 
 .seq-next{
   /* #1 */
-  padding: 0;
   background: transparent;
   border: none;
 
@@ -225,15 +224,15 @@ html,
   transition-property: opacity;
   position: absolute;
   margin: 0 auto;
-  right: 5%;
   z-index:99999;
-  bottom:0px;
+  top: 35%;
+  top: calc(50%-150px);
+  right: 0px;
 }
 
 
 .seq-prev {
   /* #1 */
-  padding: 0;
   background: transparent;
   border: none;
 
@@ -250,12 +249,16 @@ html,
   transition-property: opacity;
   position: absolute;
   margin: 0 auto;
-  left: 5%;
   z-index:99999;
-  bottom:0px;
-
+  top: 35%;
+  top: calc(50%-150px);
 }
-
+.seq-prev img {
+  width: 150px
+}
+.seq-next img {
+  width: 150px;
+}
 .seq-next:hover,
 .seq-prev:hover {
   opacity: 1;
@@ -368,6 +371,13 @@ video{
   .seq .seq-pagination > li a img,
   .seq .seq-pagination > li a span {
     display: none !important;
+  }
+  
+  .seq-prev {
+  display: none;
+  }
+  .seq-next {
+  display: none;
   }
 }
 
