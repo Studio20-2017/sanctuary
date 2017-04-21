@@ -13,7 +13,7 @@
      .footer{
      width: 100%;
      min-height:20px;
-     max-height:50px;
+     max-height:80px;
      background-color: red;
      }
   </style>
