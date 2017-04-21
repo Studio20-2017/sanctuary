@@ -457,6 +457,7 @@ video{
   .charselect {
   border: 2px solid #000f08;
   border-radius: 5px;
+  opacity: .5;
   }
 
   /* styles for the "currently selected" person */
