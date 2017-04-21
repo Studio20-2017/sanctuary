@@ -17,5 +17,40 @@
   min-height:100vh;  
 }
 
-/* BOXES STYLE CSS */
+h1 {
+font-family: Oswald;
+font-size: 30p; 
+font-weight: bold;
+color: #450920;
+}
+
+h2 {
+font-famiy: Oswald;
+font-size: 24p;  
+color: #8baaad;
+}
+
+h3 {
+font-family: Quattrocento; 
+font-size: 18p; 
+font-weight: bold; 
+color: #4d4847;
+}
+
+p {
+font-family: Quattrocento; 
+font-size: 12p; 
+color: #000f08;
+}
+
+.quote {
+font-family: Lato;
+font-size: 11p; 
+font-weight: bold; 
+display: inline;
+background-color: #8baaad; 
+color: #F4FFF8;
+}
+
+
 
