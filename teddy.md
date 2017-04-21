@@ -5,6 +5,7 @@
   <title>Teddy</title>
   <link rel="stylesheet" type="text/css" href="styles/style.css">
   <script src="scripts/jquery.min.js"></script>
+  <script src="scripts/jquery.scrollie.min_1.js"></script>
   <script type="text/javascript" src="https://f.vimeocdn.com/js/froogaloop2.min.js"></script>
 </head>
 
