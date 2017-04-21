@@ -453,6 +453,11 @@ video{
     color: white;
     text-decoration: none;
   }
+  
+  .charselect {
+  border: 2px solid #000f08;
+  border-radius: 5px;
+  }
 
   /* styles for the "currently selected" person */
  #one p>span{ display:none; }
