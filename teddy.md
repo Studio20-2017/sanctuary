@@ -27,7 +27,7 @@ $(function() {
       player.addEvent('finish', finishVideoOne);
   });
 
-  function finishVideoOne(id) {
+  function finishVideoOne() {
 $('html, body').animate({
     scrollTop: $("#viz1492049846565").offset().top
 }, 1000);}
