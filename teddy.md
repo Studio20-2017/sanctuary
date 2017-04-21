@@ -19,10 +19,12 @@
      }
      
      #footertext{
-     color: white;
+     position: relative;
+     top: 50%;
+     color: blue;
      font-size: 75%;
      float: right;
-     padding-left: 10px; 
+     padding-right: 20px; 
      font-family: Oswald;
   </style>
 </head>
