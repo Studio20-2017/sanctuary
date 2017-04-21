@@ -1,26 +1,5 @@
 /* BASICS CSS */
 
-.Row
-{
-    display: table;
-    border: none;
-    border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 50%;
-    margin-left: 25%;
-    table-layout: fixed;
-    border-spacing: 5px; 
-    position: fixed;
-    top: 0;
-    float: left;
-    z-index: 999;
-}
-
-.Column
-{
-    display: table-cell;
-    text-align: center;
-}
 #logo2 {
     position: fixed;
     z-index: 9999;
@@ -38,34 +17,6 @@
   min-height:100vh;  
 }
 
-/* BUTTONS CSS */
-
-.Column a {
-    background-color: transparent;
-    border: none;
-    color: blue;
-    padding: 12px 28px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-}
-
-.Column a:hover {
-  background-color: #e7e7e7;
-}
-
-h1 {
-  text-align: center;
-  padding-top: 250px;
-  margin: 0;
-}
-
-span {
-  color: black;
-}
-
 /* BOXES STYLE CSS */
 
 #first {
@@ -80,23 +31,3 @@ span {
 #fourth {
   background: purple;
 }
-
-/* PROGRESS BAR CSS */
-
-#Video-button {
-  background: grey;
-}
-
-#Data-button {
-  background: grey;
-}
-
-#Threesixty-button {
-  background: grey;
-}
-
-#Video2-button {
-  background: grey;
-}
-
-
