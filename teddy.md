@@ -20,9 +20,10 @@
      
      #footertext{
      position: relative;
-     top: 50%;
-     color: blue;
+     top: 10%;
+     color: white;
      font-size: 75%;
+     font-weight: bold;
      float: right;
      padding-right: 20px; 
      font-family: Oswald;
