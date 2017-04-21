@@ -574,7 +574,7 @@ color: white;
   position: absolute; 
   margin: 0 auto; 
   left: 93%;
-  top: 27%; 
+  top: 16%; 
   z-index: 99999;
   font-family: "Oswald", sans-serif; 
   font-size: 20px;
@@ -584,6 +584,7 @@ color: white;
   text-rendering: optimizeLegibility;
   text-decoration: none;
     color: #f1f1f1;
+    
 }
 #mute {
   position: absolute; 
