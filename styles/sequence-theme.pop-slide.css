@@ -482,10 +482,7 @@ video{
     -webkit-box-shadow: 0 0 20px #fff;
     box-shadow: 0px 0px 20px #fff;
   }
-  .seq-pagination .seq-current a span {
-    display: inline-block;
-    text-align: center; 
-  }
+
 }
 
 @media only screen and (min-width: 720px) {
@@ -558,11 +555,9 @@ color: white;
 }
 .seq .seq-pagination > li:hover a img,
 .seq-current a img {
-    display: none;
+    opacity: 1;
 }
-.seq .seq-pagination > li:hover a span {
-    display: block;
-}
+
 /* sourceMappingURL=sequence-theme.pop-slide.css.map */
 
 #logo {
