@@ -10,14 +10,13 @@
 </head>
 <body>
 
-<div class="Row">
-  <div class="Column" id="Video-button"><button onclick="scroll1()"><span>Video</span></button></div>
-  <div class="Column" id="Data-button"><button onclick="scroll2()"><span>Data</span></button></div>
-</div>
+
 <div class="boxes" id="first">
   <iframe id="player1" src="https://player.vimeo.com/video/210800050?api=1&player_id=player1" width="100%" height="100%" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
 </div>
-<div class="boxes" id="second"><img src="images/RosaPagePrototype-01.png">
+<div id="second"><img src="images/RosaPagePrototype-01.png">
+
+
 </div>
 
 <script>
