@@ -31,6 +31,13 @@ $(function() {
     scroll2();
   }
 });
+
+function scroll2() {
+$('html, body').animate({
+    scrollTop: $("#second").offset().top
+}, 1000);}
+});
+
 </script>
 
 </body>
