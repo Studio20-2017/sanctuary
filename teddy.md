@@ -13,8 +13,8 @@
      #footer{
      display:block;
      width: 100%;
-text-align:right;
-padding:8px;
+     text-align:right;
+     padding:8px;
      background-color: black;
      }
      
@@ -24,15 +24,15 @@ padding:8px;
      font-weight: bold;
      padding-right: 20px; 
      font-family: Oswald;
-}
-#footertext a {
-color: white;
-text-decoration: none;
-}
+      }
+      #footertext a {
+      color: white;
+      text-decoration: none;
+      }
 
-@media screen and max-width(764px) {
-#footertext a { font-size: 12px; }
-}
+      @media screen and max-width(764px) {
+      #footertext a { font-size: 12px; }
+      }
   </style>
 </head>
 
