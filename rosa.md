@@ -10,10 +10,10 @@
 </head>
 <body>
 
-<div class="boxes" id="videoBox">
+<div class="boxes" id="first">
   <iframe id="player1" src="https://player.vimeo.com/video/210800050?api=1&player_id=player1" width="100%" height="100%" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
 </div>
-<div class="boxes" id="dataBox"><img src="images/RosaPagePrototype-01.png">
+<div class="boxes" id="second"><img src="images/RosaPagePrototype-01.png">
 </div>
 
 <script>
