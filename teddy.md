@@ -12,8 +12,9 @@
   <style>
      .footer{
      width: 100%;
-     min-height:20px;
+     min-height:50px;
      max-height:80px;
+     height: 40vmin;
      background-color: red;
      }
   </style>
