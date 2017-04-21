@@ -15,7 +15,7 @@
      width: 100%;
      min-height:50px;
      max-height:80px;
-     background-color: red;
+     background-color: blue;
      }
   </style>
 </head>
