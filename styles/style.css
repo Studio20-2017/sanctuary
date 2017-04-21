@@ -22,6 +22,7 @@ font-family: Oswald;
 font-size: 30p; 
 font-weight: bold;
 color: #450920;
+text-transform: uppercase;
 }
 
 h2 {
@@ -52,5 +53,20 @@ background-color: #8baaad;
 color: #F4FFF8;
 }
 
+.viztitle {
+font-famiy: Oswald; 
+font-weight: light; 
+font-size: 32p;
+color: #450920;
+}
 
+.source {
+font-family: Quattrocento;
+font-size: 16px;
+}
+
+a {
+    -moz-text-decoration-color: #F4FFF8; 
+    text-decoration-color: #F4FFF8;
+}
 
