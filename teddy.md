@@ -29,7 +29,7 @@ $(function() {
       player.addEvent('finish', finishVideoOne);
   });
 
-  $(function finishVideoOne(id) {
+ function finishVideoOne(id) {
 $('html, body').animate({
     scrollTop: $("#viz1492049846565").offset().top
 }, 1000);}
