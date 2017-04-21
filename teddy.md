@@ -13,20 +13,26 @@
      #footer{
      display:block;
      width: 100%;
-     min-height:50px;
-     max-height:80px;
+text-align:right;
+padding:8px;
      background-color: black;
      }
      
      #footertext{
-     position: relative;
-     top: 10%;
      color: white;
-     font-size: 75%;
+     font-size: 14px;
      font-weight: bold;
-     float: right;
      padding-right: 20px; 
      font-family: Oswald;
+}
+#footertext a {
+color: white;
+text-decoration: none;
+}
+
+@media screen and max-width(764px) {
+#footertext a { font-size: 12px; }
+}
   </style>
 </head>
 
