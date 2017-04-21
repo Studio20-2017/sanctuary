@@ -11,6 +11,7 @@
   
   <style>
      .footer{
+     display:block;
      width: 100%;
      min-height:50px;
      max-height:80px;
