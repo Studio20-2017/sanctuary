@@ -1,7 +1,7 @@
 /* BASICS CSS */
 
 #logo2 {
-    position: static;
+    position: fixed;
     z-index: 9999;
     right: 10px;
     top: 10px;
@@ -80,11 +80,10 @@ font-size: 16px;
 }
 
 a {
-	display: inline;
-	color:inherit;
-	text-decoration: none;
-	border-bottom: 1.5px solid #8baaad;
-
+display: inline;
+color:inherit;
+text-decoration: none;
+border-bottom: 1.5px solid #8baaad;
 }
 
 /* Audio Boxes */
@@ -94,17 +93,20 @@ a {
   padding-top: 10px;
   display: flex;
 }
+
 .audioboxwhite {  
   width: 60%;
   display: flex;
   padding-top: 10px;
 }
+
 .play {
   float: left;
   width: 20%;
   height: 20%;
   padding: 0px 5px 10px 20px;
 }
+
 .audioquotewhite {
   display: inline;
   font-family: Oswald;
@@ -114,6 +116,7 @@ a {
   line-height: 50px;
   padding-right: 15px;
 }
+
 .audioquotered {
   display: inline;
   font-family: Oswald;
