@@ -66,6 +66,8 @@ font-size: 16px;
 }
 
 a {
+	color:inherit;
+	text-decoration: underline;
     -moz-text-decoration-color: #F4FFF8; 
     text-decoration-color: #F4FFF8;
 }
