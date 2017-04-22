@@ -58,14 +58,20 @@
 <p>The <a href="http://library.uwb.edu/Static/USimmigration/1948_displaced_persons_act.html" target="_blank">Displaced Persons Act of 1948</a> ultimately authorized the entry into the U.S. of about 400,000 DPs, again within the existing quotas. But the act was <a href="http://www.presidency.ucsb.edu/ws/?pid=12942" target="_blank">criticized</a> by President Truman himself as discriminating against Jewish refugees -- restrictions made it so that, as Truman wrote, more than 90 percent of Jewish DPs were not eligible for visas.</p>
 
 <p>Overall, about <a href="https://books.google.com/books?id=raS9TqUFb94C&pg=PA161&lpg=PA161&dq=how+many+jews+admitted+to+us+truman+directive&source=bl&ots=T8p8Z4vFwn&sig=Hq2_M40C4SQjCOjHDgvcQLmLFRI&hl=en&sa=X&ved=0ahUKEwiyzvCkpKfTAhXoxYMKHeIfBggQ6AEISDAG#v=onepage&q=how%20many%20jews%20admitted%20to%20us%20truman%20directive&f=false" target="_blank">16 percent</a> of the DPs admitted into the U.S. between 1946 and 1952 were Jewish.</p>
+<br>
+<br>
+<h2 style="text-align:center">Immigration Debate, 1948</h2>
+<div id="carousel"> [CAROUSEL TK] </div>
+<br> 
+<br>
 
+
+<div id="gallup">
+<h3 style="text-align:center">How Americans reacted to the idea of inviting Jews into the US</h3>
+<p class="gallup2">In January 1939, shortly after the wave of violence against European Jews known as <em>Kristallnacht</em>, Gallup asked Americans about a government proposal to admit 10,000 refugee children from Germany into the country, to be cared for in American homes:</p>
+<div class="gallupnos">
+<h1>26%</h1><p style="color:#450920">in favor</p>
 </div>
-
-<h2>Immigration Debate, 1948</h2>
-[CAROUSEL TK]
-
-<div id="third">
-</div> 
 </div>
 
 <script>
