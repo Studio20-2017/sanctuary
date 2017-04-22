@@ -5,9 +5,6 @@
     z-index: 9999;
     left: 100px;
     top: 10px;
-}
-
-#logo2 img {   
     min-width: 150px;
     max-width: 250px;
     width: 40vmin;
