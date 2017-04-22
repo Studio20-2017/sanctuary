@@ -66,9 +66,10 @@ font-size: 16px;
 }
 
 a {
+	display: inline;
 	color:inherit;
-	text-decoration: underline;
-    -moz-text-decoration-color: #F4FFF8; 
-    text-decoration-color: #F4FFF8;
+	text-decoration: none;
+	border-bottom: medium solid #8baaad;
+
 }
 
