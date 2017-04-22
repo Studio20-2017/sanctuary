@@ -5,12 +5,14 @@
     z-index: 9999;
     right: 10px;
     top: 10px;
+    
+      min-width: 150px;
+    max-width: 250px;
+    width: 40vmin;
 }
 
 #logo2 img {   
-    min-width: 150px;
-    max-width: 250px;
-    width: 40vmin;
+  
 }
 
 .boxes {
