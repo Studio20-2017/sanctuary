@@ -53,8 +53,9 @@ nextstory: GO ON HENRY'S JOURNEY &rarr;
 
 </div>
 
-<div id="third">
 <h2>Immigration Debate, 1948</h2>
 [CAROUSEL TK]
- 
- </div>
+
+<div id="third">
+</div> 
+</div>
