@@ -42,6 +42,7 @@ p {
 font-family: Quattrocento; 
 font-size: 12p; 
 color: #000f08;
+line-height: 130%;
 }
 
 .quote {
@@ -69,7 +70,7 @@ a {
 	display: inline;
 	color:inherit;
 	text-decoration: none;
-	border-bottom: medium solid #8baaad;
+	border-bottom: 1.5px solid #8baaad;
 
 }
 
