@@ -15,13 +15,14 @@
 <img id=logo src="images/logos/Finding Sanctuary Transparent White Text.png">
 {{ content }}
 
-//Autoscroll to box two after the video is over
+<!--Autoscroll to box "second" after the video is over-->
 <script>
 $(function() {
   var iframe = $('#player1')[0];
   var player = $f(iframe);
 
-  // When the player is ready, add listeners for pause, finish, and playProgress
+  <!--When the player is ready, add listeners for pause, finish, and playProgress-->
+  
   player.addEvent('ready', function() {        
       player.addEvent('finish', finishVideoOne);
   });
