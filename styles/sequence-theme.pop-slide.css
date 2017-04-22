@@ -589,15 +589,6 @@ color: white;
     color: #f1f1f1;
     
 }
-#mute {
-  position: absolute; 
-  margin: 0 auto; 
-  left: 2%;
-  bottom: 5%; 
-  z-index: 99999;
-  opacity: 0.7;
-  max-height: 40px;
-}
 
   
  /*this makes the letters glow in the progress bar*/
