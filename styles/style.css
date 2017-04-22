@@ -81,6 +81,31 @@ text-decoration: none;
 border-bottom: 1.5px solid #8baaad;
 }
 
+#footer{
+     display:block;
+     width: 100%;
+     text-align:right;
+     padding:10px;
+     background-color: black;
+}
+     
+#footertext{
+     color: white;
+     font-size: 30px;
+     font-weight: bold;
+     font-family: Oswald;
+}
+
+#footertext a {
+      color: white;
+      text-decoration: none;
+}
+
+@media screen and (max-width: 764px) {
+      #footertext a {
+        font-size: 15px; }
+}
+
 /* Audio Boxes */
 .audioboxred {  
   background-color: #663333;
