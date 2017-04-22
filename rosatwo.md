@@ -9,7 +9,6 @@ nextstory: GO ON HENRY'S JOURNEY &rarr;
  <div class="boxes" id="second">
  
 <h1>How (some) Jewish refugees made it to the US after WWII</h1>
-
 <p>Immediately after the war ended, <a href="https://www.ushmm.org/wlc/en/article.php?ModuleId=10005418" target="_blank">over 50,000 displaced Jews</a> were scattered throughout Germany, Austria and Italy. Rosa, the only member of her immediate family to survive the Holocaust, was among them. With no home to return to, she spent several years attempting to travel to Palestine, where she had relatives. However, in the years leading up to the formation of the State of Israel in 1948, the British strictly limited Jewish immigration to the region. </p>
 <div class="audioboxred">
 <audio id="clip1">
