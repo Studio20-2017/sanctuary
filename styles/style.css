@@ -1,7 +1,7 @@
 /* BASICS CSS */
 
 #logo2 {
-    position: fixed;
+    position: static;
     z-index: 9999;
     right: 10px;
     top: 10px;
