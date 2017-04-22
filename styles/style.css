@@ -105,8 +105,8 @@ border-bottom: 1.5px solid #8baaad;
 
 @media screen and (max-width: 764px) {
       #footertext a {
-        padding: 12px;
-        font-size: 15px; }
+        padding: 15px;
+        font-size: 20px; }
 }
 
 /* Audio Boxes */
