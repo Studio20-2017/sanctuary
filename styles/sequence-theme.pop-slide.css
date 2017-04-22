@@ -44,6 +44,21 @@ html,
   font-family: 'Oswald';
   line-height:50%;
 }
+
+/*Start Journey button*/
+.start {
+	background-image: url('https://github.com/Studio20-2017/sanctuary/blob/master/images/Start%20Journey%20Button.png?raw=true');
+	height: 40px;
+	width: 200px;
+	background-size: contain;
+}
+.start:hover {
+	background-image: url('https://github.com/Studio20-2017/sanctuary/blob/master/images/Start%20Journey%20Gray.png?raw=true');
+	height: 40px;
+	width: 200px;
+	background-size: contain;
+}
+
 .seq {
   position: relative;
   /* Dimensions */
