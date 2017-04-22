@@ -6,7 +6,6 @@
   <script src="scripts/jquery.min.js"></script>
   <script src="scripts/jquery.scrollie.min_1.js"></script>
   <script type="text/javascript" src="https://f.vimeocdn.com/js/froogaloop2.min.js"></script>
-
 </head>
 <body>
 
@@ -57,6 +56,13 @@
 
 <p>Overall, about <a href="https://books.google.com/books?id=raS9TqUFb94C&pg=PA161&lpg=PA161&dq=how+many+jews+admitted+to+us+truman+directive&source=bl&ots=T8p8Z4vFwn&sig=Hq2_M40C4SQjCOjHDgvcQLmLFRI&hl=en&sa=X&ved=0ahUKEwiyzvCkpKfTAhXoxYMKHeIfBggQ6AEISDAG#v=onepage&q=how%20many%20jews%20admitted%20to%20us%20truman%20directive&f=false" target="_blank">16 percent</a> of the DPs admitted into the U.S. between 1946 and 1952 were Jewish.</p>
 
+</div>
+
+<h2>Immigration Debate, 1948</h2>
+[CAROUSEL TK]
+
+<div id="third">
+</div> 
 </div>
 
 <script>
@@ -175,6 +181,12 @@ function play3(){
        var audio = document.getElementById("clip3");
        audio.play();
                  }
+</script>
+<script>
+$('.carousel').carousel({
+    pause: true,
+    interval: false,
+});
 </script>
 </body>
 </html>
