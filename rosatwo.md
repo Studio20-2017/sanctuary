@@ -58,3 +58,24 @@ nextstory: GO ON HENRY'S JOURNEY &rarr;
 <div id="third">
 </div> 
 </div>
+
+<script>
+function play1(){
+       var audio = document.getElementById("clip1");
+       audio.play();
+                 }
+function play2(){
+       var audio = document.getElementById("clip2");
+       audio.play();
+                 }
+function play3(){
+       var audio = document.getElementById("clip3");
+       audio.play();
+                 }
+</script>
+<script>
+$('.carousel').carousel({
+    pause: true,
+    interval: false,
+});
+</script>
