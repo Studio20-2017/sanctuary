@@ -3,7 +3,7 @@
 #logo2 {
     position: fixed;
     z-index: 9999;
-    left: 100px;
+    right: 10px;
     top: 10px;
     min-width: 150px;
     max-width: 250px;
