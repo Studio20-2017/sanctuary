@@ -1,5 +1,9 @@
 /* BASICS CSS */
 
+html, body { 
+	margin: 0; 
+	padding: 0; } 
+
 #logo2 {
   position: absolute;
   z-index: 9999;
