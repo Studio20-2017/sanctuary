@@ -120,9 +120,10 @@ border-bottom: 1.5px solid #8baaad;
 
 @media screen and (max-width: 764px) {
       #footertext a {
-	color:blue;
+		color:blue;
         padding: 100px;
         font-size: 100px; 
+	}
 }
 
 /* Audio Boxes */
