@@ -69,9 +69,64 @@
 <div id="gallup">
 <h3 style="text-align:center">How Americans reacted to the idea of inviting Jews into the US</h3>
 <p class="gallup2">In January 1939, shortly after the wave of violence against European Jews known as <em>Kristallnacht</em>, Gallup asked Americans about a government proposal to admit 10,000 refugee children from Germany into the country, to be cared for in American homes:</p>
-<div class="gallupnos">
-<h1>26%</h1><p style="color:#450920">in favor</p>
-</div>
+<table class="gallupnos">
+	<tr>
+		<td><h1>26%</h1></td>
+		<td><h1>67%</h1></td>
+	</tr>
+	<tr>
+		<td style="color:#450920; text-align:right;">in favor</td>
+		<td style="color:#450920; text-align:right;">opposed</td>
+	</tr>
+</table>
+<p class="gallup2">The response varied slightly when Gallup specified that many of those refugees would be Jewish children:</p>
+<table class="gallupnos">
+	<tr>
+		<td><h1>31%</h1></td>
+		<td><h1>61%</h1></td>
+	</tr>
+	<tr>
+		<td style="color:#450920; text-align:right;">in favor</td>
+		<td style="color:#450920; text-align:right;">opposed</td>
+	</tr>
+</table>
+<p class="gallup2">In the aftermath of the war, Gallup polled Americans about potential plans to help the hundreds of thousands of Jewish and other European displaced persons. They asked variations of the question throughout 1946 and 1947.</p>
+<p class="gallup2">They first asked if Americans approved of a general “plan to require each nation to take in a given number of Jewish and other European refugees, based upon the size and population of each nation":</p>
+<table class="gallupnos">
+	<tr>
+		<td><h1>40%</h1></td>
+		<td><h1>49%</h1></td>
+	</tr>
+	<tr>
+		<td style="color:#450920; text-align:right;">in favor</td>
+		<td style="color:#450920; text-align:right;">opposed</td>
+	</tr>
+</table>
+<p class="gallup2">They next asked about President Harry Truman’s intention to ask Congress to increase U.S. immigration quotas for Jewish and other European refugees:
+</p>
+<table class="gallupnos">
+	<tr>
+		<td><h1>16%</h1></td>
+		<td><h1>72%</h1></td>
+	</tr>
+	<tr>
+		<td style="color:#450920; text-align:right;">in favor</td>
+		<td style="color:#450920; text-align:right;">opposed</td>
+	</tr>
+</table>
+<p class="gallup2">Finally, they asked Americans how they would feel about their own states taking in 10,000 “displaced persons from Europe":
+</p>
+<table class="gallupnos">
+	<tr>
+		<td><h1>24%</h1></td>
+		<td><h1>57%</h1></td>
+	</tr>
+	<tr>
+		<td style="color:#450920; text-align:right;">in favor</td>
+		<td style="color:#450920; text-align:right;">opposed</td>
+	</tr>
+</table>
+<a class="source" style="float:right; padding-right: 10px;" href="http://www.gallup.com/opinion/polling-matters/186716/historical-review-americans-views-refugees-coming.aspx">Gallup</a>
 </div>
 
 <script>
