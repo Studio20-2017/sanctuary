@@ -13,6 +13,11 @@ html, body {
   width: 180px;
 }
 
+@media screen and (max-width: 764px) {
+	#logo2 {
+    width: 300px;
+}
+
 .boxes {
   width: 100%;
   height:100vh;
@@ -120,8 +125,8 @@ border-bottom: 1.5px solid #8baaad;
 
 @media screen and (max-width: 764px) {
       #footertext a {
-        padding: 15px;
-        font-size: 20px; }
+        padding: 40px;
+        font-size: 40px; 
 }
 
 /* Audio Boxes */
