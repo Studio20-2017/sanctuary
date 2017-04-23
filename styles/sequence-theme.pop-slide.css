@@ -59,6 +59,22 @@ html,
 	background-size: contain;
 }
 
+/*About button*/
+#about {
+	background-image: url('https://github.com/Studio20-2017/sanctuary/blob/master/images/About%20White.png?raw=true');
+	height: 40px;
+	width: 60px;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#about:hover {
+	background-image: url('https://github.com/Studio20-2017/sanctuary/blob/master/images/About%20Gray.png?raw=true');
+	height: 40px;
+	width: 60px;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
 .seq {
   position: relative;
   /* Dimensions */
