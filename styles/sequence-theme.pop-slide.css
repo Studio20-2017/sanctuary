@@ -578,8 +578,8 @@ color: white;
 /*Start Journey button*/
 .start {
 	background-image: url('https://github.com/Studio20-2017/sanctuary/blob/master/images/Start%20Journey%20Button.png?raw=true');
-	height: 40px;
-	width: 200px;
+	height: 28px;
+	width: 183px;
 	background-size: contain;
 }
 .start:hover {
