@@ -577,7 +577,7 @@ color: white;
 
 /*Start Journey button*/
 .start {
-	background-image: src('images/Start Journey Button.png');
+	background-image: url('https://github.com/Studio20-2017/sanctuary/blob/master/images/Start%20Journey%20Button.png?raw=true');
 	height: 40px;
 	width: 200px;
 	background-size: contain;
