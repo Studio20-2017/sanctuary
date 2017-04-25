@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Teddy
+title: Nerdeen
 nextstory: GO ON ROSA'S JOURNEY &rarr;
 ---
  <div class="boxes" id="first">
