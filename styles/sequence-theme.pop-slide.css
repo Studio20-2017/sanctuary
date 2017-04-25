@@ -227,7 +227,7 @@ html,
   position: absolute;
   margin: 0 auto;
   z-index:99999;
-  top: 35%;
+  top: 40%;
   top: calc(50%-150px);
   right: 0px;
 }
@@ -252,7 +252,7 @@ html,
   position: absolute;
   margin: 0 auto;
   z-index:99999;
-  top: 35%;
+  top: 40%;
   top: calc(50%-150px);
 }
 .seq-prev img {
