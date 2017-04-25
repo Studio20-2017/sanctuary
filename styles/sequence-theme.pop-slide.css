@@ -577,16 +577,18 @@ color: white;
 
 /*Start Journey button*/
 .start {
-	background-image: url('https://github.com/Studio20-2017/sanctuary/blob/master/images/Start%20Journey%20Button.png?raw=true');
-	height: 28px;
-	width: 183px;
+	background-image: url('https://github.com/Studio20-2017/sanctuary/blob/master/images/Start%20Journey%20White-07.png?raw=true');
+	height: 75px;
+	width: 225px;
 	background-size: contain;
+	background-repeat: no-repeat;
 }
 .start:hover {
-	background-image: url('https://github.com/Studio20-2017/sanctuary/blob/master/images/Start%20Journey%20Gray.png?raw=true');
-	height: 40px;
-	width: 200px;
+	background-image: url('https://github.com/Studio20-2017/sanctuary/blob/master/images/Start%20Journey%20Gray-07.png?raw=true');
+	height: 75px;
+	width: 225px;
 	background-size: contain;
+	background-repeat: no-repeat;
 }
 
 /*About button*/
