@@ -9,4 +9,5 @@ nextstory: FOLLOW NERDEEN'S JOURNEY &rarr;
  </div>
  </div>
  <div class="boxes" id="second">
+ <img alt="The Great Migration" src"images/berthagraphics/greatmigrationmap.png"></img>
  </div>
