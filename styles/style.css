@@ -20,6 +20,11 @@ html, body {
   min-height:100vh;  
 }
 
+.rosa2{
+  width: 755%;
+	margin: auto;
+}
+
 .video {
     position: absolute;
     left: 0;
