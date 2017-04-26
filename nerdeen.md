@@ -2,6 +2,7 @@
 layout: default
 title: Nerdeen
 nextstory: FOLLOW ROSA'S JOURNEY &rarr;
+nexturl: rosa.html
 ---
  <div class="boxes" id="first">
  <div class="video">
