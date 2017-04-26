@@ -268,29 +268,22 @@ html,
   opacity: .7;
 }
 
-/* fallback photos for mobile */
-.seq .seq-step1 {
-  background-image: url("../images/step1.gif");
-}
-
-.seq .seq-step2 {
-  background-image: url("../images/step2.gif");
-}
-
-.seq .seq-step3 {
-  background-image: url("../images/JocoGif.gif");
-}
-.seq .seq-step4 {
-
-}
-.seq .seq-step5 {
-}
-
 /* on mobile by defualt hide the video files */
-.seq .seq-step1 video, .seq .seq-step2 video, .seq .seq-step3 video, .seq .seq-step4 video, .seq .seq-step5 video {
+.seq .seq-step1 video,
+.seq .seq-step2 video,
+.seq .seq-step3 video,
+.seq .seq-step4 video,
+.seq .seq-step5 video,
+.seq .seq-step6 video {
   display: none;
 }
-
+/* on mobile, instead of video, show a gif for each person */
+.seq .seq-step1 { background-image: url("../images/bub.gif"); }
+.seq .seq-step2 { background-image: url("../images/bub.gif"); }
+.seq .seq-step3 { background-image: url("../images/bub.gif"); }
+.seq .seq-step4 { background-image: url("../images/bub.gif"); }
+.seq .seq-step5 { background-image: url("../images/bub.gif"); }
+.seq .seq-step6 { background-image: url("../images/bub.gif"); }
 
 
 .seq small {

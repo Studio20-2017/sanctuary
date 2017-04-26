@@ -42,6 +42,8 @@ var mySequence = sequence(sequenceElement, options);
 
 // when you click another character...
 mySequence.animationEnded = function(id, sequence) {
+  var isMobile = $(window).width() <= 479;
+
   // ...pause all the videos
   document.getElementById('video1').pause();
   document.getElementById('video2').pause();
@@ -50,31 +52,50 @@ mySequence.animationEnded = function(id, sequence) {
   document.getElementById('video5').pause();
   document.getElementById('video6').pause();
 
-
   // ...and then play the video for the character we went to
-  document.getElementById('video'+id).play();
-  
+  if (!isMobile) {
+    document.getElementById('video'+id).play();
+  }
+
   if (id == 1) {
   	$(".seq-prev").hide();
   } else {
   	$(".seq-prev").show();
   }
-  
+
    if (id == 6) {
   	$(".seq-next").hide();
   } else {
   	$(".seq-next").show();
   }
-  	
+
 }
 
 
 // when the page first loads...
 $(function () {
-  // ...automatically start the first video
-  document.getElementById('video1').play();
-   	
-   	
-   $(".seq-prev").hide();
+  var isMobile = $(window).width() <= 479;
 
-})
+  // ...automatically start the first video
+  if (!isMobile) {
+    document.getElementById('video1').play();
+  }
+
+  $(".seq-prev").hide();
+  $(".seq-next").show();
+
+});
+
+
+// if the screen is resized to the mobile size, pause all the videos
+$(window).resize(function() {
+  var isMobile = $(window).width() <= 479;
+  if (isMobile) {
+    document.getElementById('video1').pause();
+    document.getElementById('video2').pause();
+    document.getElementById('video3').pause();
+    document.getElementById('video4').pause();
+    document.getElementById('video5').pause();
+    document.getElementById('video6').pause();
+  }
+});
