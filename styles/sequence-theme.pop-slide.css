@@ -222,7 +222,7 @@ html,
   text-transform: uppercase;
 
   /* #3 */
-  opacity: .7;
+  opacity: 1;
   transition-duration: .25s;
   transition-property: opacity;
   position: absolute;
