@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Teddy
+title: TeddyXX
 nextstory: FOLLOW JESUS'S JOURNEY &rarr;
 nexturl: jesus.html
 ---
