@@ -14,6 +14,7 @@ nexturl: rosa.html
 <script src="https://studio20-2017.github.io/sanctuary/scripts/jquery.min.js"></script>
 <script src="https://studio20-2017.github.io/sanctuary/scripts/jquery.scrollie.min_1.js"></script>
 <script src="https://studio20-2017.github.io/sanctuary/scripts/nerdeen.js"></script>
+<link rel="stylesheet" type="text/css" href="https://studio20-2017.github.io/sanctuary/styles/charstyle.css">
 
 <h1>Shifting borders</h1>
 
