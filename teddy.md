@@ -2,6 +2,7 @@
 layout: default
 title: Teddy
 nextstory: FOLLOW JESUS'S JOURNEY &rarr;
+nexturl: jesus.html
 ---
  <div class="boxes" id="first">
  <div class="video">
