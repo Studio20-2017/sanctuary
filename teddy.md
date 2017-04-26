@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Teddy
-nextstory: GO ON JESUS'S JOURNEY &rarr;
+nextstory: FOLLOW JESUS'S JOURNEY &rarr;
 ---
  <div class="boxes" id="first">
  <div class="video">
