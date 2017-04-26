@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Henry
-nextstory: GO ON TEDDY'S JOURNEY &rarr;
+nextstory: FOLLOW TEDDY'S JOURNEY &rarr;
 ---
  <div class="boxes" id="first">
  <div class="video">
