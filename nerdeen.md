@@ -9,4 +9,68 @@ nextstory: GO ON ROSA'S JOURNEY &rarr;
  </div>
  </div>
  <div class="boxes" id="second">
+ 
+   <script src="https://studio20-2017.github.io/sanctuary/scripts/jquery.min.js"></script>
+<script src="https://studio20-2017.github.io/sanctuary/scripts/jquery.scrollie.min_1.js"></script>
+
+<div style="height:10000px">
+
+  <div id="map">
+  </div>
+
+  <div id="txt">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+    <div id="map-trigger-1" class="map-trigger"></div>
+    <b> </b><br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+            <div id="map-trigger-2" class="map-trigger"></div>
+<b> </b>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+            <div id="map-trigger-3" class="map-trigger"></div>
+<b> </b>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+        <div id="map-trigger-4" class="map-trigger"></div>
+    <b> </b><br>
+    <br>
+
+  </div>
+</div>
+
+    <script src="js/index.js"></script>
  </div>
