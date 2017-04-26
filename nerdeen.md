@@ -11,9 +11,9 @@ nexturl: rosa.html
  </div>
  <div class="boxes" id="second">
  
-  <script src="https://studio20-2017.github.io/sanctuary/scripts/jquery.min.js"></script>
+<script src="https://studio20-2017.github.io/sanctuary/scripts/jquery.min.js"></script>
 <script src="https://studio20-2017.github.io/sanctuary/scripts/jquery.scrollie.min_1.js"></script>
-
+<script src="https://studio20-2017.github.io/sanctuary/scripts/nerdeen.js"></script>
 
 <h1>Shifting borders</h1>
 
