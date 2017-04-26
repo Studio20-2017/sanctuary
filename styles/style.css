@@ -40,6 +40,18 @@ html, body {
     height: 100%;
 }
 
+.video2 {
+    width: 100%;
+    height: 100%;
+}
+
+.video2 iframe {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
 h1 {
 font-family: Oswald;
 font-size: 30p; 
@@ -101,7 +113,7 @@ border-bottom: 1.5px solid #8baaad;
      display: block;
      width: 100%;
      background-color: black;
-     margin-bottom:0;
+     margin-bottom: 0;
 }
      
 #footertext{
