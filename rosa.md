@@ -2,6 +2,7 @@
 layout: default
 title: Rosa
 nextstory: FOLLOW HENRY'S JOURNEY &rarr;
+nexturl: henry.html
 ---
 <div class="boxes" id="first">
 <div class="video">
