@@ -2,6 +2,7 @@
 layout: default
 title: Bertha
 nextstory: FOLLOW NERDEEN'S JOURNEY &rarr;
+nexturl: nerdeen.html
 ---
  <div class="boxes" id="first">
  <div class="video">
