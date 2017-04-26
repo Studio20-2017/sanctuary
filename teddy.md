@@ -9,5 +9,5 @@ nextstory: FOLLOW JESUS'S JOURNEY &rarr;
  </div>
  </div>
  <div class="boxes" id="second">
- <iframe src="http://alpha.editor.p5js.org/embed/Bkp9zZnAg" width="80%"></iframe>
+ <iframe src="http://alpha.editor.p5js.org/embed/Bkp9zZnAg"></iframe>
  </div>
