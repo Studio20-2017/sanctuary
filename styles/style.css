@@ -138,6 +138,7 @@ border-bottom: 1.5px solid #8baaad;
 	color:white;
         padding: 40px;
         font-size: 40px; 
+	      padding-bottom:0;
 	}
 }
 
