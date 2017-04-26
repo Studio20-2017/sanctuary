@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Rosa
-nextstory: GO ON HENRY'S JOURNEY &rarr;
+nextstory: FOLLOW HENRY'S JOURNEY &rarr;
 ---
 <div class="boxes" id="first">
 <div class="video">
