@@ -20,7 +20,7 @@ nexturl: rosa.html
 
 
 
-<div style="height:10000px">
+<div>
 
   <div id="map">
   </div>
