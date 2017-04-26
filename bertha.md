@@ -10,7 +10,10 @@ nexturl: nerdeen.html
  </div>
  </div>
  <div class="boxes" id="second">
- <img alt="The Great Migration" src="images/berthagraphics/greatmigrationmap.png" width="100%">
+   <div class="desktop"><img alt="The Great Migration" src="images/berthagraphics/greatmigrationmap.png" width="100%"></div>
+   <div class="mobile">
+   text
+   </div>
  </div>
 <div class="boxes" id="third">
  <img alt="The Great Migration" src="images/berthagraphics/greatmigrationviz.png" width="100%">
