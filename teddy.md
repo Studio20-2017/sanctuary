@@ -9,4 +9,5 @@ nextstory: GO ON JESUS'S JOURNEY &rarr;
  </div>
  </div>
  <div class="boxes" id="second">
+ <img alt="Relocation of Japanese people to internment camps" src="http://alpha.editor.p5js.org/full/Bkp9zZnAg"></img>
  </div>
