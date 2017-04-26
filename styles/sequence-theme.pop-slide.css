@@ -212,6 +212,7 @@ html,
   /* #1 */
   background: transparent;
   border: none;
+  outline: 0;
 
   /* #2 */
   padding: .75em;
@@ -227,7 +228,7 @@ html,
   position: absolute;
   margin: 0 auto;
   z-index:99999;
-  top: 40%;
+  top: 45%;
   top: calc(50%-150px);
   right: 0px;
 }
@@ -237,6 +238,7 @@ html,
   /* #1 */
   background: transparent;
   border: none;
+  outline: 0;
 
   /* #2 */
   padding: .75em;
@@ -246,13 +248,13 @@ html,
   text-transform: uppercase;
 
   /* #3 */
-  opacity: .7;
+  opacity: 1;
   transition-duration: .25s;
   transition-property: opacity;
   position: absolute;
   margin: 0 auto;
   z-index:99999;
-  top: 40%;
+  top: 45%;
   top: calc(50%-150px);
 }
 .seq-prev img {
@@ -263,7 +265,7 @@ html,
 }
 .seq-next:hover,
 .seq-prev:hover {
-  opacity: 1;
+  opacity: .7;
 }
 
 /* fallback photos for mobile */
@@ -577,18 +579,14 @@ color: white;
 
 /*Start Journey button*/
 .start {
-	background-image: url('https://github.com/Studio20-2017/sanctuary/blob/master/images/Start%20Journey%20White-07.png?raw=true');
 	height: 58px;
 	width: 175px;
-	background-size: contain;
-	background-repeat: no-repeat;
+	opacity: 1;
+  	transition-duration: .25s;
+  	transition-property: opacity;
 }
 .start:hover {
-	background-image: url('https://github.com/Studio20-2017/sanctuary/blob/master/images/Start%20Journey%20Gray-07.png?raw=true');
-	height: 58px;
-	width: 175px;
-	background-size: contain;
-	background-repeat: no-repeat;
+	opacity: .7
 }
 
 /*About button*/
@@ -598,20 +596,13 @@ color: white;
   	left: 94%;
   	top: 16%; 
   	z-index: 99999;
-	background-image: url('https://github.com/Studio20-2017/sanctuary/blob/master/images/About%20White.png?raw=true');
-	height: 40px;
-	width: 50px;
-	background-size: contain;
-	background-repeat: no-repeat;
+	opacity: 1;
+  	transition-duration: .25s;
+  	transition-property: opacity;
 }
 #about:hover {
-	background-image: url('https://github.com/Studio20-2017/sanctuary/blob/master/images/About%20Gray.png?raw=true');
-	height: 40px;
-	width: 50px;
-	background-size: contain;
-	background-repeat: no-repeat;
+	opacity: .7
 }
-
   
  /*this makes the letters glow in the progress bar*/
   
@@ -633,14 +624,5 @@ span.glow:hover, span.glow:focus
 	text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
 }
 
-/* start journey button*/
-#button {
-position: absolute;
-margin: 0 auto;
-left: 39%;
-right: 50%;
-top: 60%;
-width: 100px;
-}
 
   
