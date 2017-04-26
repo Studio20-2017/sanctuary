@@ -2,6 +2,7 @@
 layout: default
 title: Jesus
 nextstory: FOLLOW BERTHA'S JOURNEY &rarr;
+nexturl: bertha.html
 ---
  <div class="boxes" id="first">
  <div class="video">
