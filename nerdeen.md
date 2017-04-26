@@ -12,6 +12,7 @@ nextstory: GO ON ROSA'S JOURNEY &rarr;
  
    <script src="https://studio20-2017.github.io/sanctuary/scripts/jquery.min.js"></script>
 <script src="https://studio20-2017.github.io/sanctuary/scripts/jquery.scrollie.min_1.js"></script>
+<script src="">https://studio20-2017.github.io/sanctuary/scripts/nerdeen.js</script>
 
 <div style="height:10000px">
 
@@ -23,35 +24,21 @@ nextstory: GO ON ROSA'S JOURNEY &rarr;
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+
     <div id="map-trigger-1" class="map-trigger"></div>
     <b> </b><br>
     <br>
     <br>
     <br>
     <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+
             <div id="map-trigger-2" class="map-trigger"></div>
 <b> </b>
 <br>
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+
 
             <div id="map-trigger-3" class="map-trigger"></div>
 <b> </b>
@@ -59,12 +46,7 @@ nextstory: GO ON ROSA'S JOURNEY &rarr;
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+
         <div id="map-trigger-4" class="map-trigger"></div>
     <b> </b><br>
     <br>
