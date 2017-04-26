@@ -137,4 +137,42 @@ $(function() {
   }
 });
 </script>
+<script>
+var playing = false;
+function play1(){
+var audio = document.getElementById("clip1");
+ var src = this.src;
+if (playing == false) {
+        audio.play();
+        playing = true;
+        audio.currentTime = 0;
+    } else {
+        audio.pause();
+        playing = false;
+    }
+}
+              
+function play2(){
+       var audio = document.getElementById("clip2");
+       if (playing == false) {
+        audio.play();
+        playing = true;
+        audio.currentTime = 0;
+    } else {
+        audio.pause();
+        playing = false;
+    }
+}
+function play3(){
+       var audio = document.getElementById("clip3");
+       if (playing == false) {
+        audio.play();
+        playing = true;
+        audio.currentTime = 0;
+    } else {
+        audio.pause();
+        playing = false;
+    }
+}
+</script>
 
