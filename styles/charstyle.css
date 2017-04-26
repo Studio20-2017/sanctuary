@@ -155,14 +155,14 @@ span {
   background: grey;
 }
 
-/* nerdeen */ 
+/* nerdeen css */
 #map {
-  width: 600px;
-  height: 600px;
+  width: 700px;
+  height: 700px;
   position: fixed;
-  top:0;
-  left:0;
-  background-image: url('https://studio20-2017.github.io/sanctuary/images/westbankmap.jpg');
+  top:0px;
+  left:500px;
+  background-image: url('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/1917.png');
   background-size: cover;
 
   /* if the "background-image" changes, cross-fade it */
@@ -170,9 +170,7 @@ span {
   transition: background-image 1s;
 }
 /* just to have some stuff off to the side */
-#txt {
-  margin-left: 170px;
-  white-space: pre-wrap;
+
 }
 .map-trigger {
   height: 1px;
