@@ -12,7 +12,7 @@ nextstory: GO ON ROSA'S JOURNEY &rarr;
  
    <script src="https://studio20-2017.github.io/sanctuary/scripts/jquery.min.js"></script>
 <script src="https://studio20-2017.github.io/sanctuary/scripts/jquery.scrollie.min_1.js"></script>
-<script src="">https://studio20-2017.github.io/sanctuary/scripts/nerdeen.js</script>
+<script src="https://studio20-2017.github.io/sanctuary/scripts/nerdeen.js"></script>
 
 <div style="height:10000px">
 
