@@ -68,5 +68,4 @@ Settlements are rapidly expanding. In January 2014, Israel said it plans to buil
    </div>
 </div>
 
-    <script src="js/index.js"></script>
  </div>
