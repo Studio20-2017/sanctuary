@@ -2,6 +2,7 @@
 layout: default
 title: Henry
 nextstory: FOLLOW TEDDY'S JOURNEY &rarr;
+nexturl: teddy.html
 ---
  <div class="boxes" id="first">
  <div class="video">
