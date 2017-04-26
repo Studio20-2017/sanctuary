@@ -18,3 +18,4 @@ nextstory: FOLLOW NERDEEN'S JOURNEY &rarr;
  <div class="video">
  <iframe id="player2" src="https://player.vimeo.com/video/214298054?api=1&player_id=player2" width="100%" height="100%"    frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
  </div>
+</div>
