@@ -11,5 +11,7 @@ nextstory: FOLLOW NERDEEN'S JOURNEY &rarr;
  <div class="boxes" id="second">
  <br>
  <img alt="The Great Migration" src="images/berthagraphics/greatmigrationmap.png" width="100%">
+ </div>
+ <div class="boxes id=""third">
  <img alt="The Great Migration" src="images/berthagraphics/greatmigrationviz.png" width="100%">
  </div>
