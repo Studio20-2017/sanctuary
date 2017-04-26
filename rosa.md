@@ -23,7 +23,7 @@
 <audio id="clip1">
 <source src="audio/rosa_israel.mp3" type="audio/mp3">
 </audio>
-<img class="play" src="https://cdn2.iconfinder.com/data/icons/media-and-navigation-buttons-round/512/Button_3-512.png" onclick="play1()">
+<img class="play" src="https://github.com/Studio20-2017/sanctuary/blob/master/images/Play%20Button.png?raw=true" onclick="play1()">
 
 <p class="audioquotewhite">"I wanted to go to Israel. But there was a war in Israel."</p>
 </div>
@@ -35,7 +35,7 @@
 <audio id="clip2">
 <source src="audio/rosa_auschwitz.mp3" type="audio/mp3">
 </audio>
-<img class="play" src="https://cdn2.iconfinder.com/data/icons/media-and-navigation-buttons-round/512/Button_3-512.png" onclick="play2()">
+<img class="play" src="https://github.com/Studio20-2017/sanctuary/blob/master/images/Play%20Button.png?raw=true" onclick="play2()">
 
 <p class="audioquotered">"I was very unhappy there, but it wasn't Auschwitz."</p>
 </div>
@@ -45,9 +45,9 @@
 <audio id="clip3">
 <source src="audio/rosa_america.mp3" type="audio/mp3">
 </audio>
-<img class="play" src="https://cdn2.iconfinder.com/data/icons/media-and-navigation-buttons-round/512/Button_3-512.png" onclick="play3()">
+<img class="play" src="https://github.com/Studio20-2017/sanctuary/blob/master/images/Play%20Button.png?raw=true" onclick="play3()">
 
-<p class="audioquotewhite">"From Auschwitz to America."</p>
+<p class="audioquotewhite">"They called it, From Auschwitz to America."</p>
 </div>
 <p>Rosa arrived in New York on the S.S. Ernie Pyle. She was 18 years old, and had no family in America. But she had been given a rare opportunity.</p>
 
@@ -233,18 +233,42 @@ $('body').on('mousemove mousewheel DOMMouseScroll MozMousePixelScroll', function
   </script>
 
 <script>
+var playing = false;
 function play1(){
-       var audio = document.getElementById("clip1");
-       audio.play();
-                 }
+var audio = document.getElementById("clip1");
+ var src = this.src;
+if (playing == false) {
+        audio.play();
+        playing = true;
+        audio.currentTime = 0;
+    } else {
+        audio.pause();
+        playing = false;
+    }
+}
+              
 function play2(){
        var audio = document.getElementById("clip2");
-       audio.play();
-                 }
+       if (playing == false) {
+        audio.play();
+        playing = true;
+        audio.currentTime = 0;
+    } else {
+        audio.pause();
+        playing = false;
+    }
+}
 function play3(){
        var audio = document.getElementById("clip3");
-       audio.play();
-                 }
+       if (playing == false) {
+        audio.play();
+        playing = true;
+        audio.currentTime = 0;
+    } else {
+        audio.pause();
+        playing = false;
+    }
+}
 </script>
 <script>
 $('.carousel').carousel({

@@ -131,20 +131,23 @@ border-bottom: 1.5px solid #8baaad;
   background-color: #663333;
   width: 60%;
   padding-top: 10px;
-  display: flex;
 }
 
 .audioboxwhite {  
   width: 60%;
-  display: flex;
   padding-top: 10px;
 }
 
 .play {
   float: left;
-  width: 20%;
-  height: 20%;
   padding: 0px 5px 10px 20px;
+  opacity: 1;
+  transition-duration: .25s;
+  transition-property: opacity;
+}
+
+.play:hover {
+	opacity: .7;
 }
 
 .audioquotewhite {
