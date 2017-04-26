@@ -197,3 +197,29 @@ border-bottom: 1.5px solid #8baaad;
 td {
   padding:0 35px 0 35px;
 }
+
+#map {
+  width: 600px;
+  height: 600px;
+  position: fixed;
+  top:0;
+  left:0;
+  background-image: url('https://studio20-2017.github.io/sanctuary/images/westbankmap.jpg');
+  background-size: cover;
+
+  /* if the "background-image" changes, cross-fade it */
+  -webkit-transition: background-image 1s;
+  transition: background-image 1s;
+}
+/* just to have some stuff off to the side */
+#txt {
+  margin-left: 170px;
+  white-space: pre-wrap;
+}
+.map-trigger {
+  height: 1px;
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
