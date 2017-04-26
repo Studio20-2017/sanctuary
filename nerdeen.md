@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Nerdeen
-nextstory: GO ON ROSA'S JOURNEY &rarr;
+nextstory: FOLLOW ROSA'S JOURNEY &rarr;
 ---
  <div class="boxes" id="first">
  <div class="video">
