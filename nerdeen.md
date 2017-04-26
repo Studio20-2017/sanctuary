@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Nerdeen
-nextstory: GO ON ROSA'S JOURNEY &rarr;
+nextstory: FOLLOW ROSA'S JOURNEY &rarr;
+nexturl: rosa.html
 ---
  <div class="boxes" id="first">
  <div class="video">
@@ -48,9 +49,21 @@ nextstory: GO ON ROSA'S JOURNEY &rarr;
 <br>
 
         <div id="map-trigger-4" class="map-trigger"></div>
-    <b> </b><br>
+    <b> </b>
     <br>
-
+    <br>
+    <br>
+    
+         <div id="map-trigger-5" class="map-trigger"></div>
+<b> </b>
+<br>
+<br>
+<br>
+<br>
+         <div id="map-trigger-6" class="map-trigger"></div>
+<b> </b>
+<br>
+<br>
   </div>
 </div>
 

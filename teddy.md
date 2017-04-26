@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Teddy
-nextstory: GO ON JESUS'S JOURNEY &rarr;
+nextstory: FOLLOW JESUS'S JOURNEY &rarr;
+nexturl: jesus.html
 ---
  <div class="boxes" id="first">
  <div class="video">
@@ -9,5 +10,5 @@ nextstory: GO ON JESUS'S JOURNEY &rarr;
  </div>
  </div>
  <div class="boxes" id="second">
- <img alt="Relocation of Japanese people to internment camps" src="http://alpha.editor.p5js.org/full/Bkp9zZnAg"></img>
+ <iframe src="http://alpha.editor.p5js.org/embed/Bkp9zZnAg"></iframe>
  </div>

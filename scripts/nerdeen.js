@@ -16,7 +16,7 @@ $('#map-trigger-1').scrollie({
     scrollOffset : 0,
     scrollRatio : 2,
     scrollingInView : function(){
-      changeMap('https://studio20-2017.github.io/sanctuary/images/westbankmap.jpg');
+      changeMap('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Transparent Background/1917.png');
     }
   });
 
@@ -25,7 +25,7 @@ $('#map-trigger-1').scrollie({
     scrollOffset : 0,
     scrollRatio : 2,
     scrollingInView : function(){
-      changeMap('https://studio20-2017.github.io/sanctuary/images/westbankmap2.jpg');
+      changeMap('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Transparent Background/1946.png');
     }
   });
 
@@ -35,7 +35,7 @@ $('#map-trigger-1').scrollie({
     scrollOffset : 0,
     scrollRatio : 2,
     scrollingInView : function(){
-      changeMap('https://studio20-2017.github.io/sanctuary/images/westbankmap3.jpg');
+      changeMap('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Transparent Background/1947.png');
     }
   });
 
@@ -44,6 +44,24 @@ $('#map-trigger-1').scrollie({
     scrollOffset : 0,
     scrollRatio : 2,
     scrollingInView : function(){
-      changeMap('https://studio20-2017.github.io/sanctuary/images/westbankmap4.jpg');
+      changeMap('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Transparent Background/1948.png');
+    }
+  });
+
+ $('#map-trigger-5').scrollie({
+    direction : 'both',
+    scrollOffset : 0,
+    scrollRatio : 2,
+    scrollingInView : function(){
+      changeMap('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Transparent Background/1967.png');
+    }
+  });
+
+ $('#map-trigger-6').scrollie({
+    direction : 'both',
+    scrollOffset : 0,
+    scrollRatio : 2,
+    scrollingInView : function(){
+      changeMap('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Transparent Background/1994-2014.png');
     }
   });
