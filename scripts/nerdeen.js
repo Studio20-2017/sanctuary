@@ -16,7 +16,7 @@ $('#map-trigger-1').scrollie({
     scrollOffset : 0,
     scrollRatio : 2,
     scrollingInView : function(){
-      changeMap('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Transparent Background/1917.png');
+      changeMap('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/1917.png');
     }
   });
 
@@ -25,7 +25,7 @@ $('#map-trigger-1').scrollie({
     scrollOffset : 0,
     scrollRatio : 2,
     scrollingInView : function(){
-      changeMap('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Transparent Background/1946.png');
+      changeMap('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/1946.png');
     }
   });
 
@@ -35,7 +35,7 @@ $('#map-trigger-1').scrollie({
     scrollOffset : 0,
     scrollRatio : 2,
     scrollingInView : function(){
-      changeMap('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Transparent Background/1947.png');
+      changeMap('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/1947 - UN Partition Plan.png');
     }
   });
 
@@ -44,16 +44,16 @@ $('#map-trigger-1').scrollie({
     scrollOffset : 0,
     scrollRatio : 2,
     scrollingInView : function(){
-      changeMap('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Transparent Background/1948.png');
+      changeMap('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/1948.png');
     }
   });
-
- $('#map-trigger-5').scrollie({
+  
+   $('#map-trigger-5').scrollie({
     direction : 'both',
     scrollOffset : 0,
     scrollRatio : 2,
     scrollingInView : function(){
-      changeMap('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Transparent Background/1967.png');
+      changeMap('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/1967.png');
     }
   });
 
@@ -62,6 +62,6 @@ $('#map-trigger-1').scrollie({
     scrollOffset : 0,
     scrollRatio : 2,
     scrollingInView : function(){
-      changeMap('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Transparent Background/1994-2014.png');
+      changeMap('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/1994-2014.png');
     }
   });
