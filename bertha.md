@@ -16,7 +16,7 @@ nexturl: nerdeen.html
  <img alt="The Great Migration" src="images/berthagraphics/greatmigrationviz.png" width="100%">
  </div>
  <div class="boxes" id="fourth">
- <div class="video">
+ <div class="video2">
  <iframe id="player2" src="https://player.vimeo.com/video/214298054?api=1&player_id=player2" width="100%" height="100%"    frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
  </div>
  </div>
