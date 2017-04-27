@@ -614,7 +614,7 @@ color: white;
 #about {
 	position: absolute; 
   	margin: 0 auto; 
-  	left: 94%;
+  	right: 30px;
   	top: 16%; 
   	z-index: 99999;
 	opacity: 1;
