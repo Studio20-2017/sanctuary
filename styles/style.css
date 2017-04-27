@@ -55,6 +55,7 @@ font-size: 30p;
 font-weight: bold;
 color: #ffffff;
 text-transform: uppercase;
+text-align: center;
 }
 
 h2 {
@@ -72,7 +73,7 @@ color: #4d4847;
 
 p {
 font-family: Quattrocento; 
-font-size: 20px; 
+font-size: 40px; 
 color: #8baaad;
 line-height: 150%;
 text-align: justify;
@@ -114,7 +115,7 @@ margin: auto;
 #second.jesustext{
 width: 100%;
 margin: 0;
-padding: 20px;
+padding: 40px 40px 40px 40px;
 background-color: black;
 }
 
