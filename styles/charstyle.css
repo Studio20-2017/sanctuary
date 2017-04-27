@@ -159,7 +159,7 @@ span {
   background-image: url('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Desktop/1917.jpg');
   background-size: cover;
   z-index: -100;
-  left: 500px;
+  left: 300px;
 
   /* if the "background-image" changes, cross-fade it */
   -webkit-transition: background-image 1s;
@@ -188,14 +188,14 @@ span {
 }
 
 #map-trigger-4 {
-    background-image: url("https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/1948.jpg");
+    background-image: url("https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Desktop/1948.jpg");
 }
 
 #map-trigger-5 {
-    background-image: url("https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/1967.jpg");
+    background-image: url("https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background//Desktop/1967.jpg");
 }
 #map-trigger-6 {
-    background-image: url("https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/1994 - 2014.jpg");
+    background-image: url("https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Desktop/1994 - 2014.jpg");
 }
 
 #txt {
