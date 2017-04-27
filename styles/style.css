@@ -61,7 +61,7 @@ text-align: center
 @media only screen and (max-width: 764px) and (min-width: 479px)
       h1{
 font-family: Oswald;
-font-size: 50px; 
+font-size: 40px; 
 font-weight: bold;
 color: #450920;
 text-transform: uppercase;
@@ -71,7 +71,7 @@ text-align: center
 @media screen and (max-width: 479px) {
       h1{
 font-family: Oswald;
-font-size: 50px; 
+font-size: 25px; 
 font-weight: bold;
 color: #450920;
 text-transform: uppercase;
