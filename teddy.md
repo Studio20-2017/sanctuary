@@ -10,10 +10,12 @@ nexturl: jesus.html
  </div>
  </div>
  <div id="second">
- <!--<iframe src="images/intermentcamp/index.html" style="width:100%; height:100%; border:none; margin:0; padding:0; overflow:fixed; z-index:99;"></iframe>-->
+ <iframe src="images/intermentcamp/index.html" style="width:100%; height:750px; border:none; margin:0; padding:0; overflow:fixed; z-index:99;"></iframe>
+ <!--
      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.7/p5.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.7/addons/p5.dom.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.7/addons/p5.sound.min.js"></script>
     <link rel="stylesheet" type="text/css" href="images/intermentcamp/style.css">
     <script src="images/intermentcamp/sketch.js"></script>
+    -->
  </div>
