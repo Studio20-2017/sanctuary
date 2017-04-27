@@ -10,7 +10,7 @@ nexturl: jesus.html
  </div>
  </div>
  <div class="teddy2" id="second">
- <h2 font color="#450920">From 1942 to 1946, approximately 120,000 people of Japanese ancestry, citizens and aliens alike, mainly from the West Coast, were forced into 10 relocation camps.</h2>
+ <h2>From 1942 to 1946, approximately 120,000 people of Japanese ancestry, citizens and aliens alike, mainly from the West Coast, were forced into 10 relocation camps.</h2>
  <div id="third">
  <iframe src="images/intermentcamp/index.html" style="width:100%; height:750px; border:none; margin:0; padding:0; overflow:fixed; z-index:99;"></iframe>
  <!--
