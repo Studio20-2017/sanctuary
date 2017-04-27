@@ -109,6 +109,9 @@ border-bottom: 1.5px solid #8baaad;
 #second.rosa2, #second.teddy2{
   width: 75%;
 margin: auto;
+}
+
+#second.teddy2 h2{
 color: #450920;
 }
 
