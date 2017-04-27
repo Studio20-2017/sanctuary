@@ -98,6 +98,24 @@ color: #000f08;
 line-height: 150%;
 text-align: justify;
 }
+	
+@media only screen and (max-width: 764px) and (min-width: 479px)
+      p{
+font-family: Quattrocento; 
+font-size: 20px; 
+color: #000f08;
+line-height: 150%;
+text-align: justify;
+}
+
+@media screen and (max-width: 479px) {
+      p{
+font-family: Quattrocento; 
+font-size: 20px; 
+color: #000f08;
+line-height: 150%;
+text-align: justify;
+}
 
 .quote {
 font-family: Lato;
