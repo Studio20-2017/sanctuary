@@ -280,7 +280,7 @@ html,
 /* on mobile, instead of video, show a gif for each person */
 .seq .seq-step1 { background-image: url("../images/Nerdeen.jpg"); }
 .seq .seq-step2 { background-image: url("../images/Rosa.jpg"); }
-.seq .seq-step3 { background-image: url("../images/Henry.png"); }
+.seq .seq-step3 { background-image: url("../images/Henry2.png"); }
 .seq .seq-step4 { background-image: url("../images/Teddy.jpg"); }
 .seq .seq-step5 { background-image: url("../images/Jesus.png"); }
 .seq .seq-step6 { background-image: url("../images/Bertha.png"); }
