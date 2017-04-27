@@ -377,9 +377,15 @@ video{
   display: none;
   }
   .seq-title a img.name {
-     width: 100px;
-	 
+     width: 200px;
+     display: block; 
+
   }
+	
+.seq-pagination {
+	bottom: 0;
+	
+	
 }
 
 .seq-title {
