@@ -382,6 +382,12 @@ video{
   }
 }
 
+.seq-title {
+	width: initial !important;
+
+	
+}
+
 /* anything bigger than mobile size */
 @media only screen and (min-width: 480px) {
   .seq .seq-title {
