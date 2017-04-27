@@ -20,10 +20,7 @@ nexturl: bertha.html
 
 <p>In Mexico, this makes it easier for local Mexican products to compete on the shelves with American imports. Without tariffs, lower-priced American coffee would imperil the sales of higher-priced Mexican coffee, halting the Mexican farmer’s revenue stream. Without tariffs, local farmers in every agricultural industry can’t compete with American products, and the Mexican economy suffers.</p>
 
-
-
 <p>A trade tariff prevents the American farmer from selling her coffee cheaper in a Mexican supermarket.</p>
-
 
 <p>In 1994, Bill Clinton signed the North American Free Trade Agreement (NAFTA), with the intention to increase the flow of goods and break down trade barriers between Canada, the U.S. and Mexico. “NAFTA means jobs,” Clinton said. NAFTA reduced tariffs on American imports to Mexico, or got rid of them altogether.</p>
 
@@ -32,9 +29,6 @@ nexturl: bertha.html
 <p>During the Great 2008 recession, Mexico’s economy was inextricably linked to the U.S. economy through NAFTA. Mexico suffered more than any country in Latin America.</p>
 
 <p>Thus began one of the largest waves of Mexican migrations the the United States. Jesus’s family was one of such families, after American products imperiled his family’s revenue stream. For a better education and economic opportunities, Jesus’s family left a desolate Puebla, one of the three poorest Mexican states.</p>
-
-
-<p>Thus began one of the largest waves of Mexican migrations to the the United States.</p>
 
 </div>
  
