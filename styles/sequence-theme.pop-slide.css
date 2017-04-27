@@ -616,8 +616,8 @@ color: white;
 #about {
 	position: absolute; 
   	margin: 0 auto; 
-  	right: 30px;
-  	top: 105px; 
+  	right: 42px;
+  	top: 100px; 
   	z-index: 99999;
 	opacity: 1;
   	transition-duration: .25s;
