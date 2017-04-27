@@ -376,6 +376,9 @@ video{
   .seq-next {
   display: none;
   }
+  .seq-title a img {
+     width: 100px;
+  }
 }
 
 /* anything bigger than mobile size */
