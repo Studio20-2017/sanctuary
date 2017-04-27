@@ -66,7 +66,13 @@ mySequence.animationEnded = function(id, sequence) {
     } else {
       $(".seq-next").show();
     }
-  }
+    
+    if (id == 3) {
+      $("#logo2").attr("src", "images/logos/FindingSanctuaryLogoBW.png");
+    } else {
+       $("#logo2").attr("src", "images/logos/FindingSanctuaryLogo.png");
+    }
+    }
 }
 
 
