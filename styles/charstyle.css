@@ -172,6 +172,30 @@ span {
   margin: 0;
   padding: 0;
   display: inline-block;
+  opacity: 0;
+}
+
+#map-trigger-1 {
+    background-image: url("https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/1917.png");
+}
+
+#map-trigger-2 {
+    background-image: url("https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/1946.png");
+}
+
+#map-trigger-3 {
+    background-image: url("https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/1947 - UN Partition Plan.png");
+}
+
+#map-trigger-4 {
+    background-image: url("https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/1948.png");
+}
+
+#map-trigger-5 {
+    background-image: url("https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/1967.png");
+}
+#map-trigger-6 {
+    background-image: url("https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/1994-2014.png");
 }
 
 #txt {
