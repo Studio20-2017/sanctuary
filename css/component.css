@@ -286,3 +286,14 @@
 		}
 	}
 }
+
+
+@media only screen and (max-width: 479px) {
+
+.stack {
+
+	width: 300px;
+	height: 150px;
+	
+}
+}
