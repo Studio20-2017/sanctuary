@@ -9,11 +9,11 @@ nexturl: bertha.html
  <iframe id="player1" src="https://player.vimeo.com/video/213118746?api=1&player_id=player1"    width="100%" height="100%"    frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
  </div>
  </div>
- 
+
 <div class="jesustext" id="second">
+<br> 
 <h1>How U.S. Policy Fueled Mexican Migration</h1>
 <p>By <a href="twitter.com/heysetareh">Setareh Baig</a></p>
-<br>
 <p>If a Mexican farmer needs to sell his coffee for ten dollars to make a profit, an American farmer needs to sell his coffee for eight dollars. This is because the American farmer has wiggle room to make less and still profit off of his commodity.</p>
 
 <p>(Part centering what Jesus’s family did for a living in Mexico)</p>
