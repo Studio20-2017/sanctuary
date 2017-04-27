@@ -69,7 +69,18 @@ text-align: center
 }
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 479px) and (min-width: 401px){
+      h1{
+font-family: Oswald;
+font-size: 25px; 
+font-weight: bold;
+color: #450920;
+text-transform: uppercase;
+text-align: center
+}
+}
+
+@media screen and (max-width: 400px) {
       h1{
 font-family: Oswald;
 font-size: 25px; 
