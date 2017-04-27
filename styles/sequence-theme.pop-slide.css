@@ -441,9 +441,78 @@ video{
    }
 }
 
-	
-/* mobile */
 
+/* tablet */
+@media only screen and (max-width: 769px) and (min-width: 479px) {
+
+
+  
+  .seq-prev {
+    display: none;
+  }
+  .seq-next {
+    display: none;
+  }
+  .seq-title a img.name {
+     width: 400px !important;
+     display: block; 
+
+  }
+.seq.seq-active .seq-title {
+  bottom: 0;
+}
+  .seq-pagination {
+	bottom: 0 !important;
+  }	
+ 
+  .seq .seq-pagination > * {
+	border-radius: 50px !important;
+  }
+  .seq-title {
+	width: 400px !important;
+  }
+  #logo img {
+    width: 108px;
+  }
+  #about {
+  	left: 90%;
+  }
+  
+  /* nerdeen block */
+  .seq-step1 .seq-title {
+     margin-right: 60px;
+   }
+   
+   /* rosa block */
+   .seq-step2 .seq-title {
+     left: 260px !important;
+     margin-top: 510px;
+   }
+   
+   /* henry block */
+   .seq-step3 .seq-title {
+   	left: 0 !important;	
+     margin-top: 90px;
+   }
+   
+   /* teddy block */
+   .seq-step4 .seq-title {
+     margin-left: 90px;
+     margin-top: 50px;
+   }
+   
+   /* jesus block */
+   .seq-step5 .seq-title {
+     left: 300px !important;
+     margin-top: 300px;
+   }
+   
+   /* bertha block */
+   .seq-step6 .seq-title {
+     left: 20px !important;
+     top: 50px !important;
+   }
+}
 
 
 /* anything bigger than mobile size */
