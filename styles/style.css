@@ -96,7 +96,7 @@ color: #4d4847;
 p {
 font-family: Quattrocento; 
 font-size: 30px; 
-color: blue;
+color: #000f08;
 line-height: 150%;
 text-align: justify;
 }
@@ -150,7 +150,7 @@ border-bottom: 1.5px solid #8baaad;
 }
 
 #second.rosatext, #second.teddyheader, #second.jesustext{
-width: 70%;
+width: 60%;
 margin: auto;
 }
 
@@ -197,18 +197,6 @@ color: #450920;
         padding: 40px;
         font-size: 20px; 
 	padding-bottom:0;
-	}
-}
-
-.mobile {
-	display: none;
-}
-@media screen and (max-width: 479px) {
-	.desktop {
-		display: none;
-	}
-	.mobile {
-		display: initial;
 	}
 }
 
