@@ -53,9 +53,8 @@ h1 {
 font-family: Oswald;
 font-size: 30p; 
 font-weight: bold;
-color: #ffffff;
+color: #450920;
 text-transform: uppercase;
-text-align: center;
 }
 
 h2 {
@@ -73,9 +72,9 @@ color: #4d4847;
 
 p {
 font-family: Quattrocento; 
-font-size: 40px; 
-color: #8baaad;
-line-height: 150%;
+font-size: 12p; 
+color: #000f08;
+line-height: 130%;
 text-align: justify;
 }
 
@@ -107,16 +106,9 @@ text-decoration: none;
 border-bottom: 1.5px solid #8baaad;
 }
 
-#second.rosatext, #second.teddyheader{
+#second.rosatext, #second.teddyheader, #second.jesustext{
   width: 75%;
 margin: auto;
-}
-
-#second.jesustext{
-width: 100%;
-margin: 0;
-padding: 40px 40px 40px 40px;
-background-color: black;
 }
 
 #second.teddyheader h2{
