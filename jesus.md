@@ -12,7 +12,7 @@ nexturl: bertha.html
  
 <div class="jesustext" id="second">
 <h1>How U.S. Policy Fueled Mexican Migration</h1>
-<p class="biggertext">If a Mexican farmer needs to sell his coffee for ten dollars to make a profit, an American farmer needs to sell his coffee for eight dollars. This is because the American farmer has wiggle room to make less and still profit off of his commodity.</p>
+<p>If a Mexican farmer needs to sell his coffee for ten dollars to make a profit, an American farmer needs to sell his coffee for eight dollars. This is because the American farmer has wiggle room to make less and still profit off of his commodity.</p>
 
 <p>(Part centering what Jesus’s family did for a living in Mexico)</p>
 
