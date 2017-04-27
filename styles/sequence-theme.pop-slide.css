@@ -382,9 +382,14 @@ video{
 
   }
   .seq-pagination {
-	bottom: 0;
+	bottom: 0 !important;
   }	
-	
+  .seq .seq-pagination > *.seq-current {
+    background: #8baaad !important;
+  }
+  .seq .seq-pagination > * {
+	border-radius: 30px !important;
+  }
   .seq-title {
 	width: initial !important;
   }
