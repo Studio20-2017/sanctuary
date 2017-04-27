@@ -2,6 +2,8 @@
 
 <head>
   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <title>about</title>
 	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 	<script src="scripts/jquery.flip.js"></script>
@@ -12,13 +14,17 @@
       body {
         margin: 0;
         padding: 0px;
-        font-family: Quattrocento;
+        font-family: Oswald;
+        font-weight: lighter;
         position: relative;
+        font-size: 16px;
+        color: white;
       }
 
       #left {
       	margin-right: 400px;
       	background-color: #450920;
+      	padding-bottom: 60px;
       }
 
       #right {
@@ -27,47 +33,65 @@
       	position: fixed;
       	right: 0;
       	top: 0;
-      	bottom: 0;
+      	bottom: 10;
       	color: black;
       	padding: 0 80px 80px;
+      	overflow-y: auto;
       }
       
       .card {
         width: 200px;
         height: 200px;
-        margin: 20px;
+        margin: 60px;
         display: block;
         float: left;
         font-family: Quattrocento;
-          cursor: pointer;
-          opacity: .8;
+          opacity: 1;
+        font-size: 16px;
       }
+
       .card:hover {
-      	opacity: 1;
+      	opacity: .8;
       }
 
       .card .front img {
-    -webkit-filter:grayscale(100%);
+    /* -webkit-filter:grayscale(100%);
     -moz-filter:grayscale(100%);
     -ms-filter:grayscale(100%);
     -o-filter:grayscale(100%);
     filter:grayscale(100%);
+    */
+    	position: absolute;
+    	top: 0px;
+    	left: 0px;
 	  }
+
+	  img.hover {
+	  	z-index: 100;
+	  	display: none;
+	  }
+
+	  .card:hover img.hover {
+	  	display: initial;
+	  }
+
       .front, .back {
         border: none;
-        padding: 10px;
       }
 
       .front {
+        height: 220px;
         background-color: none;
         color: white;
         font-family: Oswald;
         font-weight: normal;
+        position: relative;
       }
 
       .back {
         background-color: #FCF0AD;
         color: #4D4847;
+        padding: 10px;
       }
       .pink {
       	background-color: #F59DB9;
@@ -80,8 +104,6 @@
       }
 
    	 #footer {
-      position: absolute;
-      bottom: 70px;
     }
 
      h1 {
@@ -106,30 +128,102 @@
      	text-decoration-color: #8baaad;
      }
 
+      h4 {
+      	font-family: Oswald, sans-serif;
+      	font-weight: lighter;
+      	font-style: bold;
+      	font-size: 32px;
+      	color: white;
+      	    -webkit-margin-before: 0.5em;
+		    -webkit-margin-after: 0px;
+		    -webkit-margin-start: 0px;
+		    -webkit-margin-end: 0px;
+      }
+/*
+      a {
+      	font-family: Oswald, sans-serif;
+      	font-weight: lighter;
+      	font-style: italic;
+      	font-size: 24px;
+      	color: white;
+      	text-decoration: none;
+      	}
+*/
+      
+      a.about {
+      	font-family: Oswald, sans-serif;
+      	font-weight: lighter;
+      	font-size: 24px;
+      	color: white;
+      	text-decoration: none;
+      }
+
+      a:hover {
+      	background-color: #f4fff8;
+      	color: #450920;
+      	font-style: none;
+      	font-style: italic;
+      }
+
+      a.sidebar {
+      	font-family: Oswald;
+      	color: #450920;
+      	font-weight: italic;
+      	font-size: 16px;
+      	text-decoration: none;
+      }
+
+      .sidebar:hover {
+      	background-color: none;
+      	font-color: white;
+      	font-weight: italic;
+      	text-decoration: underline;
+      	text-decoration-style: double;
+      }
+
+      @media screen and (max-width: 479px) {
+
+      	#right {
+      	height: auto;
+      	position: relative;
+      	color: black;
+      	overflow-y: auto;
+      	padding: 0 20px;
+      }
+
+      	#left {
+      	margin: 0;
+      	padding: 0 20px;
+      	padding-bottom: 60px;
+      	}
+		}
+
     </style>
 </head>
 
 <body>
 	<div id="right">
 		<div id="logo">
-		<a href="https://studio20-2017.github.io/sanctuary/home"><img src="images/logos/logo_bw.png" width="300">
+		<a href="home.html"><img src="images/logos/logo_bw.png" width="300">
 		</a>
 		</div>
 		<br>
 		<br>
 		<h1>About the project</h1>
-		<p> <b>Finding Sanctuary</b> 
-		is a project by graduate students from NYU’s graduate Studio 20 program and friends. </p>
+		<p> <a class="sidebar" href="jesus.md">Jesús</a> crossed the border. <a class="sidebar" href="rosa.md">Rosa</a> survived Auschwitz. <a class="sidebar" href="bertha.md">Bertha</a> left the Deep South. <a class="sidebar" href="teddy.md">Teddy</a> was born in an internment camp. <a class="sidebar" href="henry.md">Henry</a> feeds the homeless. <a class="sidebar" href="nerdeen.md">Nerdeen</a> fights for her homeland. Follow the journeys of these six individuals who have found—or are continuing to seek out—sanctuary in New York City. 
 		<br>
 		<br>
-		<br>
-		<h1>About Studio 20</h1>
-		<p>
-		The <a href="https://journalism.nyu.edu/graduate/programs/studio-20-digital-first/">STUDIO 20</a> concentration at NYU offers master’s level instruction with a focus on innovation and adapting journalism to the web. 	
+		<b>Finding Sanctuary</b> is a multimedia project designed and produced by the graduate students in New York University’s Studio 20 program, and friends from the NYU Journalism and Interactive Telecommunications programs. Discover additional stories by following us on Facebook, Instagram and Twitter. 
+
 		</p>
+
+		<br>
+		<br>
+		Missed the intro video? <a href="index.html">Watch it again.</a>
+		<br>
 		<h2>Special thanks:</h2>
 		<p>
-		TK
+		Zoe Fraade-Blanar, Bob Sacha, Claudia Prat, Jon Huang and Terry Parris Jr.
 		</p>
 		<div id="footer">
 		<img src="images/social.png" width="100px">
@@ -138,157 +232,155 @@
 
 	<div id="left">
 	    <h3> Meet the team </h3>
-	    <div id="Alessandra" class="card">
-	      <div class="front">
-	  		<img src="images/about/ale.jpg" width="200px">
-	      </div>
-
-	      <div class="back">
-	          Alessandra loves VR.
-	      </div>
-	    </div>
- 		<div id="Andi" class="card">
-	      <div class="front">
-	  	  <img src="images/about/andi.jpg" width="200px">
-	      </div>
-	      <div class="back">
-	         Andi likes Xi'An Famous Foods.
-	      </div>
-	    </div>
 	    
-	    <div id="Andrey" class="card">
-	      <div class="front">
-	          <img src="images/about/andrey.jpg" width="200px">
-	      </div>
-	      <div class="back">
-	         Andrey likes cookies.
-	      </div> 
-	    </div>
-
-	    <div id="Anissa" class="card">
-	      <div class="front">
-	          <img src="images/about/anissa.jpg" width="200px">
-	      </div>
-	      <div class="back">
-	          Anissa loves J. Cole.
-	      </div> 
-	    </div>
-
-	    <div id="Ayesha" class="card">
-	      <div class="front">
-	          <img src="images/about/ayesha.jpg" width="200px">
-	      </div>
-	      <div class="back">
-	          Ayesha likes pizza.
-	      </div> 
-	    </div>
-
-	    <div id="Emma" class="card">
-	      <div class="front">
-	          <img src="images/about/emma.jpg" width="200px">
-	      </div>
-	      <div class="back">
-	          Emma likes Australia.
-	      </div> 
-	    </div>
-
-	    <div id="Levi" class="card">
-	      <div class="front">
-	      <img src="images/about/levi.jpg" width="200px">
-	      </div>
-	      <div class="back">
-	          Levi loves making videos.
-	      </div> 
-	    </div>
-
 	    <div id="Lindsay" class="card">
 	      <div class="front">
-	          <img src="images/about/lindsay.jpg" width="200px">
+	          <img class="hover" src="images/hovers/lindsay.png" width="220px">
+	          <img src="images/about/lindsay.jpg" width="220px">
 	      </div>
-	      <div class="back">
-	          Lindsay loves biking.
-	      </div> 
-	    </div>
-
-	    <div id="Maria" class="card">
-	      <div class="front">
-	          <img src="images/about/maria.jpg" width="200px">
-	      </div>
-	      <div class="back">
-	          Maria loves dance.
-	      </div> 
-	    </div>
-
-	    <div id="Sanjana" class="card">
-	      <div class="front">
-	          <img src="images/about/sanjana.jpg" width="200px">
-	      </div>
-	      <div class="back">
-	          Sanjana likes desserts.
-	      </div> 
-	    </div>
-
-	    <div id="Setareh" class="card">
-	      <div class="front">
-	         <img src="images/about/set.jpg" width="200px">
-	      </div>
-	      <div class="back">
-	          Setareh loves Glossier.
-	      </div> 
+	      <h4><a class="about" shref="http://lindsayabrams.com/">LINDSAY ABRAMS</a></h4>
+	      Web + Graphics + Reporting + Video
 	    </div>
 
 	    <div id="Sheba" class="card">
 	      <div class="front">
-	          <img src="images/about/sheba.jpg" width="200px">
+	          <img src="images/about/sheba.jpg" width="220px">
+	          <img class="hover" src="images/hovers/sheba.png" width="220px">
 	      </div>
-	      <div class="back">
-	          Sheba loves Sampha.
-	      </div> 
+	      <h4><a class="about" href="http://twitter.com/escape_artistee">SHEBA ANYANWU</a></h4>
+	      Social Media Manager; Video + Social + Reporting
+	      </div>
+
+		<div id="Setareh" class="card">
+	      <div class="front">
+	         <img class="hover" src="images/hovers/setareh.png" width="220px">
+	         <img src="images/about/set.jpg" width="220px">
+	      </div>
+	      <h4><a class="about" href="http://twitter.com/heysetareh">SETAREH BAIG</a></h4>
+	      Product Manager; Web + Graphics + Reporting
+	    </div>
+
+		<div id="Emma" class="card">
+	      <div class="front">
+	      <img class="hover" src="images/hovers/emma.png" width="220px">
+	          <img src="images/about/emma.jpg" width="220px">
+	      </div>
+	      <h4><a class="about" href="http://twitter.com/emmacillekens">EMMA CILLEKENS</a></h4>
+	      Social + Video + UX + Class Photographer
+	    </div>
+
+	    <div id="Alessandra" class="card">
+	      <div class="front">
+	      <img class="hover" src="images/hovers/ale.png" width="220px">
+	  		<img src="images/about/ale.jpg" width="220px">
+	      </div>
+	      <h4><a class="about" href="http://twitter.com/aledmfreitas">ALESSANDRA FREITAS</a></h4>
+	      Project manager, Video + 360
+	    </div>
+		
+	    <div id="Levi" class="card">
+	      <div class="front">
+	      <img class="hover" src="images/hovers/levi.png" width="220px">
+	      <img src="images/about/levi.jpg" width="220px">
+	      </div>
+	      <h4><a class="about" href="http://twitter.com/riotgriots">LEVI GIKANDI</a></h4>
+	      Project manager; Video + Research + Design +UX
+	    </div>
+
+	     <div id="Sanjana" class="card">
+	      <div class="front">
+	      <img class="hover" src="images/hovers/sanj.png" width="220px">
+	          <img src="images/about/sanjana.jpg" width="220px">
+	      </div>
+	      <h4><a class="about" href="http://twitter.com/sanjanagupta111">SANJANA GUPTA</a></h4>
+	      Project manager; Web + UX
 	    </div>
 
 	    <div id="Steph" class="card">
 	      <div class="front">
-	          <img src="images/about/steph.jpg" width="200px">
+	      <img class="hover" src="images/hovers/steph.png" width="220px">
+	          <img src="images/about/steph.jpg" width="220px">
 	      </div>
-	      <div class="back">
-	          <p>Steph loves cats. She has a 12 y/o cat named India who thinks she (India) is the queen of the world.</p>
-	      </div> 
+	      <h4><a class="about" href="http://twitter.com/realstephanieho">STEPHANIE HO</a></h4>
+	      Web + Design + UX + Research + Graphics
+	    </div>
+
+		<div id="Mike" class="card">
+	      <div class="front">
+	       <img class="hover" src="images/hovers/mike.png" width="220px">
+	      <img src="images/about/mike.jpg" width="220px">
+	      </div>
+	      <h4><a class="about" href="http://twitter.com/mtigas">MIKE TIGAS</a></h4>
+	      Technical advisor
+	    </div>
+
+		<div id="Maria" class="card">
+	      <div class="front">
+	      	<img class="hover" src="images/hovers/maria.png" width="220px">
+	          <img src="images/about/maria.jpg" width="220px">
+	      </div>
+	      <h4><a class="about" href="http://twitter.com/majolavandera">MARIA LAVANDERA</a></h4>
+	      Video + Social + Research
+	    </div>
+		 
+
+		<div id="Anissa" class="card">
+	      <div class="front">
+	      <img class="hover" src="images/hovers/anissa.png" width="220px">
+	          <img src="images/about/anissa.jpg" width="220px">
+	      </div>
+	      <h4><a class="about" href="http://twitter.com/heyyniss">ANISSA PIERRE</a></h4>
+			Web + Design + Video
+	    </div>
+
+		 <div id="Ayesha" class="card">
+	      <div class="front">
+	      <img class="hover" src="images/hovers/ayesha.png" width="220px">
+	          <img src="images/about/ayesha.jpg" width="220px">
+	      </div>
+	      <h4><a class="about" href="http://twitter.com/ayeshashakya">AYESHA SHAKYA</a></h4>
+	      Web + 360 + Video + Graphics
+	    </div>
+
+ 		<div id="Andi" class="card">
+	      <div class="front">
+	  	  <img class="hover" src="images/hovers/andi.png" width="220px">
+	  	  <img src="images/about/andi.jpg" width="220px">
+	      </div>
+	      <h4><a class="about" href="http://orcas.wales">ANDI WANG</a></h4>
+	      Video + Graphics + Research
 	    </div>
 
 	    <div id="Josh" class="card">
 	      <div class="front">
-	      <img src="images/about/josh.jpg" width="200px">
-	      </div>
-	      <div class="back">
-	          Josh loves the Duke men's basketball team.
+	      <img class="hover" src="images/hovers/josh.png" width="220px">
+	      <img src="images/about/josh.jpg" width="220px">
 	      </div> 
+	      <h4><a class="about" href="http://twitter.com/joshabla">JOSH DAVIS</a></h4>
+	      Video instructor
 	    </div>
 
-	    <div id="Mike" class="card">
+	    <div id="Andrey" class="card">
 	      <div class="front">
-	      <img src="images/about/mike.jpg" width="200px">
+	      <img class="hover" src="images/hovers/andrew.png" width="220px">
+	          <img src="images/about/andrey.jpg" width="220px">
 	      </div>
-	      <div class="back">
-	          Mike loves cats.
-	      </div> 
+	      <h4><a class="about" href="http://twitter.com/andrewurodov">ANDREY URODOV</a></h4>
+	      Web + Video
+	    </div>
+
+	    <div id="Shelley" class="card">
+	    	<div class="front">
+	    	<img class="hover" src="images/hovers/shelley.png" width="220px">
+	    	
+	    	</div>
+	    	<h4><a class="about" href="http://www.shelleyhu.com">SHELLEY XINYU HU</a></h4>
+	    	Graphics
 	    </div>
 
 	    <br style="clear: both"/>
     </div>
 
-    <script type="text/javascript">
-    $(function(){
-      $(".card").flip({
-        trigger: "click"
-      });
-    });
-    $(document).ready(function() {
-    $('card').click(function() {
-        $('back').each(function() {
-            $(this).css('background',randomColor());
-        });
-    });
-});
-    </script>
+    
   </body>
 </html>
