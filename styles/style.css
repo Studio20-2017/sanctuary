@@ -58,6 +58,26 @@ text-transform: uppercase;
 text-align: center
 }
 
+@media only screen and (max-width: 764px) and (min-width: 479px)
+      h1{
+font-family: Oswald;
+font-size: 50px; 
+font-weight: bold;
+color: #450920;
+text-transform: uppercase;
+text-align: center
+}
+
+@media screen and (max-width: 479px) {
+      h1{
+font-family: Oswald;
+font-size: 50px; 
+font-weight: bold;
+color: #450920;
+text-transform: uppercase;
+text-align: center
+}
+
 h2 {
 font-family: Oswald;
 font-size: 24p;  
@@ -73,7 +93,7 @@ color: #4d4847;
 
 p {
 font-family: Quattrocento; 
-font-size: 40px; 
+font-size: 20px; 
 color: #000f08;
 line-height: 150%;
 text-align: justify;
@@ -108,11 +128,6 @@ border-bottom: 1.5px solid #8baaad;
 }
 
 #second.rosatext, #second.teddyheader, #second.jesustext{
-  width: 75%;
-margin: auto;
-}
-
-#second.jesustext{
 width: 100%
 margin: 0;
 padding: 40px;
