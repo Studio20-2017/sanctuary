@@ -44,7 +44,7 @@ nexturl: bertha.html
 <div class="container">
 <div class="content color-1">
 <h1>Minor offenses that can get undocumented people deported </h1>
-<h2> By Stephanie Hoe</h2>
+<p> By Stephanie Ho</p>
 	<ul id="stack_krisna" class="stack stack--krisna">
 		<li class="stack__item"><img src="https://studio20-2017.github.io/sanctuary/images/jesusgraphics/1.png" alt="Tree 2" /></li>
 		<li class="stack__item"><img src="https://studio20-2017.github.io/sanctuary/images/jesusgraphics/2.png" alt="Tree 3" /></li>
