@@ -376,8 +376,9 @@ video{
   .seq-next {
   display: none;
   }
-  .seq-title a img {
+  .seq-title a img.name {
      width: 100px;
+	 
   }
 }
 
