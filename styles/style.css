@@ -72,9 +72,9 @@ color: #4d4847;
 
 p {
 font-family: Quattrocento; 
-font-size: 12p; 
-color: #000f08;
-line-height: 130%;
+font-size: 20px; 
+color: #8baaad;
+line-height: 150%;
 text-align: justify;
 }
 
@@ -115,14 +115,6 @@ margin: auto;
 width: 80%;
 margin: auto;
 background-color: black;
-}
-
-p.biggertext {
-font-family: Quattrocento; 
-font-size: 20px; 
-color: #8baaad;
-line-height: 150%;
-text-align: justify;
 }
 
 #second.teddyheader h2{
