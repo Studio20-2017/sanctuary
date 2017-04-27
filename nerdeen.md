@@ -16,7 +16,6 @@ nexturl: rosa.html
 <script src="https://studio20-2017.github.io/sanctuary/scripts/nerdeen.js"></script>
 <link rel="stylesheet" type="text/css" href="https://studio20-2017.github.io/sanctuary/styles/charstyle.css">
 
-<h1>Shifting borders</h1>
 
 
 
@@ -26,9 +25,12 @@ nexturl: rosa.html
   </div>
 
   <div id="txt">
+<h1>Shifting borders</h1>
 
     <div id="map-trigger-1" class="map-trigger"></div>
 <b> </b>
+
+
 <p style="margin-bottom: 200px;">Israeli settlements are housing units inhabited by Israeli citizens, built within regions the International community recognizes as Palestinian territory.  
 Settlements are rapidly expanding. In January 2014, Israel said it plans to build 2,500 new settlement homes in the West Bank. In April 2017, Israeli government approved of 212 new settler units in East al-Quds. </p>
 
