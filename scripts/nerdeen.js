@@ -1,5 +1,6 @@
 window.mapIsChanging = false;
-
+$(function() {
+  
 console.log('nerdeen loaded');
 function changeMap(newImage) {
   if (!mapIsChanging) {
@@ -70,3 +71,4 @@ $('#map-trigger-1').scrollie({
       changeMap('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/1994-2014.png');
     }
   });
+})
