@@ -1,6 +1,6 @@
 window.mapIsChanging = false;
 
-console.log('nerdeen');
+console.log('nerdeen loaded');
 function changeMap(newImage) {
   if (!mapIsChanging) {
     console.log("changing #map to "+newImage);
@@ -17,7 +17,7 @@ $('#map-trigger-1').scrollie({
     scrollOffset : 0,
     scrollRatio : 2,
     scrollingInView : function(){
-      console.log('1');
+      console.log('1917 photo');
 
       changeMap('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/1917.png');
     }
@@ -28,7 +28,7 @@ $('#map-trigger-1').scrollie({
     scrollOffset : 0,
     scrollRatio : 2,
     scrollingInView : function(){
-      console.log('2');
+      console.log('1946 photo');
       changeMap('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/1946.png');
     }
   });
