@@ -10,5 +10,5 @@ nexturl: jesus.html
  </div>
  </div>
  <div id="second">
- <iframe src="http://alpha.editor.p5js.org/embed/Bkp9zZnAg" style="width:100%; height:100%; border:none; margin:0; padding:0; overflow:fixed; z-index:99;"></iframe>
+ <iframe src="images/intermentcamp/index.html" style="width:100%; height:100%; border:none; margin:0; padding:0; overflow:fixed; z-index:99;"></iframe>
  </div>
