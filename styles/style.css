@@ -142,6 +142,18 @@ border-bottom: 1.5px solid #8baaad;
 	padding-bottom:0;
 	}
 }
+.mobile {
+	display: none;
+}
+@media screen and (max-width: 479px) {
+	.desktop {
+		display: none;
+	}
+	.mobile {
+		display: initial;
+	}
+}
+
 
 /* Audio Boxes */
 .audioboxred {  
