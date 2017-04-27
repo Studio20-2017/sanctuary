@@ -371,28 +371,34 @@ video{
   }
   
   .seq-prev {
-  display: none;
+    display: none;
   }
   .seq-next {
-  display: none;
+    display: none;
   }
   .seq-title a img.name {
      width: 200px;
      display: block; 
 
   }
-	
-.seq-pagination {
+  .seq-pagination {
 	bottom: 0;
-	}	
+  }	
 	
-}
-
-.seq-title {
+  .seq-title {
 	width: initial !important;
-
-	
+  }
+  #logo img {
+    width: 108px;
+  }
+  /* nerdeen block */
+  .seq-step1 .seq-title {
+     margin-right: 60px;
+   }
 }
+/* mobile */
+
+
 
 /* anything bigger than mobile size */
 @media only screen and (min-width: 480px) {
