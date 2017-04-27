@@ -592,7 +592,7 @@ color: white;
 #logo {
   position: absolute;
   z-index: 9999;
-  top: 5%;
+  top: 20px;
   right: 2%;
 }
 
@@ -616,8 +616,8 @@ color: white;
 #about {
 	position: absolute; 
   	margin: 0 auto; 
-  	right: 31px;
-  	top: 16%; 
+  	right: 30px;
+  	top: 105px; 
   	z-index: 99999;
 	opacity: 1;
   	transition-duration: .25s;
