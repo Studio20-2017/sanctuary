@@ -22,9 +22,10 @@ html, body {
 	height:100%
 }
 
-#second.rosa2{
+#second.rosa2, #second.teddy2{
   width: 75%;
 margin: auto;
+color: #450920;
 }
 
 .video {
