@@ -20,7 +20,7 @@ $('#map-trigger-1').scrollie({
     scrollingInView : function(){
       console.log('1917 photo');
 
-      changeMap('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/1917.png');
+      changeMap('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/1917withtext.jpg');
     }
   });
 
@@ -30,7 +30,7 @@ $('#map-trigger-1').scrollie({
     scrollRatio : 2,
     scrollingInView : function(){
       console.log('1946 photo');
-      changeMap('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/1946.png');
+      changeMap('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/1946withtext.jpg');
     }
   });
 
