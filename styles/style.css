@@ -106,9 +106,23 @@ text-decoration: none;
 border-bottom: 1.5px solid #8baaad;
 }
 
-#second.rosatext, #second.teddyheader, #second.jesustext{
+#second.rosatext, #second.teddyheader{
   width: 75%;
 margin: auto;
+}
+
+#second.jesustext{
+width: 80%;
+margin: auto;
+background-color: black;
+}
+
+p.biggertext {
+font-family: Quattrocento; 
+font-size: 20px; 
+color: #8baaad;
+line-height: 150%;
+text-align: justify;
 }
 
 #second.teddyheader h2{
