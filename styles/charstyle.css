@@ -159,6 +159,7 @@ span {
   background-image: url('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/1917.png');
   background-size: cover;
   z-index: -100;
+  left: 500px;
 
   /* if the "background-image" changes, cross-fade it */
   -webkit-transition: background-image 1s;
