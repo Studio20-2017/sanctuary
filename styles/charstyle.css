@@ -168,9 +168,10 @@ span {
 /* just to have some stuff off to the side */
 .map-trigger {
   height: 1px;
+  width: 1px;
   margin: 0;
   padding: 0;
-  display: inline;
+  display: inline-block;
 }
 
 #txt {
