@@ -55,20 +55,18 @@ mySequence.animationEnded = function(id, sequence) {
   // ...and then play the video for the character we went to
   if (!isMobile) {
     document.getElementById('video'+id).play();
-  }
+     if (id == 1) {
+      $(".seq-prev").hide();
+    } else {
+      $(".seq-prev").show();
+    }
 
-  if (id == 1) {
-  	$(".seq-prev").hide();
-  } else {
-  	$(".seq-prev").show();
+     if (id == 6) {
+      $(".seq-next").hide();
+    } else {
+      $(".seq-next").show();
+    }
   }
-
-   if (id == 6) {
-  	$(".seq-next").hide();
-  } else {
-  	$(".seq-next").show();
-  }
-
 }
 
 
@@ -79,11 +77,9 @@ $(function () {
   // ...automatically start the first video
   if (!isMobile) {
     document.getElementById('video1').play();
+    $(".seq-prev").hide();
+    $(".seq-next").show();
   }
-
-  $(".seq-prev").hide();
-  $(".seq-next").show();
-
 });
 
 
