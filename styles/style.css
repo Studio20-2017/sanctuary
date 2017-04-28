@@ -64,14 +64,14 @@ font-size: 40px;
 }
 }
 
-@media screen and (max-width: 479px) and (min-width: 401px){
+@media screen and (max-width: 479px) and (min-width: 350px){
       h1{
 font-size: 25px;
 				color:blue;
 }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 350px) {
       h1{
 font-size: 20px; 
 }
