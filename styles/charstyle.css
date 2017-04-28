@@ -205,6 +205,7 @@ txt div br { display: block; }
 
 #txt {
   max-width: 470px;  
+    margin: 0 20px;
 }
 
 #txt p {
@@ -214,6 +215,9 @@ txt div br { display: block; }
 /* mobile size */
 @media only screen and (max-width: 479px) {
 
+  #txt {
+  max-width: 100%;  
+    }
   #map {
 /*
     width: 100vw;
