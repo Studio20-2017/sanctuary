@@ -29,7 +29,7 @@ nexturl: henry.html
 <audio id="clip2">
 <source src="audio/rosa_auschwitz.mp3" type="audio/mp3">
 </audio>
-<img class="play" src="images/Play Button.png" onclick="play2()">
+<img class="play" src="images/button.png" onclick="play2()">
 
 <p class="audioquotewhite">"I was very unhappy there, but it wasn't Auschwitz."</p>
 </div>
