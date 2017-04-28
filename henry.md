@@ -176,9 +176,8 @@ var clickeventtype = mobilecheck() ? 'touchstart' : 'click';
  
 
 
-
-  <div class="boxes video2" id="eighth">
+ <div class="boxes video2" id="eighth">
  <div class="video2">
- <iframe width="100%" height="100%" src="https://www.youtube.com/embed/DNMNKNzu9Cg" frameborder="0" allowfullscreen></iframe>
+ <iframe id="player2" src="https://player.vimeo.com/video/213115662?api=1&player_id=player2" width="100%" height="100%"    frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
  </div>
  </div>
