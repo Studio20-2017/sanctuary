@@ -80,6 +80,13 @@ h2 {
 font-family: Oswald;
 font-size: 24px;  
 color: #8baaad;
+letter-spacing: 1.1px;
+}
+
+@media only screen and (max-width: 769px) {
+      h2{
+font-size: 18px;  
+}
 }
 
 h3 {
