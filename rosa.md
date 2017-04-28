@@ -17,7 +17,7 @@ nexturl: henry.html
 <audio id="clip1">
 <source src="audio/rosa_israel.mp3" type="audio/mp3">
 </audio>
-<img class="play" src="images/Play Button.png" onclick="play1()">
+<img class="play" src="images/button.png" onclick="play1()">
 
 <p class="audioquotewhite">"I wanted to go to Israel. But there was a war in Israel."</p>
 </div>
@@ -29,7 +29,7 @@ nexturl: henry.html
 <audio id="clip2">
 <source src="audio/rosa_auschwitz.mp3" type="audio/mp3">
 </audio>
-<img class="play" src="images/Play Button.png" onclick="play2()">
+<img class="play" src="images/button.png" onclick="play2()">
 
 <p class="audioquotewhite">"I was very unhappy there, but it wasn't Auschwitz."</p>
 </div>
@@ -39,7 +39,7 @@ nexturl: henry.html
 <audio id="clip3">
 <source src="audio/rosa_america.mp3" type="audio/mp3">
 </audio>
-<img class="play" src="images/Play Button.png" onclick="play3()">
+<img class="play" src="images/button.png" onclick="play3()">
 
 <p class="audioquotewhite">"They called it, From Auschwitz to America."</p>
 </div>
