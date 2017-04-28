@@ -228,6 +228,8 @@ color: #450920;
   opacity: 1;
   transition-duration: .25s;
   transition-property: opacity;
+  height: 100px;
+  width: 100px; 
 }
 
 .play:hover {
