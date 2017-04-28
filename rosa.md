@@ -61,7 +61,7 @@ nexturl: henry.html
 
 
 <div id="gallup">
-<h2 style="text-align:center; color:#450920">How Americans reacted to the idea of inviting Jews into the US</h2>
+<h1 style="text-align:center; size=30px;">How Americans reacted to the idea of inviting Jews into the US</h1>
 <p class="gallup2">In January 1939, shortly after the wave of violence against European Jews known as <em>Kristallnacht</em>, Gallup asked Americans about a government proposal to admit 10,000 refugee children from Germany into the country, to be cared for in American homes:</p>
 <table class="gallupnos">
 	<tr>
