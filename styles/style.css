@@ -212,7 +212,7 @@ color: #450920;
   padding-top: 10px;
 }
 
-@media only screen and (max-width: 769px) and (min-width: 330px){
+@media only screen and (max-width: 769px) and (min-width: 0px){
   .audioboxred {
 	width: 100%;
 }
@@ -245,7 +245,7 @@ color: #450920;
   line-height: 50px;
   padding-right: 15px;
 }
-@media only screen and (max-width: 769px) and (min-width: 330px){
+@media only screen and (max-width: 769px) and (min-width: 0px){
   .audioquotewhite {
 	font-size: 18px;
 	line-height: normal;
@@ -291,7 +291,7 @@ color: #450920;
 	width: 200px;
 	line-height: 50%;
 }
-@media only screen and (max-width: 769px) and (min-width: 330px){
+@media only screen and (max-width: 769px) and (min-width: 0px){
   #gallup {
 	width: 100%;
 }
