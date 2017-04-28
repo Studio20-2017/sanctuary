@@ -60,34 +60,20 @@ text-align: center
 
 @media only screen and (max-width: 764px) and (min-width: 479px){
       h1{
-font-family: Oswald;
-font-size: 40px; 
-font-weight: bold;
-color: #450920;
-text-transform: uppercase;
-text-align: center
+font-size: 40px;  
 }
 }
 
 @media screen and (max-width: 479px) and (min-width: 401px){
       h1{
-font-family: Oswald;
-font-size: 25px; 
-font-weight: bold;
-color: #450920;
-text-transform: uppercase;
-text-align: center
+font-size: 25px;
+				color:blue;
 }
 }
 
 @media screen and (max-width: 400px) {
       h1{
-font-family: Oswald;
 font-size: 20px; 
-font-weight: bold;
-color: #450920;
-text-transform: uppercase;
-text-align: center
 }
 }
 
@@ -113,22 +99,14 @@ text-align: justify;
 }
 	
 @media only screen and (max-width: 769px) and (min-width: 479px){
-      p {
-font-family: Quattrocento; 
+      p { 
 font-size: 40px; 
-color: #000f08;
-line-height: 150%;
-text-align: justify;
 }
 }
 
 @media screen and (max-width: 479px) {
       p{
-font-family: Quattrocento; 
 font-size: 20px; 
-color: #000f08;
-line-height: 150%;
-text-align: justify;
 }
 }
 
