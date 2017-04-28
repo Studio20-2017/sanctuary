@@ -58,7 +58,7 @@ text-transform: uppercase;
 text-align: center
 }
 
-@media only screen and (max-width: 764px) and (min-width: 479px){
+@media only screen and (max-width: 769px) and (min-width: 479px){
       h1{
 font-size: 40px;  
 }
@@ -100,12 +100,14 @@ text-align: justify;
 @media only screen and (max-width: 769px) and (min-width: 479px){
       p { 
 font-size: 40px; 
+text-align: left;	      
 }
 }
 
 @media screen and (max-width: 479px) {
       p{
 font-size: 20px; 
+text-align: left;	      
 }
 }
 
@@ -210,6 +212,11 @@ color: #450920;
   padding-top: 10px;
 }
 
+@media only screen and (max-width: 769px) and (min-width: 330px){
+  .audioboxred {
+	width: 100%;
+}
+
 .audioboxwhite {  
   width: 60%;
   padding-top: 10px;
@@ -273,6 +280,10 @@ color: #450920;
 	margin: auto;
 	width: 200px;
 	line-height: 50%;
+}
+@media only screen and (max-width: 769px) and (min-width: 330px){
+  #gallup {
+	width: 100%;
 }
 td {
   padding:0 35px 0 35px;
