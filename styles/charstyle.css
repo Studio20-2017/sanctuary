@@ -218,6 +218,9 @@ txt div br { display: block; }
 */
     background-image: url('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Mobile/1917.jpg');
   }
+    .map-trigger {
+        height: 100vh !important;
+    }
 }
 
 
