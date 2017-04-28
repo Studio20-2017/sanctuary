@@ -104,7 +104,11 @@ $('#map-trigger-1').scrollie({
     scrollOffset : 0,
     scrollRatio : 2,
     scrollingInView : function(){
-      changeMap('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Desktop/lastimage.jpg');
+      if (isMobile()) {
+        changeMap('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Mobile/lastimage.jpg');
+      } else {
+        changeMap('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Desktop/lastimage.jpg');
+      }
     }
   });
 })
