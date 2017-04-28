@@ -75,9 +75,15 @@ mySequence.animationEnded = function(id, sequence) {
     }
     
     if (id == 3) {
-      $("#arrow").attr("src", "images/Left Arrow Black.png");
+      $("#leftarrow").attr("src", "images/Left Arrow Black.png");
     } else {
-       $("#arrow").attr("src", "images/Left Arrow.png");
+       $("#leftarrow").attr("src", "images/Left Arrow.png");
+    }
+    
+    if (id == 3) {
+      $("#rightarrow").attr("src", "images/Right Arrow Black.png");
+    } else {
+       $("#rightarrow").attr("src", "images/Right Arrow.png");
     }
 }
 
