@@ -257,7 +257,7 @@ color: #450920;
 #gallup {
 	margin: auto;
 	width: 75%;
-	border: 2px solid #000f08;
+	border: none;
 	background-color: #8baaad;
 	clear: both;
 	overflow:auto;
