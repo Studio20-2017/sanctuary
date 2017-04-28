@@ -17,7 +17,7 @@ nexturl: henry.html
 <audio id="clip1">
 <source src="audio/rosa_israel.mp3" type="audio/mp3">
 </audio>
-<img class="play" src="images/Play Button.png" onclick="play1()">
+<img class="play" src="images/button.png" onclick="play1()">
 
 <p class="audioquotewhite">"I wanted to go to Israel. But there was a war in Israel."</p>
 </div>
