@@ -31,8 +31,7 @@ nexturl: jesus.html
 
 <div class="container">
 <div class="content color-1">
-<h1>Minor offenses that can get undocumented people deported </h1>
-<p> By Stephanie Ho</p>
+<h1>Life in a Japanese Internment Camp </h1>
 	<ul id="stack_krisna" class="stack stack--krisna">
 		<li class="stack__item"><img src="images/Teddy/1.jpg" alt="Tree 1" /></li>
 		<li class="stack__item"><img src="images/Teddy/2.jpg" alt="Tree 2" /></li>
