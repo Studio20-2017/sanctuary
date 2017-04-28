@@ -148,11 +148,11 @@ if (playing == false) {
         audio.play();
         playing = true;
         audio.currentTime = 0;
-	$("#play1").attr("src", "images/Pause Button.png");
+	document.getElementById("#play1").src="images/Pause Button.png";
     } else {
         audio.pause();
         playing = false;
-	$("#play1").attr("src", "images/Play Button.png");
+	document.getElementById("#play1").src="images/Pause Button.png";
     }
 }
               
