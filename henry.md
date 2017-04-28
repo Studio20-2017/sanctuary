@@ -25,6 +25,7 @@ nexturl: teddy.html
 <div class="container">
 <div class="content color-1">
 <h1>Homelessness in NYC</h1>
+<br>
 	<ul id="stack_krisna" class="stack stack--krisna">
 		<li class="stack__item"><img src="images/henrygraphics/2.png" alt="Tree 2" /></li>
 		<li class="stack__item"><img src="images/henrygraphics/3.png" alt="Tree 3" /></li>
