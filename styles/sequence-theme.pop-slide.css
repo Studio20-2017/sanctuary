@@ -379,7 +379,7 @@ video{
     display: none;
   }
   .seq-title a img.name {
-     width: 250px !important;
+     width: 200px !important;
      display: block; 
 
   }
@@ -396,7 +396,7 @@ video{
 	border-radius: 30px !important;
   }
   .seq-title {
-	width: 250px !important;
+	width: 200px !important;
   }
   #logo img {
     width: 108px;
