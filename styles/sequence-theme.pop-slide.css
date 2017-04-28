@@ -363,8 +363,10 @@ video{
     font-family: "Quattrocento", 'serif';
 }
 
+
+
 /* mobile size */
-@media only screen and (max-width: 479px) {
+@media screen and (max-width: 479px) and (min-width: 330px) {
   .seq .seq-pagination > li a img,
   .seq .seq-pagination > li a span {
     display: none !important;
@@ -405,39 +407,38 @@ video{
   
   /* nerdeen block */
   .seq-step1 .seq-title {
-     margin-right: 60px;
+     left: 10% !important;
+     top: 25% !important;
    }
    
    /* rosa block */
    .seq-step2 .seq-title {
-     margin-left: 90px;
-     margin-top: 310px;
+     left: 30% !important;
+     top: 25% !important;
    }
    
    /* henry block */
    .seq-step3 .seq-title {
-   	left: 0 !important;	
-     margin-top: 90px;
+   	left: 1% !important;
+     top: 15% !important;
    }
    
    /* teddy block */
    .seq-step4 .seq-title {
-     margin-left: 90px;
-     margin-top: 300px;
+     left: 30% !important;
+     top: 25% !important;
    }
    
    /* jesus block */
    .seq-step5 .seq-title {
-     left: 0 !important;
-     margin-left: 110px;
-     margin-top: 150px;
+     left: 30% !important;
+     top: 25% !important;
    }
    
    /* bertha block */
    .seq-step6 .seq-title {
-     left: 0 !important;
-     margin-left: 20px;
-     margin-top: 130px;
+     left: 1% !important;
+     top: 25% !important;
    }
 }
 
