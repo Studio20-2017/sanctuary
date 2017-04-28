@@ -22,17 +22,17 @@ nexturl: rosa.html
   <div id="txt">
 
     <div id="map-trigger-1" class="map-trigger"></div>
-    <br style="margin-top:1200px:"/>
+    <br style="margin-top:1200px;"/>
     <div id="map-trigger-2" class="map-trigger"></div>
-    <br style="margin-top:1200px:"/>
+    <br style="margin-top:1200px;"/>
     <div id="map-trigger-3" class="map-trigger"></div>
-    <br style="margin-top:1200px:"/>
+    <br style="margin-top:1200px;"/>
     <div id="map-trigger-4" class="map-trigger"></div>
-    <br style="margin-top:1200px:"/>
+    <br style="margin-top:1200px;"/>
     <div id="map-trigger-5" class="map-trigger"></div>
-    <br style="margin-top:1200px:"/>
+    <br style="margin-top:1200px;"/>
     <div id="map-trigger-6" class="map-trigger"></div>
-    <br style="margin-top:50px:"/>
+    <br style="margin-top:50px;"/>
 
 <h1>Shifting borders</h1>
 <p>Israeli settlements are housing units inhabited by Israeli citizens, built within regions the International community recognizes as Palestinian territory.  
