@@ -211,12 +211,13 @@ txt div br { display: block; }
 /* mobile size */
 @media only screen and (max-width: 479px) {
 
-    /*
   #map {
+/*
     width: 100vw;
     height: 100vw; 
-  }*/
-
+*/
+    background-image: url('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Mobile/1917.jpg');
+  }
 }
 
 
