@@ -204,7 +204,9 @@ txt div br { display: block; }
   max-width: 470px;  
 }
 
-
+#txt p {
+   color: #ffffff; 
+}
 
 /* mobile size */
 @media only screen and (max-width: 479px) {
@@ -218,3 +220,5 @@ txt div br { display: block; }
 }
 
 }
+
+
