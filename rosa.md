@@ -17,9 +17,9 @@ nexturl: henry.html
 <audio id="clip1">
 <source src="audio/rosa_israel.mp3" type="audio/mp3">
 </audio>
-<div style="display:inline; float:left"><img class="play" src="images/button.png" onclick="play1()"></div>
+<div style="display:inline; float:left"><img class="play" src="images/button.png" onclick="play1()">
 
-<p class="audioquotewhite">"I wanted to go to Israel. But there was a war in Israel."</p>
+<p class="audioquotewhite">"I wanted to go to Israel. But there was a war in Israel."</p></div>
 </div>
 
 <p> Rosa escaped the Nazis while being transported from Auschwitz to another concentration camp; she spent the remainder of the war in Hungary, where she lived under an assumed identity. After V-Day, on May 8, 1945,  she returned to Germany, and ended up in the Landsberg displaced person (DP) camp--a former concentration camp. She waited there for what she believes was about two years, hoping for an opportunity to immigrate to Israel.</p>
@@ -29,9 +29,9 @@ nexturl: henry.html
 <audio id="clip2">
 <source src="audio/rosa_auschwitz.mp3" type="audio/mp3">
 </audio>
-<div style="display:inline; float:left"><img class="play" src="images/button.png" onclick="play2()"></div>
+<div style="display:inline; float:left"><img class="play" src="images/button.png" onclick="play2()">
 
-<p class="audioquotewhite">"I was very unhappy there, but it wasn't Auschwitz."</p>
+<p class="audioquotewhite">"I was very unhappy there, but it wasn't Auschwitz."</p></div>
 </div>
 <br style="clear:right;">
 <p style="clear: right">While in Landsburg, Rosa, by this point in her late teens, kept busy working as a nurse in a nearby hospital. As Rosa recalls, an American woman working in the camp advocated on the behalf of her and other Jewish orphans to President Truman, eventually securing for them a limited number of visas to the U.S. It hadn’t been her plan to come to America, but Rosa saw it as the best offer she had, and accepted. </p>
@@ -39,9 +39,9 @@ nexturl: henry.html
 <audio id="clip3">
 <source src="audio/rosa_america.mp3" type="audio/mp3">
 </audio>
-<div style="display:inline; float:left"><img class="play" src="images/button.png" onclick="play3()"></div>
+<div style="display:inline; float:left"><img class="play" src="images/button.png" onclick="play3()">
 
-<p class="audioquotewhite">"They called it, From Auschwitz to America."</p>
+<p class="audioquotewhite">"They called it, From Auschwitz to America."</p></div>
 </div>
 <p>Rosa arrived in New York on the S.S. Ernie Pyle. She was 18 years old, and had no family in America. But she had been given a rare opportunity.</p>
 
