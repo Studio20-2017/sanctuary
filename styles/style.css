@@ -246,9 +246,12 @@ color: #450920;
 @media only screen and (max-width: 769px) and (min-width: 330px){
   .audioquotewhite {
 	font-size: 18px;
+	line-height: normal;
 }
+  .play {
+	 width: 50%;
 	}
-
+}
 .audioquotered {
   display: inline;
   font-family: Oswald;
