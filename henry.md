@@ -26,11 +26,11 @@ nexturl: teddy.html
 <div class="content color-1">
 <h1>Homelessness in NYC</h1>
 	<ul id="stack_krisna" class="stack stack--krisna">
-		<li class="stack__item"><img src="https://studio20-2017.github.io/sanctuary/images/henrygraphics/2.png" alt="Tree 2" /></li>
-		<li class="stack__item"><img src="https://studio20-2017.github.io/sanctuary/images/henrygraphics/3.png" alt="Tree 3" /></li>
-		<li class="stack__item"><img src="https://studio20-2017.github.io/sanctuary/images/henrygraphics/4.png" alt="Tree 4" /></li>
-		<li class="stack__item"><img src="https://studio20-2017.github.io/sanctuary/images/henrygraphics/5.png" alt="Tree 5" /></li>
-		<li class="stack__item"><img src="https://studio20-2017.github.io/sanctuary/images/henrygraphics/6.png" alt="Tree 6" /></li>
+		<li class="stack__item"><img src="images/henrygraphics/2.png" alt="Tree 2" /></li>
+		<li class="stack__item"><img src="images/henrygraphics/3.png" alt="Tree 3" /></li>
+		<li class="stack__item"><img src="images/henrygraphics/4.png" alt="Tree 4" /></li>
+		<li class="stack__item"><img src="images/henrygraphics/5.png" alt="Tree 5" /></li>
+		<li class="stack__item"><img src="images/henrygraphics/6.png" alt="Tree 6" /></li>
 	</ul>
 	<div class="controls">
 		<button class="button button--sonar button--accept" data-stack="stack_krisna"><i class="fa fa-arrow-right"></i><span class="text-hidden">Accept</span></button>
