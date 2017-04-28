@@ -29,7 +29,7 @@ nexturl: jesus.html
 <script src="js/modernizr-custom.js"></script>
 
 
-<div class="container">
+<div class="container" id="teddy-text">
 <div class="content color-1">
 <h1>Life in a Japanese Internment Camp </h1>
 <br>
