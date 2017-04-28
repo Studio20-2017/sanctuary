@@ -178,26 +178,26 @@ span {
 txt div br { display: block; }
 
 #map-trigger-1 {
-    background-image: url("https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Desktop/1917.jpg");
+    background-image: url("https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Desktop/1917.png");
 }
 
 #map-trigger-2 {
-    background-image: url("https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Desktop/1946.jpg");
+    background-image: url("https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Desktop/1946.png");
 }
 
 #map-trigger-3 {
-    background-image: url("https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Desktop/1947.jpg");
+    background-image: url("https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Desktop/1947.png");
 }
 
 #map-trigger-4 {
-    background-image: url("https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Desktop/1948.jpg");
+    background-image: url("https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Desktop/1948.png");
 }
 
 #map-trigger-5 {
-    background-image: url("https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background//Desktop/1967.jpg");
+    background-image: url("https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background//Desktop/1967.png");
 }
 #map-trigger-6 {
-    background-image: url("https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Desktop/1994 - 2014.jpg");
+    background-image: url("https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Desktop/1994 - 2014.png");
 }
 #map-trigger-7 {
     background-image: url("https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Desktop/lastimage.jpg");
@@ -223,32 +223,32 @@ txt div br { display: block; }
     width: 100vw;
     height: 100vw; 
 */
-    background-image: url('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Mobile/1917.jpg');
+    background-image: url('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Mobile/1917.png');
   }
     .map-trigger {
         height: 100vh !important;
     }
     #map-trigger-1 {
-    background-image: url("https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Mobile/1917.jpg");
+    background-image: url("https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Mobile/1917.png");
 }
 
 #map-trigger-2 {
-    background-image: url("https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Mobile/1946.jpg");
+    background-image: url("https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Mobile/1946.png");
 }
 
 #map-trigger-3 {
-    background-image: url("https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Mobile/1947.jpg");
+    background-image: url("https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Mobile/1947.png");
 }
 
 #map-trigger-4 {
-    background-image: url("https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Mobile/1948.jpg");
+    background-image: url("https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Mobile/1948.png");
 }
 
 #map-trigger-5 {
-    background-image: url("https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background//Mobile/1967.jpg");
+    background-image: url("https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background//Mobile/1967.png");
 }
 #map-trigger-6 {
-    background-image: url("https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Mobile/1994 - 2014.jpg");
+    background-image: url("https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Mobile/1994 - 2014.png");
 }
 #map-trigger-7 {
     background-image: url("https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Mobile/lastimage.jpg");
