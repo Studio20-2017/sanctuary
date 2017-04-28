@@ -27,6 +27,7 @@ nexturl: rosa.html
     <div id="map-trigger-4" class="map-trigger"></div>
     <div id="map-trigger-5" class="map-trigger"></div>
     <div id="map-trigger-6" class="map-trigger"></div>
+    <div id="map-trigger-7" class="map-trigger"></div>
 
 <h1>Shifting borders</h1>
 <p>Israeli settlements are housing units inhabited by Israeli citizens, built within regions the International community recognizes as Palestinian territory.  
