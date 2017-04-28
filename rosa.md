@@ -39,7 +39,7 @@ nexturl: henry.html
 <audio id="clip3">
 <source src="audio/rosa_america.mp3" type="audio/mp3">
 </audio>
-<img class="play" src="images/Play Button.png" onclick="play3()">
+<img class="play" src="images/button.png" onclick="play3()">
 
 <p class="audioquotewhite">"They called it, From Auschwitz to America."</p>
 </div>
