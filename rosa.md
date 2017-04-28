@@ -61,7 +61,7 @@ nexturl: henry.html
 
 
 <div id="gallup">
-<h1 style="text-align:center; size:3em; padding-left:4%; padding-right:4%;">How Americans reacted to the idea of inviting in Jews</h1>
+<h1 style="text-align:center; size:3em; padding-left:4%; padding-right:4%;">How Americans felt about letting in Jews</h1>
 <p class="gallup2">In January 1939, Gallup asked Americans about a government proposal to admit 10,000 refugee children from Germany into the country:</p>
 <table class="gallupnos">
 	<tr>
