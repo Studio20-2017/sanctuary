@@ -296,4 +296,10 @@
 	height: 150px;
 	
 }
+	
+	#teddy-text .stack {
+	width: 300px;
+	height: 300px !important;
+	
+}
 }
