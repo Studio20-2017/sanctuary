@@ -71,4 +71,13 @@ $('#map-trigger-1').scrollie({
       changeMap('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Desktop/1994-2014.jpg');
     }
   });
+
+ $('#map-trigger-7').scrollie({
+    direction : 'both',
+    scrollOffset : 0,
+    scrollRatio : 2,
+    scrollingInView : function(){
+      changeMap('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Desktop/lastimage.jpg');
+    }
+  });
 })
