@@ -24,10 +24,10 @@ $('#map-trigger-1').scrollie({
     scrollingInView : function(){
       console.log('1917 photo');
       if (isMobile()) {
-        changeMap('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Mobile/1917.jpg');
+        changeMap('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Mobile/1917.png');
         $("#logo2").show();
       } else {
-        changeMap('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Desktop/1917.jpg');
+        changeMap('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Desktop/1917.png');
       }
     }
   });
@@ -39,10 +39,10 @@ $('#map-trigger-1').scrollie({
     scrollingInView : function(){
       console.log('1946 photo');
       if (isMobile()) {
-        changeMap('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Mobile/1946.jpg');
+        changeMap('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Mobile/1946.png');
         $("#logo2").show();
       } else {
-        changeMap('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Desktop/1946.jpg');
+        changeMap('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Desktop/1946.png');
       }
     }
   });
@@ -55,10 +55,10 @@ $('#map-trigger-1').scrollie({
     scrollingInView : function(){
       console.log('3');
       if (isMobile()) {
-        changeMap('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Mobile/1947.jpg');
+        changeMap('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Mobile/1947.png');
         $("#logo2").show();
       } else {
-        changeMap('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Desktop/1947.jpg');
+        changeMap('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Desktop/1947.png');
       }
     }
   });
@@ -69,10 +69,10 @@ $('#map-trigger-1').scrollie({
     scrollRatio : 2,
     scrollingInView : function(){
       if (isMobile()) {
-        changeMap('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Mobile/1948.jpg');
+        changeMap('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Mobile/1948.png');
         $("#logo2").show();
       } else {
-        changeMap('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Desktop/1948.jpg');
+        changeMap('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Desktop/1948.png');
       }
     }
   });
@@ -83,10 +83,10 @@ $('#map-trigger-1').scrollie({
     scrollRatio : 2,
     scrollingInView : function(){
       if (isMobile()) {
-        changeMap('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Mobile/1967.jpg');
+        changeMap('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Mobile/1967.png');
         $("#logo2").show();
       } else {
-        changeMap('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Desktop/1967.jpg');
+        changeMap('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Desktop/1967.png');
       }
     }
   });
@@ -97,10 +97,10 @@ $('#map-trigger-1').scrollie({
     scrollRatio : 2,
     scrollingInView : function(){
       if (isMobile()) {
-        changeMap('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Mobile/1994 - 2014.jpg');
+        changeMap('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Mobile/1994 - 2014.png');
         $("#logo2").show();
       } else {
-        changeMap('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Desktop/1994 - 2014.jpg');
+        changeMap('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Desktop/1994 - 2014.png');
       }
     }
   });
