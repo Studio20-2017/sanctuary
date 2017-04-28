@@ -172,9 +172,10 @@ span {
   width: 1px;
   margin: 0;
   padding: 0;
-  display: inline-block;
   opacity: 0;
+  display: block;
 }
+txt div br { display: block; }
 
 #map-trigger-1 {
     background-image: url("https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Desktop/1917.jpg");
