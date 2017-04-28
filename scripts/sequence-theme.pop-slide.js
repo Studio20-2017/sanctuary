@@ -74,6 +74,11 @@ mySequence.animationEnded = function(id, sequence) {
        $("#logo2").attr("src", "images/logos/FindingSanctuaryLogo.png");
     }
     
+    if (id == 3) {
+      $("#.seq-prev").attr("src", "images/logos/Left Arrow Black.png");
+    } else {
+       $("#.seq-prev").attr("src", "images/logos/Left Arrow.png");
+    }
 }
 
 
