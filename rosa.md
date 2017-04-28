@@ -61,62 +61,62 @@ nexturl: henry.html
 
 
 <div id="gallup">
-<h1 style="text-align:center; size:3em; padding:5px">How Americans reacted to the idea of inviting in Jews</h1>
+<h1 style="text-align:center; size:3em; padding-left:4%; padding-right:4%;">How Americans reacted to the idea of inviting in Jews</h1>
 <p class="gallup2">In January 1939, Gallup asked Americans about a government proposal to admit 10,000 refugee children from Germany into the country:</p>
 <table class="gallupnos">
 	<tr>
-		<td><h1>26%</h1></td>
-		<td><h1>67%</h1></td>
+		<td><h1 style="font-size:50px">26%</h1></td>
+		<td><h1 style="font-size:50px">67%</h1></td>
 	</tr>
 	<tr>
-		<td style="color:#450920; text-align:right;">in favor</td>
-		<td style="color:#450920; text-align:right;">opposed</td>
+		<td style="color:#450920; text-align:right; font-size:20px">in favor</td>
+		<td style="color:#450920; text-align:right; font-size:20px">opposed</td>
 	</tr>
 </table>
 <p class="gallup2">The response varied slightly when Gallup specified that many of those refugees would be Jewish children:</p>
 <table class="gallupnos">
 	<tr>
-		<td><h1>31%</h1></td>
-		<td><h1>61%</h1></td>
+		<td><h1 style="font-size:50px">31%</h1></td>
+		<td><h1 style="font-size:50px">61%</h1></td>
 	</tr>
 	<tr>
-		<td style="color:#450920; text-align:right;">in favor</td>
-		<td style="color:#450920; text-align:right;">opposed</td>
+		<td style="color:#450920; text-align:right; font-size:20px">in favor</td>
+		<td style="color:#450920; text-align:right; font-size:20px">opposed</td>
 	</tr>
 </table>
 <p class="gallup2">In the aftermath of the war, in 1946, they asked if Americans approved of a general “plan to require each nation to take in a given number of Jewish and other European refugees, based upon the size and population of each nation":</p>
 <table class="gallupnos">
 	<tr>
-		<td><h1>40%</h1></td>
-		<td><h1>49%</h1></td>
+		<td><h1 style="font-size:50px">40%</h1></td>
+		<td><h1 style="font-size:50px">49%</h1></td>
 	</tr>
 	<tr>
-		<td style="color:#450920; text-align:right;">in favor</td>
-		<td style="color:#450920; text-align:right;">opposed</td>
+		<td style="color:#450920; text-align:right; font-size:20px">in favor</td>
+		<td style="color:#450920; text-align:right; font-size:20px">opposed</td>
 	</tr>
 </table>
 <p class="gallup2">They next asked more specifically about President Truman’s intention to ask Congress to increase U.S. immigration quotas for Jewish and other European refugees:
 </p>
 <table class="gallupnos">
 	<tr>
-		<td><h1>16%</h1></td>
-		<td><h1>72%</h1></td>
+		<td><h1 style="font-size:50px">16%</h1></td>
+		<td><h1 style="font-size:50px">72%</h1></td>
 	</tr>
 	<tr>
-		<td style="color:#450920; text-align:right;">in favor</td>
-		<td style="color:#450920; text-align:right;">opposed</td>
+		<td style="color:#450920; text-align:right; font-size:20px">in favor</td>
+		<td style="color:#450920; text-align:right; font-size:20px">opposed</td>
 	</tr>
 </table>
 <p class="gallup2">And in 1947, they asked Americans how they would feel about their own states taking in 10,000 “displaced persons from Europe":
 </p>
 <table class="gallupnos">
 	<tr>
-		<td><h1>24%</h1></td>
-		<td><h1>57%</h1></td>
+		<td><h1 style="font-size:50px">24%</h1></td>
+		<td><h1 style="font-size:50px">57%</h1></td>
 	</tr>
 	<tr>
-		<td style="color:#450920; text-align:right;">in favor</td>
-		<td style="color:#450920; text-align:right;">opposed</td>
+		<td style="color:#450920; text-align:right; font-size:20px">in favor</td>
+		<td style="color:#450920; text-align:right; font-size:20px">opposed</td>
 	</tr>
 </table>
 <a class="source" style="float:right; padding-right: 10px;" href="http://www.gallup.com/opinion/polling-matters/186716/historical-review-americans-views-refugees-coming.aspx">Source: Gallup</a>
