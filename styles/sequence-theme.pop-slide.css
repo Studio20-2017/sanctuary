@@ -366,7 +366,7 @@ video{
 
 
 /* mobile size */
-@media screen and (max-width: 479px) and (min-width: 330px) {
+@media screen and (max-width: 479px) {
   .seq .seq-pagination > li a img,
   .seq .seq-pagination > li a span {
     display: none !important;
@@ -413,14 +413,14 @@ video{
    
    /* rosa block */
    .seq-step2 .seq-title {
-     left: 30% !important;
+     left: 28% !important;
      top: 25% !important;
    }
    
    /* henry block */
    .seq-step3 .seq-title {
    	left: 1% !important;
-     top: 15% !important;
+     top: 18% !important;
    }
    
    /* teddy block */
