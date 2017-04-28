@@ -216,7 +216,7 @@ color: #450920;
   .audioboxred {
 	width: 100%;
 }
-
+}
 .audioboxwhite {  
   width: 60%;
   padding-top: 10px;
@@ -243,6 +243,11 @@ color: #450920;
   line-height: 50px;
   padding-right: 15px;
 }
+@media only screen and (max-width: 769px) and (min-width: 330px){
+  .audioquotewhite {
+	font-size: 18px;
+}
+	}
 
 .audioquotered {
   display: inline;
@@ -284,6 +289,7 @@ color: #450920;
 @media only screen and (max-width: 769px) and (min-width: 330px){
   #gallup {
 	width: 100%;
+}
 }
 td {
   padding:0 35px 0 35px;
