@@ -17,7 +17,7 @@ nexturl: henry.html
 <audio id="clip1">
 <source src="audio/rosa_israel.mp3" type="audio/mp3">
 </audio>
-<img class="play" id="play1" src="images/Play Button.png" onclick="play1()">
+<img class="play" src="images/Play Button.png" onclick="play1()">
 
 <p class="audioquotewhite">"I wanted to go to Israel. But there was a war in Israel."</p>
 </div>
@@ -62,7 +62,7 @@ nexturl: henry.html
 
 <div id="gallup">
 <h1 style="text-align:center; size:50%;">How Americans reacted to the idea of inviting Jews into the US</h1>
-<p class="gallup2">In January 1939, shortly after the wave of violence against European Jews known as <em>Kristallnacht</em>, Gallup asked Americans about a government proposal to admit 10,000 refugee children from Germany into the country, to be cared for in American homes:</p>
+<p class="gallup2">In January 1939, Gallup asked Americans about a government proposal to admit 10,000 refugee children from Germany into the country:</p>
 <table class="gallupnos">
 	<tr>
 		<td><h1>26%</h1></td>
@@ -84,8 +84,7 @@ nexturl: henry.html
 		<td style="color:#450920; text-align:right;">opposed</td>
 	</tr>
 </table>
-<p class="gallup2">In the aftermath of the war, Gallup polled Americans about potential plans to help the hundreds of thousands of Jewish and other European displaced persons. They asked variations of the question throughout 1946 and 1947.</p>
-<p class="gallup2">They first asked if Americans approved of a general “plan to require each nation to take in a given number of Jewish and other European refugees, based upon the size and population of each nation":</p>
+<p class="gallup2">In the aftermath of the war, in 1946, they asked if Americans approved of a general “plan to require each nation to take in a given number of Jewish and other European refugees, based upon the size and population of each nation":</p>
 <table class="gallupnos">
 	<tr>
 		<td><h1>40%</h1></td>
@@ -96,7 +95,7 @@ nexturl: henry.html
 		<td style="color:#450920; text-align:right;">opposed</td>
 	</tr>
 </table>
-<p class="gallup2">They next asked about President Harry Truman’s intention to ask Congress to increase U.S. immigration quotas for Jewish and other European refugees:
+<p class="gallup2">They next asked more specifically about President Truman’s intention to ask Congress to increase U.S. immigration quotas for Jewish and other European refugees:
 </p>
 <table class="gallupnos">
 	<tr>
@@ -108,7 +107,7 @@ nexturl: henry.html
 		<td style="color:#450920; text-align:right;">opposed</td>
 	</tr>
 </table>
-<p class="gallup2">Finally, they asked Americans how they would feel about their own states taking in 10,000 “displaced persons from Europe":
+<p class="gallup2">And in 1947, they asked Americans how they would feel about their own states taking in 10,000 “displaced persons from Europe":
 </p>
 <table class="gallupnos">
 	<tr>
