@@ -29,7 +29,7 @@ nexturl: rosa.html
     <div id="map-trigger-6" class="map-trigger"></div>
     <div id="map-trigger-7" class="map-trigger"></div>
 
-<h1>Shifting borders</h1>
+<h1 style="color:#8baaad;">Shifting borders</h1>
 <p>After the 1948 war with Israel, 85 percent of the Palestinian population were expelled from their homes in the area that would become Israel – leaving 700,000 to 750,000 Palestinians in  refugee camps across Syria, Lebanon, Egypt, and other parts of Palestine in the West Bank and Gaza Strip. In 1967, the Six-Day-War forced 280,000 to 325,000 Palestinians on an exodus outside of Israeli captured territories – including Nerdeen’s father, who was forced out of his village of Beit Iksa to Jordan, where he met Nerdeen’s mother. 
 <br>
 Currently, Israel occupies much of Palestinian territory – meaning Palestinians living under Israeli occupation can’t enjoy rights of citizenship, such as voting or making decisions that impact their lives. Under Israeli occupation, Palestinians don’t control the flow of goods, access to electricity and water is limited, and travel is restricted within occupied territories. International leaders warn that occupation threatens the idea of a peaceful, two-state solution for the two countries. </p>
