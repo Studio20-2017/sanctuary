@@ -14,7 +14,6 @@ nexturl: bertha.html
 <br> 
 <h1>How U.S. Policy Fueled Mexican Migration</h1>
 <p>By <a href="https://twitter.com/heysetareh">Setareh Baig</a></p>
-How U.S. Policy Fueled Mexican Migration 
 
 <p>When Jesus Villalba was a child living in Puebla, Mexico, he knew about America. At his grandmother’s house, his family wanted American channels so much that his brother figured out a way to access them: with cutlery. He climbed the roof and attached a fork to a parabolic antenna. 
 
@@ -35,15 +34,15 @@ Something American, larger than Jesus could understand, was brewing in Jesus’s
 
 <h2>What drove Puebla residents to Cross the U.S. Border</h2>
 
-If a Mexican farmer needs to sell his corn for ten dollars to make a profit, an American farmer needs to sell his corn for eight dollars. This is because the American farmer produces corn in mass quantities, saving her time and money. 
+<p>If a Mexican farmer needs to sell his corn for ten dollars to make a profit, an American farmer needs to sell his corn for eight dollars. This is because the American farmer produces corn in mass quantities, saving her time and money. 
 
 Like most Puebla residents, Jesus’s family worked on a small-scale corn and livestock farm, and needed a certain amount of money to make a profit. The Mexican government, or any government that wants to protect local farmers, would normally put a trade tariff on American imports to allow agricultural workers, like Jesus’s grandmother, to continue to make a profit. If American corn were to sit on the shelves of a supermarket in Mexico, it might be twelve dollars as opposed to the minimum eight Jesus’s grandmother needs to make a profit. A trade tariff prevents the American farmer from selling her corn cheaper in a Mexican supermarket. 
 
-In Mexico, this makes it easier for local Mexican products to compete on the shelves with American imports. Without tariffs, lower-priced American corn would imperil the sales of higher-priced Mexican corn, halting Jesus’s grandmother’s revenue stream. Without tariffs, local farmers in every agricultural industry can’t compete with American products, and the Mexican economy suffers. 
+In Mexico, this makes it easier for local Mexican products to compete on the shelves with American imports. Without tariffs, lower-priced American corn would imperil the sales of higher-priced Mexican corn, halting Jesus’s grandmother’s revenue stream. Without tariffs, local farmers in every agricultural industry can’t compete with American products, and the Mexican economy suffers. </p>
 
 <h3> A trade tariff prevents the American farmer from selling her corn cheaper in a Mexican supermarket. </h3>
 
-In 1994, Bill Clinton signed the North American Free Trade Agreement (NAFTA), with the intention to increase the flow of goods and break down trade barriers between Canada, the U.S. and Mexico. “NAFTA means jobs,” Clinton said. NAFTA reduced tariffs on American imports to Mexico, or got rid of them altogether. 
+<p>In 1994, Bill Clinton signed the North American Free Trade Agreement (NAFTA), with the intention to increase the flow of goods and break down trade barriers between Canada, the U.S. and Mexico. “NAFTA means jobs,” Clinton said. NAFTA reduced tariffs on American imports to Mexico, or got rid of them altogether. 
 
 “The way NAFTA impacted my family specifically was a chain reaction,” Jesus said. “At a certain point, people started leaving and then never coming back. They would just send money instead of coming back.”
 
@@ -54,13 +53,13 @@ Through NAFTA, some American products entered the Mexican market for the first t
 
 During the Great 2008 recession, Mexico’s economy was inextricably linked to the U.S. economy through NAFTA. Mexico suffered more than any country in Latin America. 
 
-Thus began one of the largest waves of Mexican migrations the the United States. Jesus’s family was one of such families, after American products imperiled his family’s revenue stream. For a better education and economic opportunities, Jesus’s family left a desolate Puebla, one of the three poorest Mexican states. 
+Thus began one of the largest waves of Mexican migrations the the United States. Jesus’s family was one of such families, after American products imperiled his family’s revenue stream. For a better education and economic opportunities, Jesus’s family left a desolate Puebla, one of the three poorest Mexican states. </p>
 
 
 <h3>Thus began one of the largest waves of Mexican migrations to the the United States. </h3>
 
 
-When Jesus was 14-years old, he walked across the border with his step father to the United States because it was the norm. Everyone, Jesus said, was doing it. 
+<p>When Jesus was 14-years old, he walked across the border with his step father to the United States because it was the norm. Everyone, Jesus said, was doing it. 
 
 Americans were blind to Mexico’s invisible suffering at the hands of U.S. policy. Then thousands of Mexicans marched across the U.S. border. For the first time, they would see it.</p>
 
