@@ -32,7 +32,7 @@ nexturl: jesus.html
 
 <div class="container" id="teddy-text">
 <div class="content color-1">
-<h1>Life in a Japanese Internment Camp </h1>
+<h1>Life in the camp</h1>
 <br>
 	<ul id="stack_krisna" class="stack stack--krisna" style="height: 800px;">
 		<li class="stack__item"><img src="images/Teddy/1.jpg" alt="Tree 1" /></li>
