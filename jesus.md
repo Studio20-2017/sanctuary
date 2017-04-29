@@ -16,7 +16,7 @@ nexturl: bertha.html
 <p>By <a href="https://twitter.com/heysetareh">Setareh Baig</a></p>
 
 <p>
-<span class="firstcharacter">W</span>When Jesus Villalba was a child living in Puebla, Mexico, he knew about America. At his grandmother’s house, his family wanted American channels so much that his brother figured out a way to access them: with cutlery. He climbed the roof and attached a fork to a parabolic antenna. 
+<span class="firstcharacter">W</span>hen Jesus Villalba was a child living in Puebla, Mexico, he knew about America. At his grandmother’s house, his family wanted American channels so much that his brother figured out a way to access them: with cutlery. He climbed the roof and attached a fork to a parabolic antenna. 
 <br>
 “We paid close attention to American television,” Jesus said. Meanwhile in town, women waited in line at the supermarket for a machine that grinds corn – one of Puebla’s main agricultural industries. Waiting in line, women would gossip about which of the town’s residents were going to America – who would come back to Mexico, and who left to America for good. Soon, the corn lines would get shorter, as Puebla residents would leave the state to the point of desolation and eventually, they would all go to America. 
 <br>
