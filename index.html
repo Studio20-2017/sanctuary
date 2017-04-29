@@ -9,7 +9,7 @@
  body {
       margin: 0;
       padding: 0;
-      background-image: url("https://github.com/Studio20-2017/sanctuary/blob/master/images/logos/Finding%20Sanctuary%20White%20Background.png?raw=true");
+      background-image: url("images/logos/Finding Sanctuary White Background");
       background-repeat: no-repeat;
     }
 #player {
@@ -33,9 +33,16 @@ a {
 	padding: 5px;
 }
 a:hover {
-	background-color: white;
-	color: black;
+	opacity:0.7;
+	cursor:hand;
 }
+
+@media only screen and (max-width: 769px){
+      a{
+font-size: 40px;  
+}
+}
+	
 img {
   position: fixed;
   top: 20%;
