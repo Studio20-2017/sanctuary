@@ -32,7 +32,7 @@ He didn’t know it at the time, but as a child in Mexico, Jesus’s life was in
 Something American, larger than Jesus could understand, was brewing in Jesus’s homeland that would eventually take Jesus on a week-long pilgrimage to America, never to return again.  
 
 
-<h2>What drove Puebla residents to Cross the U.S. Border</h2>
+<h2>When Puebla residents Crossed the U.S. Border</h2>
 
 <p>If a Mexican farmer needs to sell his corn for ten dollars to make a profit, an American farmer needs to sell his corn for eight dollars. This is because the American farmer produces corn in mass quantities, saving her time and money. 
 
