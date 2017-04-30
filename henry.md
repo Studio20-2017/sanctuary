@@ -9,11 +9,6 @@ nexturl: teddy.html
  <iframe id="player1" src="https://player.vimeo.com/video/213115662?api=1&player_id=player1"    width="100%" height="100%"    frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
  </div>
  </div>
- <div class="boxes" id="second">
- <div class="video">
- <iframe id="player1" src="https://player.vimeo.com/video/213115662?api=1&player_id=player1"    width="100%" height="100%"    frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
- </div>
- </div>
 
 <link rel="stylesheet" type="text/css" href="css/normalize.css" />
 <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.3.0/css/font-awesome.min.css" />
@@ -22,7 +17,7 @@ nexturl: teddy.html
 <script src="js/modernizr-custom.js"></script>
 
 
-<div class="container">
+<div class="container" id="second">
 <div class="content color-1">
 <h1>Homelessness in NYC</h1>
 <br>
