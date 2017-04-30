@@ -22,7 +22,7 @@ nexturl: henry.html
 <p class="audioquotered">"I wanted to go to Israel. But there was a war in Israel."</p></div>
 
 
-<p> Rosa escaped the Nazis while being transported from Auschwitz to another concentration camp; she spent the remainder of the war in Hungary, where she lived under an assumed identity. After V-Day, on May 8, 1945,  she returned to Germany, and ended up in the Landsberg displaced person (DP) camp--a former concentration camp. She waited there for what she believes was about two years, hoping for an opportunity to immigrate to Israel.</p>
+<p> Rosa escaped the Nazis while being transported from Auschwitz to another concentration camp; she spent the remainder of the war in Hungary, where she lived under an assumed identity. After V-Day, on May 8, 1945,  she returned to Germany, and ended up in the Landsberg displaced person (DP) camp—a former concentration camp. She waited there for what she remembers as being about two years, hoping for an opportunity to immigrate to Israel.</p>
 
 <p>In June 1945, the U.S. sent Earl G. Harrison, a government official, to investigate the situation of Jewish DPs throughout Germany and Austria. The resulting <a href="https://www.ushmm.org/exhibition/displaced-persons/resourc1.htm" target="_blank">report</a> brought to light the harsh conditions in the Allied-run camps. “We appear to be treating the Jews as the Nazis treated them,” Harrison wrote, “except that we do not exterminate them.”</p>
 <div class="audioboxwhite" style="float: right;">
@@ -34,7 +34,7 @@ nexturl: henry.html
 <p class="audioquotered">"I was very unhappy there, but it wasn't Auschwitz."</p>
 </div>
 <br style="clear:right;">
-<p style="clear: right">While in Landsburg, Rosa, by this point in her late teens, kept busy working as a nurse in a nearby hospital. As Rosa recalls, an American woman working in the camp advocated on the behalf of her and other Jewish orphans to President Truman, eventually securing for them a limited number of visas to the U.S. It hadn’t been her plan to come to America, but Rosa saw it as the best offer she had, and accepted. </p>
+<p style="clear: right">While in Landsburg, Rosa, by now in her late teens, kept busy working as a nurse in a nearby hospital. As Rosa recalls, an American woman working in the camp advocated on the behalf of her and other Jewish orphans to President Truman, eventually securing for them a limited number of visas to the U.S. It hadn’t been her plan to come to America, but Rosa saw it as the best offer she had, and accepted. </p>
 <div class="audioboxwhite">
 <audio id="clip3">
 <source src="audio/rosa_america.mp3" type="audio/mp3">
