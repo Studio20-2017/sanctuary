@@ -9,6 +9,11 @@ nexturl: bertha.html
  <iframe id="player1" src="https://player.vimeo.com/video/213118746?api=1&player_id=player1"    width="100%" height="100%"    frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
  </div>
  </div>
+ 
+<div class="jesustext" id="second">
+<br> 
+<h1>How U.S. Policy Fueled Mexican Migration</h1>
+</div>
 
 <link rel="stylesheet" type="text/css" href="css/normalize.css" />
 <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.3.0/css/font-awesome.min.css" />
