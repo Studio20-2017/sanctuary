@@ -64,7 +64,6 @@ Thus began one of the largest waves of Mexican migrations the the United States.
 <br>
 Americans were blind to Mexico’s invisible suffering at the hands of U.S. policy. Then thousands of Mexicans marched across the U.S. border. For the first time, they would see it.</p>
 <br>
-</div>
 
 <link rel="stylesheet" type="text/css" href="css/normalize.css" />
 <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.3.0/css/font-awesome.min.css" />
