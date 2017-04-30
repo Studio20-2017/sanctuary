@@ -74,7 +74,7 @@ Americans were blind to Mexico’s invisible suffering at the hands of U.S. poli
 
 <div class="container">
 <div class="content color-1">
-<h1>TK</h1>
+<h1>TKTK</h1>
 <p> By Stephanie Ho</p>
 	<ul id="stack_krisna" class="stack stack--krisna">
 		<li class="stack__item"><img src="https://studio20-2017.github.io/sanctuary/images/jesusgraphics/1.png" alt="Tree 2" /></li>
