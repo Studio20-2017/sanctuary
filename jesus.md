@@ -89,7 +89,7 @@ Americans were blind to Mexico’s invisible suffering at the hands of U.S. poli
 		<button class="button button--sonar button--accept" data-stack="stack_krisna"><i class="fa fa-arrow-right"></i><span class="text-hidden">Accept</span></button>
 	</div>
 </div>
-
+</div>
 </div><!-- /container -->
 <script src="js/classie.js"></script>
 <script>
@@ -201,7 +201,6 @@ var clickeventtype = mobilecheck() ? 'touchstart' : 'click';
 	});
 })();
 </script>
-</div>
  
 
    <div class="boxes video2" id="third">
