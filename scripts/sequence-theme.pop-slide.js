@@ -68,7 +68,7 @@ mySequence.animationEnded = function(id, sequence) {
     }
     }
     
-    if (id == 3) {
+ if (id == 3) {
       $("#logo2").attr("src", "images/logos/FindingSanctuaryLogoBW.png");
     } else {
        $("#logo2").attr("src", "images/logos/FindingSanctuaryLogo.png");
@@ -84,7 +84,7 @@ mySequence.animationEnded = function(id, sequence) {
       $("#rightarrow").attr("src", "images/Right Arrow Black.png");
     } else {
        $("#rightarrow").attr("src", "images/Right Arrow.png");
-    }
+    } 
 }
 
 
