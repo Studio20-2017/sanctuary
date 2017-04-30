@@ -225,10 +225,14 @@ margin: auto;
   .audioboxred {
 	width: 100%;
 }
+  .audioboxwhite {
+	  width: 100%;
+}
 }
 .audioboxwhite {  
   width: 60%;
   padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .play {
@@ -254,23 +258,23 @@ margin: auto;
   text-align: left;
 }
 @media only screen and (max-width: 769px) and (min-width: 0px){
-  .audioquotewhite {
-	font-size: 18px;
+  .audioquotered {
+	font-size: 30px;
 	line-height: normal;
 }
   .play {
-	 width: 15%;
-	 height: 15%;
+	 width: 50%;
+	 height: 50%;
 	}
 }
 .audioquotered {
-  display: inline;
   font-family: Oswald;
   font-size: 36px;
   font-weight: light;
-  color: #663333;
+  color: white;
   line-height: 50px;
-  padding-right: 15px;
+  padding-right: 5px;
+  text-align: left;
 }
 
 /* Carousel */
