@@ -64,7 +64,6 @@ Thus began one of the largest waves of Mexican migrations the the United States.
 <br>
 Americans were blind to Mexico’s invisible suffering at the hands of U.S. policy. Then thousands of Mexicans marched across the U.S. border. For the first time, they would see it.</p>
 <br>
-</div>
 <link rel="stylesheet" type="text/css" href="css/normalize.css" />
 <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.3.0/css/font-awesome.min.css" />
 <link rel="stylesheet" type="text/css" href="css/demo.css" />
@@ -75,6 +74,7 @@ Americans were blind to Mexico’s invisible suffering at the hands of U.S. poli
 <div class="container">
 <div class="content color-1">
 <h1>Minor offenses that can get undocumented people deported </h1>
+<p> By Stephanie Ho</p>
 	<ul id="stack_krisna" class="stack stack--krisna">
 		<li class="stack__item"><img src="https://studio20-2017.github.io/sanctuary/images/jesusgraphics/1.png" alt="Tree 2" /></li>
 		<li class="stack__item"><img src="https://studio20-2017.github.io/sanctuary/images/jesusgraphics/2.png" alt="Tree 3" /></li>
@@ -205,6 +205,6 @@ var clickeventtype = mobilecheck() ? 'touchstart' : 'click';
 
    <div class="boxes video2" id="third">
  <div class="video2">
- <iframe width="100%" height="100%" src="https://www.youtube.com/embed/DNMNKNzu9Cg" frameborder="0" allowfullscreen></iframe>
+  <iframe id="player2" src="https://player.vimeo.com/video/214333545?api=1&player_id=player2" width="100%" height="100%"    frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
  </div>
  </div>
