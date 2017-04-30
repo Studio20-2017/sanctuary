@@ -201,7 +201,7 @@ var clickeventtype = mobilecheck() ? 'touchstart' : 'click';
 	});
 })();
 </script>
-
+</div>
  
 
    <div class="boxes video2" id="third">
