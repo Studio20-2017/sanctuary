@@ -119,6 +119,7 @@ nexturl: henry.html
 		<td style="color:#450920; text-align:right; font-size:20px">opposed</td>
 	</tr>
 </table>
+<br>
 <a class="source" style="padding-left: 5px; text-decoration: underline;" href="http://www.gallup.com/opinion/polling-matters/186716/historical-review-americans-views-refugees-coming.aspx">Source: Gallup</a>
 </div>
 <br>
