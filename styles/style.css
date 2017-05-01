@@ -314,7 +314,7 @@ margin: auto;
 	width: 200px;
 	line-height: 50%;
 }
-@media only screen and (max-width: 769px) and (min-width: 0px){
+@media screen and (max-width: 769px) and (min-width: 0px){
 
 td {
   padding:0 35px 0 35px;
