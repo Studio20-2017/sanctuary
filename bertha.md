@@ -51,6 +51,9 @@ nexturl: nerdeen.html
 <div class="content color-1">
 <h1>SHARECROPPING</h1>
 <br>
+<div class="controls">
+		<button class="button button--sonar button--accept" data-stack="stack_krisna"><i class="fa fa-arrow-right"></i><span class="text-hidden">Accept</span></button>
+	</div>
 <br>
 	<ul id="stack_krisna" class="stack stack--krisna">
 		<li class="stack__item"><img src="images/berthagraphics/1.jpg" alt="Tree 2" /></li>
@@ -61,9 +64,7 @@ nexturl: nerdeen.html
   		<li class="stack__item"><img src="images/berthagraphics/6.jpg" alt="Tree 6" /></li>
 
 	</ul>
-	<div class="controls">
-		<button class="button button--sonar button--accept" data-stack="stack_krisna"><i class="fa fa-arrow-right"></i><span class="text-hidden">Accept</span></button>
-	</div>
+
 </div>
 
 </div><!-- /container -->
