@@ -221,14 +221,7 @@ margin: auto;
   padding-bottom: 10px;
 }
 
-@media only screen and (max-width: 769px) and (min-width: 0px){
-  .audioboxred {
-	width: 100%;
-}
-  .audioboxwhite {
-	  width: 100%;
-}
-}
+
 .audioboxwhite {  
   width: 60%;
   padding-top: 10px;
@@ -273,12 +266,7 @@ margin: auto;
   text-align: left;
 
 }
-@media only screen and (max-width: 769px) and (min-width: 0px){
-  .audioquotered {
-	font-size: 30px;
-	line-height: normal;
-	width: 100%;
-}
+
   .audioquotered {
   font-family: Oswald;
   font-size: 36px;
@@ -306,13 +294,30 @@ margin: auto;
 	line-height: normal;
 	width: 100%;
 }
-  .play {
+ 
+}
+@media only screen and (max-width: 769px) and (min-width: 0px){
+  .audioquotered {
+	font-size: 30px;
+	line-height: normal;
+	width: 100%;
+}
+  #audioquoteright {
+	font-size: 30px;
+	line-height: normal;
+	width: 100%;
+}
+	.play {
+	 width: 50%;
+	 height: 50%;
+	 padding-bottom: 10px;
+	}
+	#playright {
 	 width: 50%;
 	 height: 50%;
 	 padding-bottom: 10px;
 	}
 }
-
 /* Carousel */
 #carousel {
 	margin: auto;
