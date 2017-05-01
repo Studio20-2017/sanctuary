@@ -249,7 +249,6 @@ margin: auto;
   transition-property: opacity;
   height: 100px;
   width: 100px; 
-  float: right;
   padding-bottom: 20px;
 }
 
@@ -274,6 +273,7 @@ margin: auto;
   color: #450920;
   line-height: 50px;
   text-align: left; 
+  display: inline-block;
   width: 60%;
 }
 #audioquoteright {
@@ -283,7 +283,7 @@ margin: auto;
   color: #450920;
   line-height: 50px;
   text-align: left;
-  float: right;
+  display: inline-block;
   width: 60%;
 }
 .audiotime {
