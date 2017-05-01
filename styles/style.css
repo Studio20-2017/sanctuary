@@ -237,6 +237,7 @@ margin: auto;
   width: 100px; 
   padding-top: 30px;
 	float: left;
+  display: inline-block;
 }
 
 .play:hover {
