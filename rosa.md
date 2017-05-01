@@ -66,8 +66,8 @@ nexturl: henry.html
 <p class="gallup2">In January 1939, Gallup asked Americans about a government proposal to admit 10,000 refugee children from Germany:</p>
 <table class="gallupnos">
 	<tr>
-		<td><h1 style="font-size:50px">26%</h1></td>
-		<td><h1 style="font-size:50px">67%</h1></td>
+		<td><h1 class="numeral">26%</h1></td>
+		<td><h1 class="numeral">67%</h1></td>
 	</tr>
 	<tr>
 		<td style="color:#450920; text-align:right; font-size:20px">in favor</td>
@@ -77,8 +77,8 @@ nexturl: henry.html
 <p class="gallup2">The response varied slightly when Gallup specified that many of those refugees would be Jewish children:</p>
 <table class="gallupnos">
 	<tr>
-		<td><h1 style="font-size:50px">31%</h1></td>
-		<td><h1 style="font-size:50px">61%</h1></td>
+		<td><h1 class="numeral">31%</h1></td>
+		<td><h1 class="numeral">61%</h1></td>
 	</tr>
 	<tr>
 		<td style="color:#450920; text-align:right; font-size:20px">in favor</td>
