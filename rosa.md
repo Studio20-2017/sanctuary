@@ -17,7 +17,7 @@ nexturl: henry.html
 <audio id="clip1">
 <source src="audio/rosa_israel.mp3" type="audio/mp3">
 </audio>
-<img class="play" src="images/button.png" onclick="play1()">
+<img class="play" src="images/Asset 1.png" onclick="play1()">
 
 <p class="audioquotered">"I wanted to go to Israel. But there was a war in Israel." <span class="audiotime">[0:11]</span></p>
 
@@ -29,7 +29,7 @@ nexturl: henry.html
 <audio id="clip2">
 <source src="audio/rosa_auschwitz.mp3" type="audio/mp3">
 </audio>
-<img id=#playright src="images/button.png" onclick="play2()">
+<img id=#playright src="images/Asset 1.png" onclick="play2()">
 
 <p id=#audioquoteright>"I was very unhappy there, but it wasn't Auschwitz." <span class="audiotime">[0:14]</span></p>
 </div>
@@ -39,7 +39,7 @@ nexturl: henry.html
 <audio id="clip3">
 <source src="audio/rosa_america.mp3" type="audio/mp3">
 </audio>
-<img class="play" src="images/button.png" onclick="play3()">
+<img class="play" src="images/Asset 1.png" onclick="play3()">
 
 <p class="audioquotered">"They called it, From Auschwitz to America." <span class="audiotime">[0:11]</span></p>
 <p>Rosa arrived in New York on the S.S. Ernie Pyle. She was 18 years old, and had no family in America. But she had been given a rare opportunity.</p>
