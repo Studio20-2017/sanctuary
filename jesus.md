@@ -76,8 +76,7 @@ Americans were blind to Mexico’s invisible suffering at the hands of U.S. poli
 
 <div class="container">
 <div class="content color-1">
-<h1>Minor offenses that can get undocumented people deported </h1>
-<p> By Stephanie Ho</p>
+<h1>Actions that can get undocumented people deported under President Trump's new immigration orders</h1>
 	<ul id="stack_krisna" class="stack stack--krisna">
 		<li class="stack__item"><img src="https://studio20-2017.github.io/sanctuary/images/jesusgraphics/1.png" alt="Tree 2" /></li>
 		<li class="stack__item"><img src="https://studio20-2017.github.io/sanctuary/images/jesusgraphics/2.png" alt="Tree 3" /></li>
