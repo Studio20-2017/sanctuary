@@ -31,8 +31,8 @@ nexturl: henry.html
 </audio>
 
 
-<div style="float:right"><img class="play" src="images/Asset 1.png" onclick="play2()">
-<p class="audioquotered">"I was very unhappy there, but it wasn't Auschwitz." <span class="audiotime">[0:14]</span></p></div>
+<div style="float:right"><img class="play" src="images/Asset 1.png" onclick="play2()" style="float:right !important">
+<p class="audioquotered" style="float:right !important">"I was very unhappy there, but it wasn't Auschwitz." <span class="audiotime">[0:14]</span></p></div>
 
 <br style="clear:right;">
 <p style="clear: right">While in Landsburg, Rosa, by now in her late teens, kept busy working as a nurse in a nearby hospital. As Rosa recalls, an American woman working in the camp advocated on the behalf of her and other Jewish orphans to President Truman, eventually securing for them a limited number of visas to the U.S. It hadn’t been her plan to come to America, but Rosa saw it as the best offer she had, and accepted. </p>
