@@ -318,3 +318,12 @@ td {
   padding:0 35px 0 35px;
 }
 
+.numeral {
+	font-size: 50px;
+}
+@media screen and (max-width: 479px) {
+	.numeral {
+		font-size: 20px;
+	}
+}
+	
