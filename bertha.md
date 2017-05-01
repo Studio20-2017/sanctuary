@@ -26,7 +26,11 @@ nexturl: nerdeen.html
  <div class="boxes" id="fourth">
  <img alt="The Great Migration" src="images/berthagraphics/greatmigrationviz.png" width="100%">
  </div>
- 
+
+<div class="boxes" id="trial">
+<h2>THE MOST IMPORTANT DESTINATIONS</h2>
+ </div>
+
  <div class="berthatext" id="fifth">
  <p>Bertha and her siblings worked on their father’s sharecropped farm, growing and selling cucumbers.</p>
 
@@ -53,12 +57,12 @@ nexturl: nerdeen.html
 <br>
 <br>
 	<ul id="stack_krisna" class="stack stack--krisna">
-		<li class="stack__item"><img src="images/jesusgraphics/1.png" alt="Tree 2" /></li>
-		<li class="stack__item"><img src="images/jesusgraphics/2.png" alt="Tree 3" /></li>
-		<li class="stack__item"><img src="images/jesusgraphics/3.png" alt="Tree 4" /></li>
-		<li class="stack__item"><img src="images/jesusgraphics/4.png" alt="Tree 5" /></li>
-		<li class="stack__item"><img src="images/jesusgraphics/5.png" alt="Tree 6" /></li>
-  		<li class="stack__item"><img src="images/jesusgraphics/6.png" alt="Tree 6" /></li>
+		<li class="stack__item"><img src="images/berthagraphics/1.jpg" alt="Tree 2" /></li>
+		<li class="stack__item"><img src="images/berthagraphics/2.jpg" alt="Tree 3" /></li>
+		<li class="stack__item"><img src="images/berthagraphics/3.jpg" alt="Tree 4" /></li>
+		<li class="stack__item"><img src="images/berthagraphics/4.jpg" alt="Tree 5" /></li>
+		<li class="stack__item"><img src="images/berthagraphics/5.jpg" alt="Tree 6" /></li>
+  		<li class="stack__item"><img src="images/berthagraphics/6.jpg" alt="Tree 6" /></li>
 
 	</ul>
 	<div class="controls">
