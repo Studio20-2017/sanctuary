@@ -34,7 +34,7 @@ nexturl: nerdeen.html
 
 <p>Instead of working to make a profit, many sharecroppers worked to pay off their debts. When the next season came, they went into debt again.</p>
 
-<p>As harvesting progressed, Whitney and her siblings moved to other farms to make extra money for school clothes and supplies. On days it rained they went to school, otherwise it wasn’t until December when harvesting season was over, that they regularly attended school.</p>
+<p>As harvesting progressed, Bertha and her siblings moved to other farms to make extra money for school clothes and supplies. On days it rained they went to school, otherwise it wasn’t until December when harvesting season was over, that they regularly attended school.</p>
 
 <p>Despite the odds, Bertha was eligible for early graduation. Two months later she followed her sister to Brooklyn.</p>
 
