@@ -271,12 +271,12 @@ margin: auto;
  
 }
 @media screen and (max-width: 479px) {
-  .audioquotered {
+  .audioquotered p {
 	font-size: 30px;
 	line-height: normal;
 }
 
-	.audiotime {
+	.audiotime span {
 	font-size: 18px;
 }
 	.play {
