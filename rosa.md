@@ -14,36 +14,34 @@ nexturl: henry.html
 <br>
 <h1>How (some) Jewish refugees made it to the US after WWII</h1>
 <p>Immediately after the war ended, <a href="https://www.ushmm.org/wlc/en/article.php?ModuleId=10005418" target="_blank">over 50,000 displaced Jews</a> were scattered throughout Germany, Austria and Italy. Rosa, the only member of her immediate family to survive the Holocaust, was among them. With no home to return to, she spent several years attempting to travel to Palestine, where she had relatives. However, in the years leading up to the formation of the State of Israel in 1948, the British strictly limited Jewish immigration to the region. </p>
-<div class="audioboxwhite">
 <audio id="clip1">
 <source src="audio/rosa_israel.mp3" type="audio/mp3">
 </audio>
-<div style="display:inline; float:left"><img class="play" src="images/button.png" onclick="play1()"></div>
+<img class="play" src="images/button.png" onclick="play1()">
 
-<p class="audioquotered">"I wanted to go to Israel. But there was a war in Israel."</p></div>
+<p class="audioquotered">"I wanted to go to Israel. But there was a war in Israel." <span class="audiotime">[0:11]</span></p>
 
 
 <p> Rosa escaped the Nazis while being transported from Auschwitz to another concentration camp; she spent the remainder of the war in Hungary, where she lived under an assumed identity. After V-Day, on May 8, 1945,  she returned to Germany, and ended up in the Landsberg displaced person (DP) camp—a former concentration camp. She waited there for what she remembers as being about two years, hoping for an opportunity to immigrate to Israel.</p>
 
 <p>In June 1945, the U.S. sent Earl G. Harrison, a government official, to investigate the situation of Jewish DPs throughout Germany and Austria. The resulting <a href="https://www.ushmm.org/exhibition/displaced-persons/resourc1.htm" target="_blank">report</a> brought to light the harsh conditions in the Allied-run camps. “We appear to be treating the Jews as the Nazis treated them,” Harrison wrote, “except that we do not exterminate them.”</p>
-<div class="audioboxwhite" style="float: right;">
+
 <audio id="clip2">
 <source src="audio/rosa_auschwitz.mp3" type="audio/mp3">
 </audio>
-<div style="display:inline; float:left"><img class="play" src="images/button.png" onclick="play2()"></div>
+<img id=#playright src="images/button.png" onclick="play2()">
 
-<p class="audioquotered">"I was very unhappy there, but it wasn't Auschwitz."</p>
+<p id=#audioquoteright>"I was very unhappy there, but it wasn't Auschwitz." <span class="audiotime">[0:14]</span></p>
 </div>
 <br style="clear:right;">
 <p style="clear: right">While in Landsburg, Rosa, by now in her late teens, kept busy working as a nurse in a nearby hospital. As Rosa recalls, an American woman working in the camp advocated on the behalf of her and other Jewish orphans to President Truman, eventually securing for them a limited number of visas to the U.S. It hadn’t been her plan to come to America, but Rosa saw it as the best offer she had, and accepted. </p>
-<div class="audioboxwhite">
+
 <audio id="clip3">
 <source src="audio/rosa_america.mp3" type="audio/mp3">
 </audio>
-<div style="display:inline; float:left"><img class="play" src="images/button.png" onclick="play3()"></div>
+<img class="play" src="images/button.png" onclick="play3()">
 
-<p class="audioquotered">"They called it, From Auschwitz to America."</p></div>
-
+<p class="audioquotered">"They called it, From Auschwitz to America." <span class="audiotime">[0:11]</span></p>
 <p>Rosa arrived in New York on the S.S. Ernie Pyle. She was 18 years old, and had no family in America. But she had been given a rare opportunity.</p>
 
 <p>The <a href="http://www.jewishvirtuallibrary.org/president-truman-statement-and-directive-on-displaced-persons-december-1945" target="_blank">1945 Truman Directive</a> gave preference for entry to the U.S. to displaced persons, but did not expand existing immigration quotas. Approximately <a href="https://www.ushmm.org/learn/timeline-of-events/1942-1945/truman-directive-on-immigrant-visas" target="_blank">22,950 DPs</a> were admitted to the U.S. over the ensuing two years. Two-thirds of them were Jewish. </p>                        
