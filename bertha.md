@@ -27,10 +27,6 @@ nexturl: nerdeen.html
  <img alt="The Great Migration" src="images/berthagraphics/greatmigrationviz.png" width="100%">
  </div>
 
-<div class="boxes" id="trial">
-<h2>THE MOST IMPORTANT DESTINATIONS</h2>
- </div>
-
  <div class="berthatext" id="fifth">
  <p>Bertha and her siblings worked on their father’s sharecropped farm, growing and selling cucumbers.</p>
 
