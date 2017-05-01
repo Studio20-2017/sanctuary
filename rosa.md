@@ -31,7 +31,7 @@ nexturl: henry.html
 </audio>
 
 
-<div style="float:right"><img id="play" src="images/Asset 1.png" onclick="play2()">
+<div style="float:right; position:absolute !important;"><img id="play" src="images/Asset 1.png" onclick="play2()">
 <p id="audioquotered">"I was very unhappy there, but it wasn't Auschwitz." <span class="audiotime">[0:14]</span></p></div>
 
 <br style="clear:right;">
