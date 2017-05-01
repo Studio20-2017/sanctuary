@@ -242,19 +242,7 @@ margin: auto;
 .play:hover {
 	opacity: .7;
 }
-#playright {
-  padding-right: 10px;
-  opacity: 1;
-  transition-duration: .25s;
-  transition-property: opacity;
-  height: 100px;
-  width: 100px; 
-  padding-bottom: 20px;
-}
 
-#playright:hover {
-	opacity: .7;
-}
 
 .audioquotewhite {
   font-family: Oswald;
@@ -276,16 +264,7 @@ margin: auto;
   display: inline-block;
   width: 60%;
 }
-#audioquoteright {
-  font-family: Oswald;
-  font-size: 36px;
-  font-weight: light;
-  color: #450920;
-  line-height: 50px;
-  text-align: left;
-  display: inline-block;
-  width: 60%;
-}
+
 .audiotime {
 	font-size: 20px;
 }
@@ -298,10 +277,7 @@ margin: auto;
 	line-height: normal;
 	width: 100%;
 }
-  #audioquoteright {
-	font-size: 30px;
-	line-height: normal;
-	width: 100%;
+
 }
 	.audiotime {
 	font-size: 18px;
@@ -311,11 +287,7 @@ margin: auto;
 	 height: 50%;
 	 padding-bottom: 10px;
 	}
-	#playright {
-	 width: 50%;
-	 height: 50%;
-	 padding-bottom: 10px;
-	}
+	
 }
 /* Carousel */
 #carousel {
