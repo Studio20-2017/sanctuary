@@ -271,7 +271,7 @@ margin: auto;
 
  
 }
-@media only screen and (max-width: 479px) {
+@media screen and (max-width: 479px) {
   .audioquotered {
 	font-size: 30px;
 	line-height: normal;
