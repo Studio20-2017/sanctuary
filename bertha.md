@@ -49,7 +49,7 @@ nexturl: nerdeen.html
 
 <div class="container">
 <div class="content color-1">
-<h1>SHARECROPPING</h1>
+
 <div class="controls">
 		<button class="button button--sonar button--accept" data-stack="stack_krisna"><i class="fa fa-arrow-right"></i><span class="text-hidden">Accept</span></button>
 	</div>
