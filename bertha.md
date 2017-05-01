@@ -27,7 +27,7 @@ nexturl: nerdeen.html
  <img alt="The Great Migration" src="images/berthagraphics/greatmigrationviz.png" width="100%">
  </div>
  
- <div class="berthatext" id="fourth">
+ <div class="berthatext" id="fifth">
  <p>Bertha and her siblings worked on their father’s sharecropped farm, growing and selling cucumbers.</p>
 
 <p>For many farmers in the late nineteenth to mid twentieth century, sharecropping was a vicious cycle. Sharecropping was a system used after the abolishment of slavery in which landowners would rent parts of their farms out to tenants who would then share the profit from the crop with the landlord. The tenants, however, often went into debt to their landlords by renting equipment and borrowing money for seeds, and unpredictable harvesting seasons.</p>
