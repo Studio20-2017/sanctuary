@@ -12,7 +12,6 @@ nexturl: bertha.html
  
 <div class="jesustext" id="second">
 <br> 
-<br>
 <h1>How U.S. Policy Fueled Mexican Migration</h1>
 
 <p>By <a href="https://twitter.com/heysetareh">Setareh Baig</a></p>
