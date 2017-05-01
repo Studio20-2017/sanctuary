@@ -86,8 +86,8 @@ nexturl: henry.html
 <p class="gallup2">In the aftermath of the war, in 1946, they asked if Americans approved of a general “plan to require each nation to take in a given number of Jewish and other European refugees, based upon the size and population of each nation":</p>
 <table class="gallupnos">
 	<tr>
-		<td><h1 style="font-size:50px">40%</h1></td>
-		<td><h1 style="font-size:50px">49%</h1></td>
+		<td><h1 class="numeral">40%</h1></td>
+		<td><h1 class="numeral">49%</h1></td>
 	</tr>
 	<tr>
 		<td style="color:#450920; text-align:right; font-size:20px">in favor</td>
@@ -98,8 +98,8 @@ nexturl: henry.html
 </p>
 <table class="gallupnos">
 	<tr>
-		<td><h1 style="font-size:50px">16%</h1></td>
-		<td><h1 style="font-size:50px">72%</h1></td>
+		<td><h1 class="numeral">16%</h1></td>
+		<td><h1 class="numeral">72%</h1></td>
 	</tr>
 	<tr>
 		<td style="color:#450920; text-align:right; font-size:20px">in favor</td>
@@ -110,8 +110,8 @@ nexturl: henry.html
 </p>
 <table class="gallupnos">
 	<tr>
-		<td><h1 style="font-size:50px">24%</h1></td>
-		<td><h1 style="font-size:50px">57%</h1></td>
+		<td><h1 class="numeral">24%</h1></td>
+		<td><h1 class="numeral">57%</h1></td>
 	</tr>
 	<tr>
 		<td style="color:#450920; text-align:right; font-size:20px">in favor</td>
