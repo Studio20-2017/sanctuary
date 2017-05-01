@@ -182,5 +182,6 @@ var clickeventtype = mobilecheck() ? 'touchstart' : 'click';
  <p>The Great Migration shaped much of the country’s demographics and culture as we know it today. The influx of African Americans in conjunction with housing segregation in the North and West led to the formation of ghettos and the relocation of white urban dwellers outside of the city limits— resulting in suburbs.</p>
  
   <p>Isabel Wilkerson, author of “The Warmth of Other Suns: the Epic Story of America’s Great Migration,” is <a href="http://www.npr.org/templates/story/story.php?storyId=129827444">quoted by NPR saying</a> "[The Great Migration] had such an effect on almost every aspect of our lives — from the music that we listen to to the politics of our country to the ways the cities even look and feel."</p>
+  <br>
  
 </div>
