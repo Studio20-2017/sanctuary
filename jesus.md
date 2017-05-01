@@ -40,6 +40,7 @@ Suddenly, Jesus’s grandparents began to sell off their land, and soon after, t
 <div class="content color-1">
 <h1>Actions that can get undocumented people deported</h1>
 <br>
+<br>
 	<ul id="stack_krisna" class="stack stack--krisna">
 		<li class="stack__item"><img src="images/jesusgraphics/1.png" alt="Tree 2" /></li>
 		<li class="stack__item"><img src="images/jesusgraphics/2.png" alt="Tree 3" /></li>
