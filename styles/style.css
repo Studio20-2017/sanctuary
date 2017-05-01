@@ -236,6 +236,7 @@ margin: auto;
   height: 100px;
   width: 100px; 
   padding-top: 30px;
+	float: left;
 }
 
 .play:hover {
@@ -260,6 +261,7 @@ margin: auto;
   color: #450920;
   line-height: 50px;
   text-align: left; 
+	  float: left;
   display: inline-block;
   width: 60%;
 }
