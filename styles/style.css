@@ -289,11 +289,7 @@ margin: auto;
 .audiotime {
 	font-size: 20px;
 }
-#audioquoteright {
-	font-size: 30px;
-	line-height: normal;
-	width: 100%;
-}
+
  
 }
 @media only screen and (max-width: 769px) and (min-width: 0px){
@@ -306,6 +302,9 @@ margin: auto;
 	font-size: 30px;
 	line-height: normal;
 	width: 100%;
+}
+	.audiotime {
+	font-size: 18px;
 }
 	.play {
 	 width: 50%;
