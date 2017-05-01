@@ -79,12 +79,12 @@ Americans were blind to Mexico’s invisible suffering at the hands of U.S. poli
 <h1>Actions that can get undocumented people deported</h1>
 <br>
 	<ul id="stack_krisna" class="stack stack--krisna">
-		<li class="stack__item"><img src="https://studio20-2017.github.io/sanctuary/images/jesusgraphics/1.png" alt="Tree 2" /></li>
-		<li class="stack__item"><img src="https://studio20-2017.github.io/sanctuary/images/jesusgraphics/2.png" alt="Tree 3" /></li>
-		<li class="stack__item"><img src="https://studio20-2017.github.io/sanctuary/images/jesusgraphics/3.png" alt="Tree 4" /></li>
-		<li class="stack__item"><img src="https://studio20-2017.github.io/sanctuary/images/jesusgraphics/4.png" alt="Tree 5" /></li>
-		<li class="stack__item"><img src="https://studio20-2017.github.io/sanctuary/images/jesusgraphics/5.png" alt="Tree 6" /></li>
-  		<li class="stack__item"><img src="https://studio20-2017.github.io/sanctuary/images/jesusgraphics/6.png" alt="Tree 6" /></li>
+		<li class="stack__item"><img src="images/jesusgraphics/1.png" alt="Tree 2" /></li>
+		<li class="stack__item"><img src="images/jesusgraphics/2.png" alt="Tree 3" /></li>
+		<li class="stack__item"><img src="images/jesusgraphics/3.png" alt="Tree 4" /></li>
+		<li class="stack__item"><img src="images/jesusgraphics/4.png" alt="Tree 5" /></li>
+		<li class="stack__item"><img src="images/jesusgraphics/5.png" alt="Tree 6" /></li>
+  		<li class="stack__item"><img src="images/jesusgraphics/6.png" alt="Tree 6" /></li>
 
 	</ul>
 	<div class="controls">
