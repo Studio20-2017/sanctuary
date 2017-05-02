@@ -286,11 +286,25 @@ margin: auto;
 /* Gallup Box */
 #gallup {
 	margin: auto;
-	width: 100%;
+	width: 60%;
 	border: none;
 	background-color: #8baaad;
 	clear: both;
 	padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 769px) and (min-width: 479px){
+      #gallup{
+width: 80%;
+margin: auto;
+}
+}
+
+@media screen and (max-width: 479px) {
+       #gallup{
+width: 80%;
+margin: auto;
+}
 }
 
 .gallup2 {
