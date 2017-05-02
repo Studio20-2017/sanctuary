@@ -1,9 +1,22 @@
----
-layout: default
-title: Teddy
-nextstory: FOLLOW JESUS'S JOURNEY &rarr;
-nexturl: jesus.html
----
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Teddy</title>
+  <link href="https://fonts.googleapis.com/css?family=Droid+Sans|Oswald|Quattrocento+Sans|Raleway" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
+  <script src="scripts/jquery.min.js"></script>
+  <script src="scripts/jquery.scrollie.min_1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://f.vimeocdn.com/js/froogaloop2.min.js"></script>
+
+</head>
+  
+<body>
+  
+<a href="home.html"><img id="logo2" src="images/logos/FindingSanctuaryLogo.png"></a>
+
  <div class="boxes" id="first">
  <div class="video">
  <iframe id="player1" src="https://player.vimeo.com/video/212126911?api=1&player_id=player1" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
@@ -23,43 +36,6 @@ nexturl: jesus.html
     <link rel="stylesheet" type="text/css" href="images/intermentcamp/style.css">
     <script src="images/intermentcamp/sketch.js"></script>
     -->
-    
- <script>
- (function() {
-  var delay = false;
-
-  $(third).on('mousewheel DOMMouseScroll', function(event) {
-    event.preventDefault();
-    if(delay) return;
-
-    delay = true;
-    setTimeout(function(){delay = false},200)
-
-    var wd = event.originalEvent.wheelDelta || -event.originalEvent.detail;
-
-    var a= document.getElementsByTagName('a');
-    if(wd < 0) {
-      for(var i = 0 ; i < a.length ; i++) {
-        var t = a[i].getClientRects()[0].top;
-        if(t >= 40) break;
-      }
-    }
-    
-    else {
-      for(var i = a.length-1 ; i >= 0 ; i--) {
-        var t = a[i].getClientRects()[0].top;
-        if(t < -20) break;
-      }
-    }
-    
-    $('html,body').animate({
-      scrollTop: a[i].offsetTop
-    });
-  });
-})();
- </script>
-    
-    
  </div>
 
 <link rel="stylesheet" type="text/css" href="css/normalize.css" />
@@ -69,11 +45,10 @@ nexturl: jesus.html
 <script src="js/modernizr-custom.js"></script>
 
 
-<a> </a>
 <div id="backgroundimage" style="background-image: url(images/Teddy/3.jpg); width:100%; height:100%">
 <div class="container" id="fourth">
 <div class="content color-1">
-<h1>Life in the camps</h1>
+<h1>Beyond The Numbers: Faces Of The Displaced</h1>
 <br>
 	<ul id="stack_krisna" class="stack stack--krisna">
 		<li class="stack__item"><img src="images/Teddy/1.png" alt="Tree 2" /></li>
@@ -220,3 +195,29 @@ var clickeventtype = mobilecheck() ? 'touchstart' : 'click';
 })();
 </script>
  
+<div id="footer">
+  <p id="footertext"><a href="jesus.html"> FOLLOW JESUS'S JOURNEY &rarr; </a></p>
+</div>  
+  
+<!--Autoscroll to box "second" after the video is over-->
+<script>
+$(function() {
+  var iframe = $('#player1')[0];
+  var player = $f(iframe);
+
+  <!--When the player is ready, add listeners for pause, finish, and playProgress-->
+  
+  player.addEvent('ready', function() {        
+      player.addEvent('finish', finishVideoOne);
+  });
+
+ function finishVideoOne(id) {
+$('html, body').animate({
+    scrollTop: $("#second").offset().top
+}, 1000);}
+});
+
+</script>
+  
+</body>
+</html>

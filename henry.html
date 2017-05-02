@@ -1,68 +1,49 @@
----
-layout: default
-title: Bertha
-nextstory: FOLLOW NERDEEN'S JOURNEY &rarr;
-nexturl: nerdeen.html
----
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Henry</title>
+  <link href="https://fonts.googleapis.com/css?family=Droid+Sans|Oswald|Quattrocento+Sans|Raleway" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
+  <script src="scripts/jquery.min.js"></script>
+  <script src="scripts/jquery.scrollie.min_1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://f.vimeocdn.com/js/froogaloop2.min.js"></script>
+
+</head>
+  
+<body>
+  
+<a href="home.html"><img id="logo2" src="images/logos/FindingSanctuaryLogo.png"></a>
+
  <div class="boxes" id="first">
  <div class="video">
- <iframe id="player1" src="https://player.vimeo.com/video/214298054?api=1&player_id=player1" width="100%" height="100%"    frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+ <iframe id="player1" src="https://player.vimeo.com/video/213115662?api=1&player_id=player1"    width="100%" height="100%"    frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
  </div>
  </div>
- 
- <div class="berthatext" id="second">
-<br>
-<h1>The Great Migration and Its Impact</h1>
-<p>By <a href="https://twitter.com/heyyniss">Anissa Pierre</a></p>
 
-<p>In 1949, 16-year-old Bertha left her small hometown of Mullins, South Carolina to follow her older sister to better economic opportunity in Brooklyn. Unbeknownst to her, she was part of “one of the largest and most rapid mass internal movements in history,” according to Nicholas Lemann in his book “The Promised Land: The Great Black Migration and How It Changed America.”</p>
-
-<p>The Great Migration occurred between 1910 and 1970. During this time over 6 million African Americans moved from the south to urban centers in the northeast and west. The movement is thought of in two waves: the first from 1910 to 1940 and the second from 1940 through 1970. </p>
-</div>
-
-<div class="berthatext" id="third">
- <img alt="The Great Migration" src="images/berthagraphics/greatmigrationmap.png" width="100%">
- </div>
- <div class="boxes" id="fourth">
- <img alt="The Great Migration" src="images/berthagraphics/greatmigrationviz.png" width="100%">
- </div>
-
- <div class="berthatext" id="fifth">
- <p>Bertha and her siblings worked on their father’s sharecropped farm, growing and selling cucumbers.</p>
-
-<p>For many farmers in the late nineteenth to mid twentieth century, sharecropping was a vicious cycle. Sharecropping was a system used after the abolishment of slavery in which landowners would rent parts of their farms out to tenants who would then share the profit from the crop with the landlord. The tenants, however, often went into debt to their landlords by renting equipment and borrowing money for seeds, and unpredictable harvesting seasons.</p>
-
-<p>Instead of working to make a profit, many sharecroppers worked to pay off their debts. When the next season came, they went into debt again.</p>
-
-<p>As harvesting progressed, Bertha and her siblings moved to other farms to make extra money for school clothes and supplies. On days it rained they went to school, otherwise it wasn’t until December when harvesting season was over, that they regularly attended school.</p>
-
-<p>Despite the odds, Bertha was eligible for early graduation. Two months later she followed her sister to Brooklyn.</p>
-
- </div>
- 
- <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.3.0/css/font-awesome.min.css" />
 <link rel="stylesheet" type="text/css" href="css/demo.css" />
 <link rel="stylesheet" type="text/css" href="css/component.css" />
 <script src="js/modernizr-custom.js"></script>
 
 
-<div class="container">
+<div class="container" id="second">
 <div class="content color-1">
-<h1>SHARECROPPING</h1>
-<div class="controls">
+<h1>Homelessness in NYC</h1>
+<br>
+	<ul id="stack_krisna" class="stack stack--krisna">
+		<li class="stack__item"><img src="images/henrygraphics/2.png" alt="Tree 2" /></li>
+		<li class="stack__item"><img src="images/henrygraphics/3.png" alt="Tree 3" /></li>
+		<li class="stack__item"><img src="images/henrygraphics/4.png" alt="Tree 4" /></li>
+		<li class="stack__item"><img src="images/henrygraphics/5.png" alt="Tree 5" /></li>
+		<li class="stack__item"><img src="images/henrygraphics/6.png" alt="Tree 6" /></li>
+	</ul>
+	<div class="controls">
 		<button class="button button--sonar button--accept" data-stack="stack_krisna"><i class="fa fa-arrow-right"></i><span class="text-hidden">Accept</span></button>
 	</div>
-	<ul id="stack_krisna" class="stack stack--krisna">
-		<li class="stack__item"><img src="images/berthagraphics/1.jpg" alt="Tree 2" /></li>
-		<li class="stack__item"><img src="images/berthagraphics/2.jpg" alt="Tree 3" /></li>
-		<li class="stack__item"><img src="images/berthagraphics/3.jpg" alt="Tree 4" /></li>
-		<li class="stack__item"><img src="images/berthagraphics/4.jpg" alt="Tree 5" /></li>
-		<li class="stack__item"><img src="images/berthagraphics/5.jpg" alt="Tree 6" /></li>
-  		<li class="stack__item"><img src="images/berthagraphics/6.jpg" alt="Tree 6" /></li>
-
-	</ul>
-
 </div>
 
 </div><!-- /container -->
@@ -112,6 +93,7 @@ var clickeventtype = mobilecheck() ? 'touchstart' : 'click';
 <script src="js/main.js"></script>
 <script>
 (function() {
+
 	var support = { animations : Modernizr.cssanimations },
 		animEndEventNames = { 'WebkitAnimation' : 'webkitAnimationEnd', 'OAnimation' : 'oAnimationEnd', 'msAnimation' : 'MSAnimationEnd', 'animation' : 'animationend' },
 		animEndEventName = animEndEventNames[ Modernizr.prefixed( 'animation' ) ],
@@ -139,7 +121,7 @@ var clickeventtype = mobilecheck() ? 'touchstart' : 'click';
 		return nextSibling;
 	}
 
-	var krisna = new Stack(document.getElementById('stack_krisna'));
+	window.krisna = new Stack(document.getElementById('stack_krisna'));
 
 	// controls the click ring effect on the button
 	var buttonClickCallback = function(bttn) {
@@ -147,9 +129,32 @@ var clickeventtype = mobilecheck() ? 'touchstart' : 'click';
 		bttn.setAttribute('data-state', 'unlocked');
 	};
 
-	document.querySelector('.button--accept[data-stack = stack_krisna]').addEventListener(clickeventtype, function() { krisna.accept(buttonClickCallback.bind(this)); });
-	document.querySelector('.button--reject[data-stack = stack_krisna]').addEventListener(clickeventtype, function() { krisna.reject(buttonClickCallback.bind(this)); });
-
+	// Keep track of what slide we're on.
+	window.krisnaCounter = 0;
+	// When we click on the "next" button do this stuff.
+	document.querySelector('.button--accept[data-stack = stack_krisna]').addEventListener(clickeventtype, function(ev) { 
+		var callback = function() {
+			// check the button: is it a "refresh" button? or is it still a "next" button?
+			var button = $("button i");
+			if (button.hasClass("fa-refresh")) {
+				// if it's a refresh button, reset the counter, and change it back to a "next" button.
+				window.krisnaCounter = 0;
+				$("button i").removeClass("fa-refresh");
+				$("button i").addClass("fa-arrow-right");
+			} else {
+				// if it's a "next" button, increment our counter.
+				window.krisnaCounter += 1;
+				// are we on the last slide?
+				if (window.krisnaCounter === (window.krisna.itemsTotal-1)) {
+					// if so, change it into a "refresh" button
+					$("button i").removeClass("fa-arrow-right");
+					$("button i").addClass("fa-refresh");
+				}
+			}
+			buttonClickCallback(ev.target);
+		};
+		window.krisna.accept(callback);
+	});
 	[].slice.call(document.querySelectorAll('.button--sonar')).forEach(function(bttn) {
 		bttn.addEventListener(clickeventtype, function() {
 			bttn.setAttribute('data-state', 'locked');
@@ -176,11 +181,37 @@ var clickeventtype = mobilecheck() ? 'touchstart' : 'click';
 	});
 })();
 </script>
+ 
 
-<div class="berthatext" id="sixth">
- <p>The Great Migration shaped much of the country’s demographics and culture as we know it today. The influx of African Americans in conjunction with housing segregation in the North and West led to the formation of ghettos and the relocation of white urban dwellers outside of the city limits— resulting in suburbs.</p>
- 
-  <p>Isabel Wilkerson, author of “The Warmth of Other Suns: the Epic Story of America’s Great Migration,” is <a href="http://www.npr.org/templates/story/story.php?storyId=129827444">quoted by NPR saying</a> "[The Great Migration] had such an effect on almost every aspect of our lives — from the music that we listen to to the politics of our country to the ways the cities even look and feel."</p>
-  <br>
- 
-</div>
+
+ <div class="boxes video2" id="third">
+ <div class="video2">
+ <iframe id="player2" src="https://player.vimeo.com/video/214333545?api=1&player_id=player2" width="100%" height="100%"    frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+ </div>
+ </div>
+<div id="footer">
+  <p id="footertext"><a href="teddy.html"> FOLLOW TEDDY'S JOURNEY &rarr; </a></p>
+</div>  
+  
+<!--Autoscroll to box "second" after the video is over-->
+<script>
+$(function() {
+  var iframe = $('#player1')[0];
+  var player = $f(iframe);
+
+  <!--When the player is ready, add listeners for pause, finish, and playProgress-->
+  
+  player.addEvent('ready', function() {        
+      player.addEvent('finish', finishVideoOne);
+  });
+
+ function finishVideoOne(id) {
+$('html, body').animate({
+    scrollTop: $("#second").offset().top
+}, 1000);}
+});
+
+</script>
+  
+</body>
+</html>

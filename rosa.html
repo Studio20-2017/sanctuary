@@ -1,9 +1,22 @@
----
-layout: default
-title: Rosa
-nextstory: FOLLOW HENRY'S JOURNEY &rarr;
-nexturl: henry.html
----
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rosa</title>
+  <link href="https://fonts.googleapis.com/css?family=Droid+Sans|Oswald|Quattrocento+Sans|Raleway" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
+  <script src="scripts/jquery.min.js"></script>
+  <script src="scripts/jquery.scrollie.min_1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://f.vimeocdn.com/js/froogaloop2.min.js"></script>
+
+</head>
+  
+<body>
+  
+<a href="home.html"><img id="logo2" src="images/logos/FindingSanctuaryLogo.png"></a>
+
 <div class="boxes" id="first">
 <div class="video">
 <iframe id="player1" src="https://player.vimeo.com/video/210800050?api=1&player_id=player1" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
@@ -179,3 +192,29 @@ function play3(){
 }
 </script>
 
+<div id="footer">
+  <p id="footertext"><a href="henry.html"> FOLLOW HENRY'S JOURNEY &rarr; </a></p>
+</div>  
+  
+<!--Autoscroll to box "second" after the video is over-->
+<script>
+$(function() {
+  var iframe = $('#player1')[0];
+  var player = $f(iframe);
+
+  <!--When the player is ready, add listeners for pause, finish, and playProgress-->
+  
+  player.addEvent('ready', function() {        
+      player.addEvent('finish', finishVideoOne);
+  });
+
+ function finishVideoOne(id) {
+$('html, body').animate({
+    scrollTop: $("#second").offset().top
+}, 1000);}
+});
+
+</script>
+  
+</body>
+</html>
