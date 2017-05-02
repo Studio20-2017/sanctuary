@@ -13,7 +13,7 @@ nexturl: jesus.html
  <h1>Internment camps, USA</h1>
  <h2>From 1942 to 1946, approximately 120,000 people of Japanese ancestry, citizens and aliens alike, mainly from the West Coast, were forced into 10 relocation camps.</h2>
  <div id="third">
- <iframe src="images/internmentcamp/index.html" style="width:1000px; height:750px; border:none; margin:0; padding:0; overflow:fixed; z-index:99;"></iframe>
+ <iframe src="images/internmentcamp/index.html" style="width:800px; height:500px; border:none; margin:0; padding:0; overflow:fixed; z-index:99;"></iframe>
  <!--
      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.7/p5.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.7/addons/p5.dom.min.js"></script>
