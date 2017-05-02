@@ -25,10 +25,10 @@ nexturl: jesus.html
     -->
  </div>
 
-<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+<link rel="stylesheet" type="text/css" href="css/normalize2.css" />
 <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.3.0/css/font-awesome.min.css" />
-<link rel="stylesheet" type="text/css" href="css/demo.css" />
-<link rel="stylesheet" type="text/css" href="css/component.css" />
+<link rel="stylesheet" type="text/css" href="css/demo2.css" />
+<link rel="stylesheet" type="text/css" href="css/component2.css" />
 <script src="js/modernizr-custom.js"></script>
 
 
