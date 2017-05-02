@@ -28,7 +28,7 @@ nexturl: jesus.html
  (function() {
   var delay = false;
 
-  $(document).on('mousewheel DOMMouseScroll', function(event) {
+  $(third).on('mousewheel DOMMouseScroll', function(event) {
     event.preventDefault();
     if(delay) return;
 
