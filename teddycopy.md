@@ -33,16 +33,15 @@ nexturl: jesus.html
 <div class="container" id="teddy-text">
 <div class="content color-1">
 <h1>Life in the camp</h1>
-<br>
+<div class="controls">
+		<button class="button button--sonar button--accept" data-stack="stack_krisna"><i class="fa fa-arrow-right"></i><span class="text-hidden">Accept</span></button>
+	</div>
 	<ul id="stack_krisna" class="stack stack--krisna" style="height: 800px;">
 		<li class="stack__item"><img src="images/Teddy/1.png" alt="Tree 1" /></li>
 		<li class="stack__item"><img src="images/Teddy/2.png" alt="Tree 2" /></li>
 
 
 	</ul>
-	<div class="controls">
-		<button class="button button--sonar button--accept" data-stack="stack_krisna"><i class="fa fa-arrow-right"></i><span class="text-hidden">Accept</span></button>
-	</div>
 </div>
 
 </div><!-- /container -->
