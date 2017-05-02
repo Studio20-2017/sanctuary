@@ -25,25 +25,24 @@ nexturl: jesus.html
     -->
  </div>
 
-<link rel="stylesheet" type="text/css" href="css/normalize2.css" />
+<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.3.0/css/font-awesome.min.css" />
-<link rel="stylesheet" type="text/css" href="css/demo2.css" />
-<link rel="stylesheet" type="text/css" href="css/component2.css" />
+<link rel="stylesheet" type="text/css" href="css/demo.css" />
+<link rel="stylesheet" type="text/css" href="css/component.css" />
 <script src="js/modernizr-custom.js"></script>
 
 
-<div class="container" id="teddy-text" style="background image: url(images/Teddy/3.jpg); background-repeat: repeat">
+<div class="container" id="second">
 <div class="content color-1">
-<h1>Life in the camp</h1>
-<div class="controls">
+<h1>Life in the camps</h1>
+<br>
+	<ul id="stack_krisna" class="stack stack--krisna">
+		<li class="stack__item"><img src="images/Teddy/1.png" alt="Tree 2" /></li>
+		<li class="stack__item"><img src="images/Teddy/2.png" alt="Tree 3" /></li>
+	</ul>
+	<div class="controls">
 		<button class="button button--sonar button--accept" data-stack="stack_krisna"><i class="fa fa-arrow-right"></i><span class="text-hidden">Accept</span></button>
 	</div>
-	<ul id="stack_krisna" class="stack stack--krisna" style="height: 800px;">
-		<li class="stack__item"><img src="images/Teddy/1.png" alt="Tree 1" /></li>
-		<li class="stack__item"><img src="images/Teddy/2.png" alt="Tree 2" /></li>
-
-
-	</ul>
 </div>
 
 </div><!-- /container -->
@@ -93,6 +92,7 @@ var clickeventtype = mobilecheck() ? 'touchstart' : 'click';
 <script src="js/main.js"></script>
 <script>
 (function() {
+
 	var support = { animations : Modernizr.cssanimations },
 		animEndEventNames = { 'WebkitAnimation' : 'webkitAnimationEnd', 'OAnimation' : 'oAnimationEnd', 'msAnimation' : 'MSAnimationEnd', 'animation' : 'animationend' },
 		animEndEventName = animEndEventNames[ Modernizr.prefixed( 'animation' ) ],
@@ -120,7 +120,7 @@ var clickeventtype = mobilecheck() ? 'touchstart' : 'click';
 		return nextSibling;
 	}
 
-	var krisna = new Stack(document.getElementById('stack_krisna'));
+	window.krisna = new Stack(document.getElementById('stack_krisna'));
 
 	// controls the click ring effect on the button
 	var buttonClickCallback = function(bttn) {
@@ -128,9 +128,32 @@ var clickeventtype = mobilecheck() ? 'touchstart' : 'click';
 		bttn.setAttribute('data-state', 'unlocked');
 	};
 
-	document.querySelector('.button--accept[data-stack = stack_krisna]').addEventListener(clickeventtype, function() { krisna.accept(buttonClickCallback.bind(this)); });
-	document.querySelector('.button--reject[data-stack = stack_krisna]').addEventListener(clickeventtype, function() { krisna.reject(buttonClickCallback.bind(this)); });
-
+	// Keep track of what slide we're on.
+	window.krisnaCounter = 0;
+	// When we click on the "next" button do this stuff.
+	document.querySelector('.button--accept[data-stack = stack_krisna]').addEventListener(clickeventtype, function(ev) { 
+		var callback = function() {
+			// check the button: is it a "refresh" button? or is it still a "next" button?
+			var button = $("button i");
+			if (button.hasClass("fa-refresh")) {
+				// if it's a refresh button, reset the counter, and change it back to a "next" button.
+				window.krisnaCounter = 0;
+				$("button i").removeClass("fa-refresh");
+				$("button i").addClass("fa-arrow-right");
+			} else {
+				// if it's a "next" button, increment our counter.
+				window.krisnaCounter += 1;
+				// are we on the last slide?
+				if (window.krisnaCounter === (window.krisna.itemsTotal-1)) {
+					// if so, change it into a "refresh" button
+					$("button i").removeClass("fa-arrow-right");
+					$("button i").addClass("fa-refresh");
+				}
+			}
+			buttonClickCallback(ev.target);
+		};
+		window.krisna.accept(callback);
+	});
 	[].slice.call(document.querySelectorAll('.button--sonar')).forEach(function(bttn) {
 		bttn.addEventListener(clickeventtype, function() {
 			bttn.setAttribute('data-state', 'locked');
@@ -157,5 +180,4 @@ var clickeventtype = mobilecheck() ? 'touchstart' : 'click';
 	});
 })();
 </script>
-
  
