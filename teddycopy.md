@@ -35,14 +35,8 @@ nexturl: jesus.html
 <h1>Life in the camp</h1>
 <br>
 	<ul id="stack_krisna" class="stack stack--krisna" style="height: 800px;">
-		<li class="stack__item"><img src="images/Teddy/1.jpg" alt="Tree 1" /></li>
-		<li class="stack__item"><img src="images/Teddy/2.jpg" alt="Tree 2" /></li>
-		<li class="stack__item"><img src="images/Teddy/3.jpg" alt="Tree 3" /></li>
-		<li class="stack__item"><img src="images/Teddy/4.jpg" alt="Tree 4" /></li>
-		<li class="stack__item"><img src="images/Teddy/5.jpg" alt="Tree 5" /></li>
-  <li class="stack__item"><img src="images/Teddy/6.jpg" alt="Tree 6" /></li>
-  <li class="stack__item"><img src="images/Teddy/7.fair play comittee.jpg" alt="Tree 7" /></li>
-  <li class="stack__item"><img src="images/Teddy/8.jpg" alt="Tree 8" /></li>
+		<li class="stack__item"><img src="images/Teddy/1.png" alt="Tree 1" /></li>
+		<li class="stack__item"><img src="images/Teddy/2.png" alt="Tree 2" /></li>
 
 
 	</ul>
