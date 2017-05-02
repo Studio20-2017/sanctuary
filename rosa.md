@@ -31,7 +31,7 @@ nexturl: henry.html
 <source src="audio/rosa_auschwitz.mp3" type="audio/mp3">
 </audio>
 
-<div class="audioboxwhite"><img class="play" src="images/Asset 1.png" onclick="play2()">
+<div class="audioboxwhite" style="margin-left:50%"><img class="play" src="images/Asset 1.png" onclick="play2()">
 <p class="audioquotered">"I was very unhappy there, but it wasn't Auschwitz." <span class="audiotime">[0:14]</span></p></div>
 
 <br style="clear:right;">
@@ -42,7 +42,7 @@ nexturl: henry.html
 </audio>
 <div class="audioboxwhite"><img class="play" src="images/Asset 1.png" onclick="play3()">
 
-<p class="audioquotered">"They called it, From Auschwitz to America." <span class="audiotime">[0:11]</span></p></div>
+<p class="audioquotered">"They called it, 'From Auschwitz to America.'" <span class="audiotime">[0:11]</span></p></div>
 
 <p>Rosa arrived in New York on the S.S. Ernie Pyle. She was 18 years old, and had no family in America. But she had been given a rare opportunity.</p>
 
