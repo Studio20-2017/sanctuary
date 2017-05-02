@@ -55,7 +55,7 @@ nexturl: henry.html
 <p>Overall, about <a href="https://books.google.com/books?id=raS9TqUFb94C&pg=PA161&lpg=PA161&dq=how+many+jews+admitted+to+us+truman+directive&source=bl&ots=T8p8Z4vFwn&sig=Hq2_M40C4SQjCOjHDgvcQLmLFRI&hl=en&sa=X&ved=0ahUKEwiyzvCkpKfTAhXoxYMKHeIfBggQ6AEISDAG#v=onepage&q=how%20many%20jews%20admitted%20to%20us%20truman%20directive&f=false" target="_blank">16 percent</a> of the DPs admitted into the U.S. between 1946 and 1952 were Jewish.</p>
 <br>
 <br>
-<h1 style="text-align:center">Immigration Debate, 1948</h1>
+<h2 style="text-align:center">Immigration Debate, 1948</h2>
 
 <link rel="stylesheet" type="text/css" href="css/normalize.css" />
 <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.3.0/css/font-awesome.min.css" />
