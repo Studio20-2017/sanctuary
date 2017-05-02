@@ -32,7 +32,8 @@ nexturl: jesus.html
 <script src="js/modernizr-custom.js"></script>
 
 
-<div class="container" id="second">
+<div class="hi" style="background-image: url(images/Teddy/3.jpg); width:100%;">
+<div class="container" id="fourth">
 <div class="content color-1">
 <h1>Life in the camps</h1>
 <br>
