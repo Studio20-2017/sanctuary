@@ -15,7 +15,8 @@ nexturl: jesus.html
  <h2>From 1942 to 1946, approximately 120,000 people of Japanese ancestry, citizens and aliens alike, mainly from the West Coast, were forced into 10 relocation camps.</h2>
  </div>
  <div id="third">
- <iframe src="images/internmentcamp/index.html" style="position:fixed; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:fixed; z-index:99;"></iframe>
+ <iframe src="images/internmentcamp/index.html" style="width:800px; height:500px; border:none; margin:0; padding:0; overflow:fixed; z-index:99;"></iframe>
+ </div>
  <!--
      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.7/p5.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.7/addons/p5.dom.min.js"></script>
