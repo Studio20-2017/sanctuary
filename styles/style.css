@@ -229,6 +229,8 @@ margin: auto;
   padding-bottom: 10px;
 }
 
+
+
 .play {
   padding-right: 10px;
   opacity: 1;
@@ -326,12 +328,12 @@ td {
 	font-size: 18px;
 }
 	.play {
-	 width: 50%;
-	 height: 50%;
+	 width: 30%;
+	 height: 30%;
 	 padding-bottom: 10px;
 	}
  .audioboxwhite {  
   width: 100%;
-	 margin-right: 0 !important;
+  margin-left: 0 !important;
 }
 }
