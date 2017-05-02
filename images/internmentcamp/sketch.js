@@ -4,22 +4,49 @@ var tl = 0;
 var speed = 1;
 var state2camp;
 
+var original_image_width = 2000;
+var original_image_height = 1237;
+
 function preload(){
   campPop = loadJSON("camp_population_by_month.json");
   state2camp = loadJSON("state_to_camp.json");
-  map = loadImage("us_map-1.png");
+  map = loadImage("us_map-1.jpg");
 }
 
-function setup() { 
+function setup() {
   createCanvas(windowWidth, windowHeight);
   textAlign(CENTER);
   textSize(20);
   frameRate(2);
-} 
+}
 
-function draw() { 
-   background(220);
-    image(map, 0, 0);
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+  reScale();
+}
+
+// this is a non-p5js function that does some logic for resizing the whole
+// canvas based on the screen size such that it does not crop the graphic.
+function reScale() {
+  var hScale = windowWidth/original_image_width,
+      vScale = windowHeight/original_image_height;
+
+  // Figure out which scale is the most appropriate: we dont' want to stretch,
+  // so we just pick one)
+  var aspect = windowWidth/windowHeight;
+  var originalAspect = original_image_width/original_image_height;
+
+  if (aspect < originalAspect) {
+    scale(hScale, hScale);
+  } else {
+    scale(vScale, vScale);
+  }
+}
+
+function draw() {
+  reScale();
+   background('#ffffff');
+   image(map, 0, 0);
 
  tl += speed;
   if (tl >= 45){
@@ -28,8 +55,8 @@ function draw() {
   noStroke();
   fill(255, 0, 0, 120);
 
-  ellipse(150, 340, -campPop[tl]['Tule Lake']/80, -campPop[tl]['Tule Lake']/80);  
-  ellipse(430, 530, -campPop[tl]['Topaz_Central Utah']/80, -campPop[tl]['Topaz_Central Utah']/80);  
+  ellipse(150, 340, -campPop[tl]['Tule Lake']/80, -campPop[tl]['Tule Lake']/80);
+  ellipse(430, 530, -campPop[tl]['Topaz_Central Utah']/80, -campPop[tl]['Topaz_Central Utah']/80);
   ellipse(315, 745, -campPop[tl]['Poston_Colorado River']/80, -campPop[tl]['Poston_Colorado River']/80);
   ellipse(413, 775, -campPop[tl]['Gila River']/80, -campPop[tl]['Gila River']/80);
   ellipse(780, 625, -campPop[tl].Granada/80, -campPop[tl].Granada/80);
@@ -38,7 +65,7 @@ function draw() {
   ellipse(200, 580, -campPop[tl].Manzanar/80, -campPop[tl].Manzanar/80);
   ellipse(400, 355, -campPop[tl].Minidoka/80, -campPop[tl].Minidoka/80);
   ellipse(1185, 815, -campPop[tl].Rohwer/80, -campPop[tl].Rohwer/80);
-  
+
   push();
   stroke(0);
   fill(0);
@@ -52,15 +79,15 @@ function draw() {
   text(campPop[tl].Manzanar, 200, 580);
   text(campPop[tl].Minidoka, 400, 355);
   text(campPop[tl].Rohwer, 1185, 815);
-	pop();  
+	pop();
   //
   push();
   textSize(40);
   fill(0);
   text(campPop[tl].Date, width/2, 40);
   pop();
-  
-  
+
+
   push();
   strokeWeight(0.2);
   stroke(255);
@@ -115,7 +142,7 @@ function draw() {
   for (var ca2tl = 500; ca2tl <= state2camp[1]['Tule Lake']/100+500; ca2tl++){
     curve(150, 600, 100, ca2tl, 150, 340, 200, 400);
   }
-  
+
   //hi2topaz
   for (var hi2tp = 500; hi2tp <= state2camp[2].Topaz/20+500; hi2tp++){
     curve(400, 1200, hi2tp, 1100, 430, 530, 350, 600);
@@ -156,9 +183,9 @@ function draw() {
   for (var wa2tl = 200; wa2tl <= state2camp[4]['Tule Lake']/80+200; wa2tl++){
     curve(width/2, 0, wa2tl, 100, 150, 340, width/2, height/2);
   }
-  
+
   pop();
-  
+
   push();
   textSize(20);
   fill(255);
@@ -172,6 +199,4 @@ function draw() {
   text("Colorado", 680, 600);
   text("Arkansas", 1130, 800);
   pop();
-  
- 
 }
