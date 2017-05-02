@@ -274,25 +274,7 @@ margin: auto;
 
  
 }
-@media screen and (max-width: 479px) {
-  .audioquotered p {
-	font-size: 30px;
-	line-height: normal;
-}
 
-	.audiotime span {
-	font-size: 18px;
-}
-	.play {
-	 width: 50%;
-	 height: 50%;
-	 padding-bottom: 10px;
-	}
- .audioboxwhite {  
-  width: 100%;
-}
-	
-}
 /* Carousel */
 #carousel {
 	margin: auto;
@@ -334,5 +316,21 @@ td {
 	}
 	td {
   padding:0 10px 0 10px;
+}
+   .audioquotered p {
+	font-size: 30px;
+	line-height: normal;
+}
+
+	.audiotime span {
+	font-size: 18px;
+}
+	.play {
+	 width: 50%;
+	 height: 50%;
+	 padding-bottom: 10px;
+	}
+ .audioboxwhite {  
+  width: 100%;
 }
 }
