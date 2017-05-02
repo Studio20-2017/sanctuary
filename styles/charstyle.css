@@ -168,6 +168,7 @@ span {
 }
 /* just to have some stuff off to the side */
 .map-trigger {
+  height: 100vh !important;
   width: 1px;
   margin: 0;
   padding: 0;
