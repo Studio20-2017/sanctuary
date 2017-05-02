@@ -35,17 +35,29 @@
   <div id="txt">
 
     <div id="map-trigger-1" class="map-trigger"></div>
-<h2>Map 1: The British Mandate</h2>
+<h2>1917: The British Mandate</h2>
 <p>Before 1917, Jewish people comprised less than 10 percent of Palestine. In 1917, the British government declared their support for a Jewish homeland in Palestine in a document known as the Balfour Declaration, stating, “it being clearly understood that nothing shall be done which may prejudice the civil and religious rights of existing non-Jewish communities in Palestine.” Incorporated in the British Mandate, the document would lay the foundation for creation of the state of Israel.
 British troops occupied Palestine in 1917. From 1920 to 1948, the British civil administration ruled the region in the British Mandate.</p>
     <div id="map-trigger-2" class="map-trigger"></div>
-<h2>Map 2: Jewish settlers take root</h2>
+<h2>1946: Jewish settlers take root</h2>
 <p>After 1920, the British Mandate encouraged Jewish settlers to immigrate from Europe. By 1946, Jewish people comprised about 33 percent of Palestine, and Zionist Jews controlled 6 percent of historic Palestine. </p>
 
     <div id="map-trigger-3" class="map-trigger"></div>
+  <h2>1947: The UN Proposal</h2>
+  <p>In 1947, the UN proposed a partition plan that granted 55 percent of historic Palestine to a Jewish state, and 45 percent to a non-contiguous Arab state. Jerusalem would get special international status. Palestinian Arabs condemned this plan because it took away much of the land that was previously in their control.</p>
+
     <div id="map-trigger-4" class="map-trigger"></div>
+ <h2>1948: Arab-Israeli War</h2>
+ <p>A ten-month war broke out between Israel and Arab states. It ended with Israeli victory, and more territory of historic Palestine went to Israel.</p>
+
     <div id="map-trigger-5" class="map-trigger"></div>
-    <div id="map-trigger-6" class="map-trigger"></div>
+    <h2>1967: Six-Day War</h2>
+  <p> Also known as the June War, fought between Israel with Egypt, Jordan, and Syria after tensions built between Israel and Syria. A decisive victory for Israel, it expanded into the West Bank, Gaza Strip, Sinai Peninsula in Egypt and the Golan Heights from Syria. Israeli occupied 100 percent of historic Palestine. 300,000 Palestinians were expelled out of the West Bank, and 100,000 Syrians became refugees. Across the Arab world, Jewish minority communities were expelled, with refugees going to Israel or Europe.</p>
+
+  <div id="map-trigger-6" class="map-trigger"></div>
+  <h2>1994 - Today</h2>
+  <p> Today, there are more than 6 million Palestinian refugees, comprising one of the largest refugee populations in history. About 1 in 3 refugees are Palestinian. From 1994 to today, Israel occupies much of Palestinian territory. </p>
+
     <div id="map-trigger-7" class="map-trigger"></div>
 
 <h1 style="color:#8baaad;">Shifting borders</h1>
