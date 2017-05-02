@@ -20,7 +20,7 @@ nexturl: henry.html
 
 <div style="display:inline-block"><img class="play" src="images/Asset 1.png" onclick="play1()">
 
-<p class="audioquotered">"I wanted to go to Israel. But there was a war in Israel." <span class="audiotime">[0:11]</span></p></div>
+<p class="audioboxwhite">"I wanted to go to Israel. But there was a war in Israel." <span class="audiotime">[0:11]</span></p></div>
 
 
 <p> Rosa escaped the Nazis while being transported from Auschwitz to another concentration camp; she spent the remainder of the war in Hungary, where she lived under an assumed identity. After V-Day, on May 8, 1945,  she returned to Germany, and ended up in the Landsberg displaced person (DP) camp—a former concentration camp. She waited there for what she remembers as being about two years, hoping for an opportunity to immigrate to Israel.</p>
@@ -31,7 +31,7 @@ nexturl: henry.html
 <source src="audio/rosa_auschwitz.mp3" type="audio/mp3">
 </audio>
 
-<div style="display:inline-block"><img class="play" src="images/Asset 1.png" onclick="play2()">
+<div class="audioboxwhite"><img class="play" src="images/Asset 1.png" onclick="play2()">
 <p class="audioquotered">"I was very unhappy there, but it wasn't Auschwitz." <span class="audiotime">[0:14]</span></p></div>
 
 <br style="clear:right;">
@@ -40,7 +40,7 @@ nexturl: henry.html
 <audio id="clip3">
 <source src="audio/rosa_america.mp3" type="audio/mp3">
 </audio>
-<div style="display:inline-block"><img class="play" src="images/Asset 1.png" onclick="play3()">
+<div class="audioboxwhite"><img class="play" src="images/Asset 1.png" onclick="play3()">
 
 <p class="audioquotered">"They called it, From Auschwitz to America." <span class="audiotime">[0:11]</span></p></div>
 
