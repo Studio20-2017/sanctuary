@@ -36,14 +36,13 @@ nexturl: jesus.html
 <div class="container" id="fourth">
 <div class="content color-1">
 <h1>Life in the camps</h1>
-<br>
+<div class="controls">
+		<button class="button button--sonar button--accept" data-stack="stack_krisna"><i class="fa fa-arrow-right"></i><span class="text-hidden">Accept</span></button>
+	</div>
 	<ul id="stack_krisna" class="stack stack--krisna">
 		<li class="stack__item"><img src="images/Teddy/1.png" alt="Tree 2" /></li>
 		<li class="stack__item"><img src="images/Teddy/2.png" alt="Tree 3" /></li>
 	</ul>
-	<div class="controls">
-		<button class="button button--sonar button--accept" data-stack="stack_krisna"><i class="fa fa-arrow-right"></i><span class="text-hidden">Accept</span></button>
-	</div>
 </div>
 
 </div><!-- /container -->
