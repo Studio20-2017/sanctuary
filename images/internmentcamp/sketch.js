@@ -7,7 +7,7 @@ var state2camp;
 function preload(){
   campPop = loadJSON("camp_population_by_month.json");
   state2camp = loadJSON("state_to_camp.json");
-  map = loadImage("us_map-1.jpg");
+  map = loadImage("us_map-1.png");
 }
 
 function setup() { 
