@@ -9,7 +9,7 @@ nexturl: jesus.html
  <iframe id="player1" src="https://player.vimeo.com/video/212126911?api=1&player_id=player1" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
  </div>
  </div>
- <div class="teddyheader" id="second">
+ <div class="teddyheader" id="second" style="">
  <h1>Internment camps, USA</h1>
  <h2>From 1942 to 1946, approximately 120,000 people of Japanese ancestry, citizens and aliens alike, mainly from the West Coast, were forced into 10 relocation camps.</h2>
  <div id="third">
@@ -30,7 +30,7 @@ nexturl: jesus.html
 <script src="js/modernizr-custom.js"></script>
 
 
-<div class="container" id="teddy-text">
+<div class="container" id="teddy-text" style"background-image: url(images/Teddy/3.jpg)">
 <div class="content color-1">
 <h1>Life in the camp</h1>
 <br>
