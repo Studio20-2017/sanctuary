@@ -223,6 +223,7 @@ margin: auto;
 
 
 .audioboxwhite {  
+  display:inline-block;
   width: 60%;
   padding-top: 10px;
   padding-bottom: 10px;
