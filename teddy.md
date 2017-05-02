@@ -35,7 +35,7 @@ nexturl: jesus.html
 <div id="backgroundimage" style="background-image: url(images/Teddy/3.jpg); width:100%; height:100%">
 <div class="container" id="fourth">
 <div class="content color-1">
-<h1>Life in the camps</h1>
+<h1>Beyond The Numbers: Faces Of The Displaced</h1>
 <br>
 	<ul id="stack_krisna" class="stack stack--krisna">
 		<li class="stack__item"><img src="images/Teddy/1.png" alt="Tree 2" /></li>
