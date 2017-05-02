@@ -18,9 +18,9 @@ nexturl: henry.html
 <source src="audio/rosa_israel.mp3" type="audio/mp3">
 </audio>
 
-<div style="display:inline-block"><img class="play" src="images/Asset 1.png" onclick="play1()">
+<div class="audioboxwhite"><img class="play" src="images/Asset 1.png" onclick="play1()">
 
-<p class="audioboxwhite">"I wanted to go to Israel. But there was a war in Israel." <span class="audiotime">[0:11]</span></p></div>
+<p>"I wanted to go to Israel. But there was a war in Israel." <span class="audiotime">[0:11]</span></p></div>
 
 
 <p> Rosa escaped the Nazis while being transported from Auschwitz to another concentration camp; she spent the remainder of the war in Hungary, where she lived under an assumed identity. After V-Day, on May 8, 1945,  she returned to Germany, and ended up in the Landsberg displaced person (DP) camp—a former concentration camp. She waited there for what she remembers as being about two years, hoping for an opportunity to immigrate to Israel.</p>
