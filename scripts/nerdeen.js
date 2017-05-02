@@ -21,6 +21,7 @@ $('#map-trigger-1').scrollie({
     direction : 'up',
     scrollOffset : 0,
     scrollRatio : 2,
+    height: 0 !important;
     scrollingInView : function(){
       console.log('1917 photo');
       if (isMobile()) {
