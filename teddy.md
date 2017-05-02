@@ -9,9 +9,11 @@ nexturl: jesus.html
  <iframe id="player1" src="https://player.vimeo.com/video/212126911?api=1&player_id=player1" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
  </div>
  </div>
+ 
  <div class="teddyheader" id="second">
  <h1>Internment camps, USA</h1>
  <h2>From 1942 to 1946, approximately 120,000 people of Japanese ancestry, citizens and aliens alike, mainly from the West Coast, were forced into 10 relocation camps.</h2>
+ </div>
  <div id="third">
  <iframe src="images/internmentcamp/index.html" style="width:800px; height:500px; border:none; margin:0; padding:0; overflow:fixed; z-index:99;"></iframe>
  <!--
@@ -30,21 +32,14 @@ nexturl: jesus.html
 <script src="js/modernizr-custom.js"></script>
 
 
-<div class="container" id="teddy-text">
+<div id="backgroundimage" style="background-image: url(images/Teddy/3.jpg); width:100%; height:100%">
+<div class="container" id="fourth">
 <div class="content color-1">
-<h1>Life in the camp</h1>
+<h1>Life in the camps</h1>
 <br>
-	<ul id="stack_krisna" class="stack stack--krisna" style="height: 800px;">
-		<li class="stack__item"><img src="images/Teddy/1.png" alt="Tree 1" /></li>
-		<li class="stack__item"><img src="images/Teddy/2.png" alt="Tree 2" /></li>
-		<li class="stack__item"><img src="images/Teddy/3.jpg" alt="Tree 3" /></li>
-		<li class="stack__item"><img src="images/Teddy/4.jpg" alt="Tree 4" /></li>
-		<li class="stack__item"><img src="images/Teddy/5.jpg" alt="Tree 5" /></li>
-  <li class="stack__item"><img src="images/Teddy/6.jpg" alt="Tree 6" /></li>
-  <li class="stack__item"><img src="images/Teddy/7.fair play comittee.jpg" alt="Tree 7" /></li>
-  <li class="stack__item"><img src="images/Teddy/8.jpg" alt="Tree 8" /></li>
-
-
+	<ul id="stack_krisna" class="stack stack--krisna">
+		<li class="stack__item"><img src="images/Teddy/1.png" alt="Tree 2" /></li>
+		<li class="stack__item"><img src="images/Teddy/2.png" alt="Tree 3" /></li>
 	</ul>
 	<div class="controls">
 		<button class="button button--sonar button--accept" data-stack="stack_krisna"><i class="fa fa-arrow-right"></i><span class="text-hidden">Accept</span></button>
@@ -98,6 +93,7 @@ var clickeventtype = mobilecheck() ? 'touchstart' : 'click';
 <script src="js/main.js"></script>
 <script>
 (function() {
+
 	var support = { animations : Modernizr.cssanimations },
 		animEndEventNames = { 'WebkitAnimation' : 'webkitAnimationEnd', 'OAnimation' : 'oAnimationEnd', 'msAnimation' : 'MSAnimationEnd', 'animation' : 'animationend' },
 		animEndEventName = animEndEventNames[ Modernizr.prefixed( 'animation' ) ],
@@ -125,7 +121,7 @@ var clickeventtype = mobilecheck() ? 'touchstart' : 'click';
 		return nextSibling;
 	}
 
-	var krisna = new Stack(document.getElementById('stack_krisna'));
+	window.krisna = new Stack(document.getElementById('stack_krisna'));
 
 	// controls the click ring effect on the button
 	var buttonClickCallback = function(bttn) {
@@ -133,9 +129,32 @@ var clickeventtype = mobilecheck() ? 'touchstart' : 'click';
 		bttn.setAttribute('data-state', 'unlocked');
 	};
 
-	document.querySelector('.button--accept[data-stack = stack_krisna]').addEventListener(clickeventtype, function() { krisna.accept(buttonClickCallback.bind(this)); });
-	document.querySelector('.button--reject[data-stack = stack_krisna]').addEventListener(clickeventtype, function() { krisna.reject(buttonClickCallback.bind(this)); });
-
+	// Keep track of what slide we're on.
+	window.krisnaCounter = 0;
+	// When we click on the "next" button do this stuff.
+	document.querySelector('.button--accept[data-stack = stack_krisna]').addEventListener(clickeventtype, function(ev) { 
+		var callback = function() {
+			// check the button: is it a "refresh" button? or is it still a "next" button?
+			var button = $("button i");
+			if (button.hasClass("fa-refresh")) {
+				// if it's a refresh button, reset the counter, and change it back to a "next" button.
+				window.krisnaCounter = 0;
+				$("button i").removeClass("fa-refresh");
+				$("button i").addClass("fa-arrow-right");
+			} else {
+				// if it's a "next" button, increment our counter.
+				window.krisnaCounter += 1;
+				// are we on the last slide?
+				if (window.krisnaCounter === (window.krisna.itemsTotal-1)) {
+					// if so, change it into a "refresh" button
+					$("button i").removeClass("fa-arrow-right");
+					$("button i").addClass("fa-refresh");
+				}
+			}
+			buttonClickCallback(ev.target);
+		};
+		window.krisna.accept(callback);
+	});
 	[].slice.call(document.querySelectorAll('.button--sonar')).forEach(function(bttn) {
 		bttn.addEventListener(clickeventtype, function() {
 			bttn.setAttribute('data-state', 'locked');
@@ -162,5 +181,4 @@ var clickeventtype = mobilecheck() ? 'touchstart' : 'click';
 	});
 })();
 </script>
-
  
