@@ -16,7 +16,6 @@ nexturl: jesus.html
  </div>
  <div id="third">
  <iframe src="images/internmentcamp/index.html" style="width:800px; height:500px; border:none; margin:0; padding:0; overflow:fixed; z-index:99;"></iframe>
- </div>
  <!--
      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.7/p5.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.7/addons/p5.dom.min.js"></script>
