@@ -45,6 +45,13 @@ nexturl: jesus.html
       }
     }
     
+    else {
+      for(var i = a.length-1 ; i >= 0 ; i--) {
+        var t = a[i].getClientRects()[0].top;
+        if(t < -20) break;
+      }
+    }
+    
     $('html,body').animate({
       scrollTop: a[i].offsetTop
     });
