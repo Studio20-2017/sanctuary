@@ -442,54 +442,7 @@ video{
    }
 }
 
-@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2) {
-  .seq .seq-pagination > li a img,
-  .seq .seq-pagination > li a span {
-    display: none !important;
-  }
-  
-  .seq-prev {
-    display: none;
-  }
-  .seq-next {
-    display: none;
-  }
-  .seq-title a img.name {
-     width: 200px !important;
-     display: block; 
 
-  }
-.seq.seq-active .seq-title {
-  bottom: 0;
-}
-  .seq-pagination {
-	bottom: 0 !important;
-  }	
-  .seq .seq-pagination > *.seq-current {
-    background: #8baaad !important;
-  }
-  .seq .seq-pagination > * {
-	border-radius: 30px !important;
-  }
-  .seq-title {
-	width: 200px !important;
-  }
-  #logo img {
-    width: 108px;
-  }
-  #about {
-  	left: 80%;
-  }
-  
-.seq .seq-step1 video,
-.seq .seq-step2 video,
-.seq .seq-step3 video,
-.seq .seq-step4 video,
-.seq .seq-step5 video,
-.seq .seq-step6 video {
-  display: none;
-}
-}
 /* tablet */
 @media only screen and (max-width: 769px) and (min-width: 479px) {
 
