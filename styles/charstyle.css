@@ -216,7 +216,7 @@ txt div br { display: block; }
  #transparentbox {
   background-color: gray;
   filter: alpha(opacity=50);
-  background: rgba(69, 9, 32, 0.5);
+  background: rgba(69, 9, 32, 0.4);
   border-radius: 6px;
   padding: 10px;   
     }
