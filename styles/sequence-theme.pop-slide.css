@@ -286,7 +286,7 @@ html,
 .seq .seq-step6 { background-image: url("../images/berthamobile.png"); }
 
 /* on mobile landscape mode, don't show the play button */
-*::-webkit-media-controls-start-playback-button {
+video::-webkit-media-controls-start-playback-button {
   display: none!important;
   -webkit-appearance: none;
 }
