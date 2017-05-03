@@ -210,11 +210,11 @@ txt div br { display: block; }
 
 #txt p {
    color: #ffffff; 
-      background-color: white;
-  filter: alpha(opacity=60);
+   background-color: gray;
+  filter: alpha(opacity=50);
   background: rgba(139, 170, 173, 0.5);
-  border-radius: 3px;
-padding: 8px;
+  border-radius: 6px;
+padding: 10px;
 }
 
 /* mobile size */
