@@ -266,3 +266,21 @@ txt div br { display: block; }
   padding-left: 3px;
 }
 
+
+#transparentbox {
+  position: absolute;
+  background-color: grey;
+  filter: alpha(opacity=60);
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+padding: 8px;
+
+}
+
+span {
+color: white;
+opacity: 1;
+ filter: alpha(opacity=100);
+
+
+}
