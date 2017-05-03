@@ -210,11 +210,7 @@ txt div br { display: block; }
 
 #txt p {
    color: #ffffff; 
-   background-color: gray;
-  filter: alpha(opacity=50);
-  background: rgba(139, 170, 173, 0.5);
-  border-radius: 6px;
-padding: 10px;
+
 }
 
 /* mobile size */
@@ -222,6 +218,11 @@ padding: 10px;
 
   #txt {
   max-width: 100%;  
+  background-color: gray;
+  filter: alpha(opacity=50);
+  background: rgba(139, 170, 173, 0.5);
+  border-radius: 6px;
+  padding: 10px;
     }
   #map {
 /*
