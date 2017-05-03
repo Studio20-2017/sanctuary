@@ -24,7 +24,7 @@ function setup() {
   slider = createSlider (0, 45, 0);
   slider.position(width/2-100, 20);
   textAlign(CENTER);
-  textSize(20);
+  textSize(80);
   frameRate(1);
 }
 
