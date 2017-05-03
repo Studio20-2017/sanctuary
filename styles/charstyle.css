@@ -213,13 +213,6 @@ txt div br { display: block; }
 
 }
 
-/* mobile size */
-@media only screen and (max-width: 479px) {
-
-  #txt {
-  max-width: 100%;  
-    }
-    
  #transparentbox {
   background-color: gray;
   filter: alpha(opacity=50);
@@ -227,6 +220,15 @@ txt div br { display: block; }
   border-radius: 6px;
   padding: 10px;   
     }
+
+/* mobile size */
+@media only screen and (max-width: 479px) {
+
+  #txt {
+  max-width: 100%;  
+    }
+    
+
     
   #map {
 /*
