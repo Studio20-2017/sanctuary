@@ -220,7 +220,7 @@ txt div br { display: block; }
   max-width: 100%;  
     }
     
- #transparentbox p {
+ #transparentbox {
   background-color: gray;
   filter: alpha(opacity=50);
   background: rgba(139, 170, 173, 0.5);
