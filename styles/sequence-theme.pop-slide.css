@@ -285,6 +285,11 @@ html,
 .seq .seq-step5 { background-image: url("../images/jesusmobile.jpg"); }
 .seq .seq-step6 { background-image: url("../images/berthamobile.png"); }
 
+/* on mobile landscape mode, don't show the play button */
+*::-webkit-media-controls-start-playback-button {
+  display: none!important;
+  -webkit-appearance: none;
+}
 
 .seq small {
   /* Image credits */
