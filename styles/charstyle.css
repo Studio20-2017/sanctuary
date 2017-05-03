@@ -218,12 +218,16 @@ txt div br { display: block; }
 
   #txt {
   max-width: 100%;  
+    }
+    
+ #transparentbox p {
   background-color: gray;
   filter: alpha(opacity=50);
   background: rgba(139, 170, 173, 0.5);
   border-radius: 6px;
-  padding: 10px;
+  padding: 10px;   
     }
+    
   #map {
 /*
     width: 100vw;
