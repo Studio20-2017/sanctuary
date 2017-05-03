@@ -24,7 +24,8 @@ function setup() {
   slider = createSlider (0, 45, 0);
   slider.position(width/2-100, 20);
   textAlign(CENTER);
-  textSize(20);
+	textFont(Oswald);
+  textSize(30);
   frameRate(1);
 }
 
@@ -138,7 +139,8 @@ function draw() {
   }
   //
   push();
-  textSize(40);
+	textFont(Oswald);
+  textSize(60);
   fill(0, opp2);
   if (frameCount > 45){
     opp2 = 0;
@@ -247,7 +249,8 @@ function draw() {
   pop();
 
   push();
-  textSize(20);
+	textFont(Oswald);
+  textSize(30);
   fill(255);
   text("California", 150, 630);
   text("Arizona", 450, 700);
