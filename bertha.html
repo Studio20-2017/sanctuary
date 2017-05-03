@@ -166,13 +166,11 @@ var clickeventtype = mobilecheck() ? 'touchstart' : 'click';
 	};
 
 	document.querySelector('.button--accept[data-stack = stack_krisna]').addEventListener(clickeventtype, function() { krisna.accept(buttonClickCallback.bind(this)); });
-	document.querySelector('.button--reject[data-stack = stack_krisna]').addEventListener(clickeventtype, function() { krisna.reject(buttonClickCallback.bind(this)); });
 	
 	var krisna2 = new Stack(document.getElementById('stack_krisna2'));
 
 
 	document.querySelector('.button--accept[data-stack = stack_krisna2]').addEventListener(clickeventtype, function() { krisna2.accept(buttonClickCallback.bind(this)); });
-	document.querySelector('.button--reject[data-stack = stack_krisna2]').addEventListener(clickeventtype, function() { krisna2.reject(buttonClickCallback.bind(this)); });
 
 	[].slice.call(document.querySelectorAll('.button--sonar')).forEach(function(bttn) {
 		bttn.addEventListener(clickeventtype, function() {
