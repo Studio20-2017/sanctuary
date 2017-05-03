@@ -4,6 +4,10 @@ var tl = 0;
 var speed = 1;
 var state2camp;
 
+var slider;
+var opp = 0;
+var opp2 = 255;
+
 var original_image_width = 2000;
 var original_image_height = 1237;
 
@@ -14,15 +18,14 @@ function preload(){
 }
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  canvas = createCanvas(windowWidth, windowHeight);
+  canvas.position(0, 0);
+
+  slider = createSlider (0, 45, 0);
+  slider.position(width/2-100, 20);
   textAlign(CENTER);
   textSize(20);
-  frameRate(2);
-}
-
-function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
-  reScale();
+  frameRate(1);
 }
 
 // this is a non-p5js function that does some logic for resizing the whole
@@ -36,22 +39,36 @@ function reScale() {
   var aspect = windowWidth/windowHeight;
   var originalAspect = original_image_width/original_image_height;
 
+  canvas.resize(windowWidth, windowHeight);
+
   if (aspect < originalAspect) {
     scale(hScale, hScale);
+    canvas.position(0, 0);
   } else {
     scale(vScale, vScale);
+    // how much empty side space do we have
+    var whitespace = (original_image_width*vScale) - windowWidth;
+    canvas.position(-1*whitespace/2, 0);
   }
 }
 
 function draw() {
+  if (frameCount < 48){
+    slider.hide();
+  } else {
+    slider.show();
+  }
+
   reScale();
    background('#ffffff');
-   image(map, 0, 0);
+    image(map, 0, 0);
+		//console.log(frameCount);
 
  tl += speed;
   if (tl >= 45){
   tl = 45;
   }
+  if (frameCount <= 46){
   noStroke();
   fill(255, 0, 0, 120);
 
@@ -80,11 +97,54 @@ function draw() {
   text(campPop[tl].Minidoka, 400, 355);
   text(campPop[tl].Rohwer, 1185, 815);
 	pop();
+
+  } else {
+
+  fill(0, opp);
+  opp+=80;
+  text(campPop[0].Date, width/2-160, 60);
+  text(campPop[45].Date, width/2+150, 60);
+    console.log(slider.value);
+  var x  = slider.value();
+  noStroke();
+  fill(255, 0, 0, 120);
+  ellipse(150, 340, -campPop[x]['Tule Lake']/80, -campPop[x]['Tule Lake']/80);
+  ellipse(430, 530, -campPop[x]['Topaz_Central Utah']/80, -campPop[x]['Topaz_Central Utah']/80);
+  ellipse(315, 745, -campPop[x]['Poston_Colorado River']/80, -campPop[x]['Poston_Colorado River']/80);
+  ellipse(413, 775, -campPop[x]['Gila River']/80, -campPop[x]['Gila River']/80);
+  ellipse(780, 625, -campPop[x].Granada/80, -campPop[x].Granada/80);
+  ellipse(570, 300, -campPop[x]['Heart Mountain']/80, -campPop[x]['Heart Mountain']/80);
+  ellipse(1180, 840, -campPop[x].Jerome/80, -campPop[x].Jerome/80);
+  ellipse(200, 580, -campPop[x].Manzanar/80, -campPop[x].Manzanar/80);
+  ellipse(400, 355, -campPop[x].Minidoka/80, -campPop[x].Minidoka/80);
+  ellipse(1185, 815, -campPop[x].Rohwer/80, -campPop[x].Rohwer/80);
+
+    push();
+  stroke(0);
+  fill(0);
+  text(campPop[x]['Tule Lake'], 150, 340);
+  text(campPop[x]['Topaz_Central Utah'], 430, 530);
+  text(campPop[x]['Poston_Colorado River'], 315, 745);
+  text(campPop[x]['Gila River'], 413, 775);
+  text(campPop[x].Granada, 780, 625);
+  text(campPop[x]['Heart Mountain'], 570, 300);
+  text(campPop[x].Jerome, 1180, 840);
+  text(campPop[x].Manzanar, 200, 580);
+  text(campPop[x].Minidoka, 400, 355);
+  text(campPop[x].Rohwer, 1185, 815);
+	pop();
+
+
+  }
   //
   push();
   textSize(40);
-  fill(0);
+  fill(0, opp2);
+  if (frameCount > 45){
+    opp2 = 0;
+  }
   text(campPop[tl].Date, width/2, 40);
+
   pop();
 
 
@@ -189,7 +249,7 @@ function draw() {
   push();
   textSize(20);
   fill(255);
-  text("California", 150, 600);
+  text("California", 150, 630);
   text("Arizona", 450, 700);
   text("Utah", 450, 500);
   //text("Oregan", 170, 250);
@@ -197,6 +257,26 @@ function draw() {
   text("Idaho", 370, 270);
   text("Wyoming", 650, 400);
   text("Colorado", 680, 600);
-  text("Arkansas", 1130, 800);
+  text("Arkansas", 1130, 770);
+
+  push();
+  strokeWeight(0.5);
+  stroke(0);
+  fill(0);
+  text('Tule Lake', 150, 360);
+  text('Topaz', 430, 550);
+  text('Poston', 315, 765);
+  text('Gila River', 413, 795);
+  text('Granada', 780, 645);
+  text('Heart Mountain', 570, 320);
+  text('Jerome', 1180, 860);
+  text('Manzanar', 200, 600);
+  text('Minidoka', 400, 375);
+  text('Rohwer', 1185, 795);
+	pop();
+
+
   pop();
+
+
 }

@@ -1,6 +1,6 @@
 [
  {
-   "Date": "6/1/42",
+   "Date": "June 1942",
    "Total": 17393,
    "Topaz_Central Utah": 0,
    "Poston_Colorado River": 7281,
@@ -14,7 +14,7 @@
    "Tule Lake": 446
  },
  {
-   "Date": "7/1/42",
+   "Date": "July 1942",
    "Total": 27633,
    "Topaz_Central Utah": 0,
    "Poston_Colorado River": 8755,
@@ -28,7 +28,7 @@
    "Tule Lake": 9038
  },
  {
-   "Date": "8/1/42",
+   "Date": "August 1942",
    "Total": 40316,
    "Topaz_Central Utah": 0,
    "Poston_Colorado River": 13262,
@@ -42,7 +42,7 @@
    "Tule Lake": 15020
  },
  {
-   "Date": "9/1/42",
+   "Date": "September 1942",
    "Total": 63031,
    "Topaz_Central Utah": 0,
    "Poston_Colorado River": 17818,
@@ -56,7 +56,7 @@
    "Tule Lake": 15181
  },
  {
-   "Date": "10/1/42",
+   "Date": "October 1942",
    "Total": 90499,
    "Topaz_Central Utah": 5806,
    "Poston_Colorado River": 17847,
@@ -70,7 +70,7 @@
    "Tule Lake": 15277
  },
  {
-   "Date": "11/1/42",
+   "Date": "November 1942",
    "Total": 109192,
    "Topaz_Central Utah": 8320,
    "Poston_Colorado River": 17877,
@@ -84,7 +84,7 @@
    "Tule Lake": 15393
  },
  {
-   "Date": "12/1/42",
+   "Date": "December 1942",
    "Total": 110160,
    "Topaz_Central Utah": 8294,
    "Poston_Colorado River": 17965,
@@ -98,7 +98,7 @@
    "Tule Lake": 15311
  },
  {
-   "Date": "1/1/43",
+   "Date": "January 1943",
    "Total": 110240,
    "Topaz_Central Utah": 8232,
    "Poston_Colorado River": 8039,
@@ -112,7 +112,7 @@
    "Tule Lake": 15369
  },
  {
-   "Date": "2/1/43",
+   "Date": "February 1943",
    "Total": 110353,
    "Topaz_Central Utah": 8214,
    "Poston_Colorado River": 18025,
@@ -126,7 +126,7 @@
    "Tule Lake": 15274
  },
  {
-   "Date": "3/1/43",
+   "Date": "March 1943",
    "Total": 110181,
    "Topaz_Central Utah": 8152,
    "Poston_Colorado River": 17984,
@@ -140,7 +140,7 @@
    "Tule Lake": 15219
  },
  {
-   "Date": "4/1/43",
+   "Date": "April 1943",
    "Total": 109648,
    "Topaz_Central Utah": 8332,
    "Poston_Colorado River": 17941,
@@ -154,7 +154,7 @@
    "Tule Lake": 15124
  },
  {
-   "Date": "5/1/43",
+   "Date": "May 1943",
    "Total": 107693,
    "Topaz_Central Utah": 8189,
    "Poston_Colorado River": 17741,
@@ -168,7 +168,7 @@
    "Tule Lake": 15015
  },
  {
-   "Date": "6/1/43",
+   "Date": "June 1943",
    "Total": 105300,
    "Topaz_Central Utah": 8018,
    "Poston_Colorado River": 17406,
@@ -182,7 +182,7 @@
    "Tule Lake": 14828
  },
  {
-   "Date": "7/1/43",
+   "Date": "July 1943",
    "Total": 103282,
    "Topaz_Central Utah": 7862,
    "Poston_Colorado River": 16995,
@@ -196,7 +196,7 @@
    "Tule Lake": 14630
  },
  {
-   "Date": "8/1/43",
+   "Date": "August 1943",
    "Total": 101937,
    "Topaz_Central Utah": 7809,
    "Poston_Colorado River": 16671,
@@ -210,7 +210,7 @@
    "Tule Lake": 14484
  },
  {
-   "Date": "9/1/43",
+   "Date": "September 1943",
    "Total": 99927,
    "Topaz_Central Utah": 7682,
    "Poston_Colorado River": 16279,
@@ -224,7 +224,7 @@
    "Tule Lake": 14185
  },
  {
-   "Date": "10/1/43",
+   "Date": "October 1943",
    "Total": 98529,
    "Topaz_Central Utah": 7608,
    "Poston_Colorado River": 16013,
@@ -238,7 +238,7 @@
    "Tule Lake": 12183
  },
  {
-   "Date": "11/1/43",
+   "Date": "November 1943",
    "Total": 97539,
    "Topaz_Central Utah": 7554,
    "Poston_Colorado River": 14470,
@@ -252,7 +252,7 @@
    "Tule Lake": 16012
  },
  {
-   "Date": "12/1/43",
+   "Date": "December 1943",
    "Total": 96963,
    "Topaz_Central Utah": 7585,
    "Poston_Colorado River": 14372,
@@ -266,7 +266,7 @@
    "Tule Lake": 15671
  },
  {
-   "Date": "1/1/44",
+   "Date": "January 1944",
    "Total": 96576,
    "Topaz_Central Utah": 7559,
    "Poston_Colorado River": 14295,
@@ -280,7 +280,7 @@
    "Tule Lake": 15630
  },
  {
-   "Date": "2/1/44",
+   "Date": "February 1944",
    "Total": 95576,
    "Topaz_Central Utah": 7438,
    "Poston_Colorado River": 14109,
@@ -294,7 +294,7 @@
    "Tule Lake": 15625
  },
  {
-   "Date": "3/1/44",
+   "Date": "March 1944",
    "Total": 94462,
    "Topaz_Central Utah": 7350,
    "Poston_Colorado River": 13876,
@@ -308,7 +308,7 @@
    "Tule Lake": 17492
  },
  {
-   "Date": "4/1/44",
+   "Date": "April 1944",
    "Total": 92923,
    "Topaz_Central Utah": 7227,
    "Poston_Colorado River": 13453,
@@ -322,7 +322,7 @@
    "Tule Lake": 17580
  },
  {
-   "Date": "5/1/44",
+   "Date": "May 1944",
    "Total": 90960,
    "Topaz_Central Utah": 7084,
    "Poston_Colorado River": 13241,
@@ -336,7 +336,7 @@
    "Tule Lake": 16964
  },
  {
-   "Date": "6/1/44",
+   "Date": "June 1944",
    "Total": 89119,
    "Topaz_Central Utah": 6879,
    "Poston_Colorado River": 13021,
@@ -350,7 +350,7 @@
    "Tule Lake": 18652
  },
  {
-   "Date": "7/1/44",
+   "Date": "July 1944",
    "Total": 87383,
    "Topaz_Central Utah": 6727,
    "Poston_Colorado River": 12725,
@@ -364,7 +364,7 @@
    "Tule Lake": 18678
  },
  {
-   "Date": "8/1/44",
+   "Date": "August 1944",
    "Total": 85816,
    "Topaz_Central Utah": 6621,
    "Poston_Colorado River": 12517,
@@ -378,7 +378,7 @@
    "Tule Lake": 18709
  },
  {
-   "Date": "9/1/44",
+   "Date": "September 1944",
    "Total": 84046,
    "Topaz_Central Utah": 6426,
    "Poston_Colorado River": 12152,
@@ -392,7 +392,7 @@
    "Tule Lake": 18726
  },
  {
-   "Date": "10/1/44",
+   "Date": "October 1944",
    "Total": 82834,
    "Topaz_Central Utah": 6280,
    "Poston_Colorado River": 12059,
@@ -406,7 +406,7 @@
    "Tule Lake": 18728
  },
  {
-   "Date": "11/1/44",
+   "Date": "November 1944",
    "Total": 82046,
    "Topaz_Central Utah": 6125,
    "Poston_Colorado River": 11881,
@@ -420,7 +420,7 @@
    "Tule Lake": 18718
  },
  {
-   "Date": "12/1/44",
+   "Date": "December 1944",
    "Total": 81288,
    "Topaz_Central Utah": 6026,
    "Poston_Colorado River": 11751,
@@ -434,7 +434,7 @@
    "Tule Lake": 18770
  },
  {
-   "Date": "1/1/45",
+   "Date": "January 1945",
    "Total": 80878,
    "Topaz_Central Utah": 5984,
    "Poston_Colorado River": 11710,
@@ -448,7 +448,7 @@
    "Tule Lake": 18734
  },
  {
-   "Date": "2/1/45",
+   "Date": "February 1945",
    "Total": 79805,
    "Topaz_Central Utah": 5883,
    "Poston_Colorado River": 11480,
@@ -462,7 +462,7 @@
    "Tule Lake": 18593
  },
  {
-   "Date": "3/1/45",
+   "Date": "March 1945",
    "Total": 77774,
    "Topaz_Central Utah": 5742,
    "Poston_Colorado River": 11251,
@@ -476,7 +476,7 @@
    "Tule Lake": 17953
  },
  {
-   "Date": "4/1/45",
+   "Date": "April 1945",
    "Total": 75559,
    "Topaz_Central Utah": 5589,
    "Poston_Colorado River": 10828,
@@ -490,7 +490,7 @@
    "Tule Lake": 17864
  },
  {
-   "Date": "5/1/45",
+   "Date": "May 1945",
    "Total": 72806,
    "Topaz_Central Utah": 5413,
    "Poston_Colorado River": 10421,
@@ -504,7 +504,7 @@
    "Tule Lake": 17886
  },
  {
-   "Date": "6/1/45",
+   "Date": "June 1945",
    "Total": 69126,
    "Topaz_Central Utah": 5165,
    "Poston_Colorado River": 9979,
@@ -518,7 +518,7 @@
    "Tule Lake": 17879
  },
  {
-   "Date": "7/1/45",
+   "Date": "July 1945",
    "Total": 63857,
    "Topaz_Central Utah": 4645,
    "Poston_Colorado River": 9386,
@@ -532,7 +532,7 @@
    "Tule Lake": 17466
  },
  {
-   "Date": "8/1/45",
+   "Date": "August 1945",
    "Total": 58951,
    "Topaz_Central Utah": 4176,
    "Poston_Colorado River": 8750,
@@ -546,7 +546,7 @@
    "Tule Lake": 17366
  },
  {
-   "Date": "9/1/45",
+   "Date": "September 1945",
    "Total": 50462,
    "Topaz_Central Utah": 3339,
    "Poston_Colorado River": 6828,
@@ -560,7 +560,7 @@
    "Tule Lake": 17286
  },
  {
-   "Date": "10/1/45",
+   "Date": "October 1945",
    "Total": 35368,
    "Topaz_Central Utah": 1899,
    "Poston_Colorado River": 2730,
@@ -574,7 +574,7 @@
    "Tule Lake": 16740
  },
  {
-   "Date": "11/1/45",
+   "Date": "November 1945",
    "Total": 21398,
    "Topaz_Central Utah": 0,
    "Poston_Colorado River": 1088,
@@ -588,7 +588,7 @@
    "Tule Lake": 15450
  },
  {
-   "Date": "12/1/45",
+   "Date": "December 1945",
    "Total": 12628,
    "Topaz_Central Utah": 0,
    "Poston_Colorado River": 0,
@@ -602,7 +602,7 @@
    "Tule Lake": 12628
  },
  {
-   "Date": "1/1/46",
+   "Date": "January 1946",
    "Total": 7303,
    "Topaz_Central Utah": 0,
    "Poston_Colorado River": 0,
@@ -616,7 +616,7 @@
    "Tule Lake": 7303
  },
  {
-   "Date": "2/1/46",
+   "Date": "February 1946",
    "Total": 5046,
    "Topaz_Central Utah": 0,
    "Poston_Colorado River": 0,
@@ -630,7 +630,7 @@
    "Tule Lake": 5046
  },
  {
-   "Date": "3/1/46",
+   "Date": "March 1946",
    "Total": 2808,
    "Topaz_Central Utah": 0,
    "Poston_Colorado River": 0,
