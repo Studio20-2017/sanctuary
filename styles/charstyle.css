@@ -210,6 +210,11 @@ txt div br { display: block; }
 
 #txt p {
    color: #ffffff; 
+      background-color: white;
+  filter: alpha(opacity=60);
+  background: rgba(139, 170, 173, 0.5);
+  border-radius: 3px;
+padding: 8px;
 }
 
 /* mobile size */
@@ -267,14 +272,7 @@ txt div br { display: block; }
 }
 
 
-#transparentbox {
-  background-color: white;
-  filter: alpha(opacity=60);
-  background: rgba(0, 0, 0, 0.5);
-  border-radius: 3px;
-padding: 8px;
 
-}
 
 span {
 color: white;
