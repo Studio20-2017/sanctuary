@@ -167,6 +167,17 @@ var clickeventtype = mobilecheck() ? 'touchstart' : 'click';
 
 	document.querySelector('.button--accept[data-stack = stack_krisna]').addEventListener(clickeventtype, function() { krisna.accept(buttonClickCallback.bind(this)); });
 	document.querySelector('.button--reject[data-stack = stack_krisna]').addEventListener(clickeventtype, function() { krisna.reject(buttonClickCallback.bind(this)); });
+	
+	ar krisna = new Stack(document.getElementById('stack_krisna2'));
+
+	// controls the click ring effect on the button
+	var buttonClickCallback = function(bttn) {
+		var bttn = bttn || this;
+		bttn.setAttribute('data-state', 'unlocked');
+	};
+
+	document.querySelector('.button--accept[data-stack = stack_krisna2]').addEventListener(clickeventtype, function() { krisna.accept(buttonClickCallback.bind(this)); });
+	document.querySelector('.button--reject[data-stack = stack_krisna2]').addEventListener(clickeventtype, function() { krisna.reject(buttonClickCallback.bind(this)); });
 
 	[].slice.call(document.querySelectorAll('.button--sonar')).forEach(function(bttn) {
 		bttn.addEventListener(clickeventtype, function() {
