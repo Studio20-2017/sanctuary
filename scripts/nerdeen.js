@@ -24,7 +24,7 @@ $('#map-trigger-1').scrollie({
     scrollingInView : function(){
       console.log('1917 photo');
       if (isMobile()) {
-        changeMap('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Mobile/1917.png');
+        changeMap('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Mobile/1917.jpg');
         $("#logo2").show();
       } else {
         changeMap('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Desktop/1917.jpg');
