@@ -268,10 +268,9 @@ txt div br { display: block; }
 
 
 #transparentbox {
-  position: absolute;
-  background-color: grey;
+  background-color: white;
   filter: alpha(opacity=60);
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.5);
   border-radius: 3px;
 padding: 8px;
 
