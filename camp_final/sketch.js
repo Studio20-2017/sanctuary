@@ -50,9 +50,11 @@ function reScale() {
     canvas.position(0, 0);
   } else {
     scale(vScale, vScale);
+
     // how much empty side space do we have
     var whitespace = (original_image_width*vScale) - windowWidth;
-    canvas.position(-1*whitespace/2, 0);
+    translate(-whitespace, 0)
+    // canvas.position(-1*whitespace/2, 0);
   }
 }
 
@@ -69,8 +71,8 @@ function draw() {
 //     slider.show();
 //   }
  		reScale();
-   	background('#ffffff');
-    image(map, 0, 0);
+   	// background('#ffffff');
+    // image(map, 0, 0);
 
   
    background(220);
