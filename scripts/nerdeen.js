@@ -35,7 +35,7 @@ $('#map-trigger-1').scrollie({
  $('#map-trigger-2').scrollie({
     direction : 'both',
     scrollOffset : 0,
-    scrollRatio : 2,
+    scrollRatio : 2.5,
     scrollingInView : function(){
       console.log('1946 photo');
       if (isMobile()) {
@@ -51,7 +51,7 @@ $('#map-trigger-1').scrollie({
  $('#map-trigger-3').scrollie({
     direction : 'both',
     scrollOffset : 0,
-    scrollRatio : 2,
+    scrollRatio : 2.5,
     scrollingInView : function(){
       console.log('3');
       if (isMobile()) {
@@ -66,7 +66,7 @@ $('#map-trigger-1').scrollie({
  $('#map-trigger-4').scrollie({
     direction : 'both',
     scrollOffset : 0,
-    scrollRatio : 2,
+    scrollRatio : 2.5,
     scrollingInView : function(){
       if (isMobile()) {
         changeMap('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Mobile/1948.jpg');
