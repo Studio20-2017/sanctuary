@@ -168,7 +168,7 @@ span {
 }
 /* just to have some stuff off to the side */
 .map-trigger {
-  height: 100vh !important;
+  height: 150vh !important;
   width: 1px;
   margin: 0;
   padding: 0;
@@ -238,34 +238,31 @@ txt div br { display: block; }
     background-image: url('https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Mobile/1917.jpg');
   }
     .map-trigger {
+     height: 150vh !important;
+
     }
     #map-trigger-1 {
     background-image: url("https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Mobile/1917.jpg");
-    height: 100vh !important;
 
 }
 
 #map-trigger-2 {
     background-image: url("https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Mobile/1946.jpg");
-    height: 150vh !important;
 
 }
 
 #map-trigger-3 {
     background-image: url("https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Mobile/1947.jpg");
-    height: 150vh !important;
 
 }
 
 #map-trigger-4 {
     background-image: url("https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Mobile/1948.jpg");
-    height: 150vh !important;
 
 }
 
 #map-trigger-5 {
     background-image: url("https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background//Mobile/1967.jpg");
-    height: 150vh !important;
 
 }
 #map-trigger-6 {
