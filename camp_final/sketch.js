@@ -43,17 +43,20 @@ function reScale() {
   var aspect = windowWidth/windowHeight;
   var originalAspect = original_image_width/original_image_height;
 
+
   canvas.resize(windowWidth, windowHeight);
 
   if (aspect < originalAspect) {
     scale(hScale, hScale);
     canvas.position(0, 0);
+    translate(0, 100)
+
   } else {
     scale(vScale, vScale);
 
     // how much empty side space do we have
     var whitespace = (original_image_width*vScale) - windowWidth;
-    translate(-whitespace, 0)
+    translate(-whitespace, 20)
     // canvas.position(-1*whitespace/2, 0);
   }
 }
