@@ -246,18 +246,26 @@ txt div br { display: block; }
 
 #map-trigger-2 {
     background-image: url("https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Mobile/1946.jpg");
+    height: 100vh !important;
+
 }
 
 #map-trigger-3 {
     background-image: url("https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Mobile/1947.jpg");
+    height: 100vh !important;
+
 }
 
 #map-trigger-4 {
     background-image: url("https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Mobile/1948.jpg");
+    height: 100vh !important;
+
 }
 
 #map-trigger-5 {
     background-image: url("https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background//Mobile/1967.jpg");
+    height: 100vh !important;
+
 }
 #map-trigger-6 {
     background-image: url("https://studio20-2017.github.io/sanctuary/images/nerdeengraphics/Historic Photo Background/Mobile/1994 - 2014.jpg");
