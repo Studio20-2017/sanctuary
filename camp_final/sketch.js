@@ -22,8 +22,9 @@ function setup() {
   canvas = createCanvas(windowWidth, windowHeight);
   canvas.position(0, 0);
   
-  slider = createSlider (0, 45, 0);
-  slider.position(width/2-100, 20);
+   slider = createSlider (0, 45, 0);
+   // slider.position(425, 0);
+
   textAlign(CENTER);
   textSize(40);
   //frameRate(1); 

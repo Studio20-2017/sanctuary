@@ -15,10 +15,14 @@ canvas {
     bottom: 0 !important;
 }
 
+
+
 input[type=range] {
   -webkit-appearance: none;
   margin: 15px 0;
   width: 10%;
+  margin-left: -180px;
+  position: relative;
 
 }
 input[type=range]:focus {
