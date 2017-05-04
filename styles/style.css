@@ -212,18 +212,12 @@ margin: auto;
 	}
 }
 
-#footersource{
-     display: block;
-     width: 100%;
-     background-color: black;
-}
-
 #footersourcetext{
      color: white;
      padding-left: 20px;
      text-align: left;
      font-size: 10px;
-			line-height: 100%;
+	line-height: 100%;
      font-family: Oswald;
      letter-spacing: 1.8px;
 	margin:0;
