@@ -224,6 +224,12 @@ margin: auto;
 	margin:0;
 }
 
+@media screen and (max-width: 1000px) {
+      #socialexplorermap{
+	display:none;
+	}
+}
+
 /* Audio Boxes */
 .audioboxred {  
   background-color: #450920;
