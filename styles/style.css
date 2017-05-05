@@ -101,7 +101,7 @@ font-family: Quattrocento;
 font-size: 25px; 
 color: #000f08;
 line-height: 150%;
-text-align: justify;
+text-align: left;
 }
 	
 @media only screen and (max-width: 769px) and (min-width: 479px){
