@@ -225,7 +225,7 @@ margin: auto;
 }
 
 @media screen and (max-width: 800px) {
-      #socialexplorermap{
+      .dontshowonmobile{
 	display:none;
 	}
 }
