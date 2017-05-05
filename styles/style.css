@@ -207,21 +207,9 @@ margin: auto;
       #footertext a{
 	color:white;
         padding: 40px;
-        font-size: 20px; 
+        font-size: 18px; 
 	padding-bottom:0;
 	}
-}
-
-#footersourcetext{
-     color: white;
-     padding-left: 20px;
-	padding-bottom: 20px;
-     text-align: left;
-     font-size: 15px;
-	line-height: 100%;
-     font-family: Oswald;
-     letter-spacing: 1.8px;
-	margin:0;
 }
 
 @media screen and (max-width: 800px) {
