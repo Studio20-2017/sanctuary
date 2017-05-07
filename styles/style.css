@@ -243,7 +243,9 @@ color: white;
 }
 
 .scrollformoretext a{
-text-decoration:none;
+color: white;
+      text-decoration: none;
+      border-bottom: none;
 }
 
 /* Audio Boxes */
