@@ -242,6 +242,10 @@ color: white;
 	margin:0;
 }
 
+.scrollformoretext a{
+text-decoration:none;
+}
+
 /* Audio Boxes */
 .audioboxred {  
   background-color: #450920;
