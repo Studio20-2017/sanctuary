@@ -218,6 +218,12 @@ margin: auto;
 	}
 }
 
+@media screen and (min-width: 1000px) {
+      .dontshowondesktop{
+	display:none;
+	}
+}
+
 .scrollformorebar{
 background-color: transparent;  
 width:100%; 
