@@ -246,15 +246,17 @@ $('html, body').animate({
 </script>
 	
 <script type="text/javascript">
-	$(window).ready(function () {
-        window.timer = 0;
-        $(window).on('mousemove touchmove', function () {
+    var resetTimer = function() {
             $('.scrollformorebar').fadeIn(100);
             clearTimeout(window.timer);
             window.timer = setTimeout(function () {
                 $('.scrollformorebar').fadeOut(600);
             }, 2000);
-        });
+    }
+    $(window).ready(function () {
+        window.timer = 0;
+        $(window).on('mousemove touchmove', resetTimer);
+        $('#player1').on('mousemove touchmove', resetTimer);
         $(window).trigger('mousemove');
     });
 </script>
