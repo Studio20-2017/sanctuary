@@ -237,11 +237,11 @@ $(function() {
 player.addEvent('ready', function() {        
     player.addEvent('finish', finishVideoOne);
 
-    player.on('play', function() {        
+    player.addEvent('play', function() {        
         $('.scrollformorebar').fadeOut(600);
     });
 
-    player.on('pause', function() {        
+    player.addEvent('pause', function() {        
         $('.scrollformorebar').fadeIn(100);
     });
 });
