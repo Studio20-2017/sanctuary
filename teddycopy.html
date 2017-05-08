@@ -248,12 +248,12 @@ $('html, body').animate({
 <script>
 var fadeout = null;
     $(document).mousemove(function() {
-        $(".scrollformorebar").stop().fadeIn("fast");
+        $(".scrollformorebar").stop().fadeIn("slow");
         if (fadeout != null) {
             clearTimeout(fadeout);
-            fadeout = setTimeout(hide_playlist, 300);
+            fadeout = setTimeout(hide_playlist, 1000);
         }
-        fadeout = setTimeout(hide_playlist, 300);
+        fadeout = setTimeout(hide_playlist, 1000);
     });
 
     function hide_playlist() {
