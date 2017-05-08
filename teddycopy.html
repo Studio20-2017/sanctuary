@@ -234,15 +234,17 @@ $(function() {
 
   <!--When the player is ready, add listeners for pause, finish, and playProgress-->
   
-  player.addEvent('ready', function() {        
-      player.addEvent('finish', finishVideoOne);
-  });
- player.on('play', function() {        
-      $('.scrollformorebar').fadeOut(600);
-  });
- player.on('pause', function() {        
-      $('.scrollformorebar').fadeIn(100);
-  });
+player.addEvent('ready', function() {        
+    player.addEvent('finish', finishVideoOne);
+
+    player.on('play', function() {        
+        $('.scrollformorebar').fadeOut(600);
+    });
+
+    player.on('pause', function() {        
+        $('.scrollformorebar').fadeIn(100);
+    });
+});
 
  function finishVideoOne(id) {
 $('html, body').animate({
