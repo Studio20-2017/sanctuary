@@ -246,18 +246,19 @@ $('html, body').animate({
 </script>
 	
 <script>
-	var timer;
-        $('player1').mousemove(function() {
-            if (timer) {
-                clearTimeout(timer);
-                timer = 0;
-            }
-
-            $('.scrollformorebar').fadeIn();
-            timer = setTimeout(function() {
-                $('.scrollformorebar').fadeOut()
-            }, 300)
-        })	
+	$(document).ready(function () {
+    var timer;
+    $(document).on("mousemove touchmove", function () {
+        if (timer) {
+            clearTimeout(timer);
+            timer = 0;
+        }
+        $('div').fadeIn(100);
+        timer = setTimeout(function () {
+            $('div').fadeOut(3000)
+        }, 3000)
+    });
+});	
 </script>
   
 </body>
