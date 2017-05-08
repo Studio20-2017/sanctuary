@@ -246,16 +246,16 @@ $('html, body').animate({
 </script>
 	
 <script type="text/javascript">
-	$(document).ready(function () {
+	$(window).ready(function () {
         window.timer = 0;
-        $(document).on('mousemove touchmove', function () {
+        $(window).on('mousemove touchmove', function () {
             $('.scrollformorebar').fadeIn(100);
             clearTimeout(window.timer);
             window.timer = setTimeout(function () {
-                $('.scrollformorebar').fadeOut(100);
-            }, 3000);
+                $('.scrollformorebar').fadeOut(600);
+            }, 2000);
         });
-        $(document).trigger('mousemove');
+        $(window).trigger('mousemove');
     });
 </script>
   
