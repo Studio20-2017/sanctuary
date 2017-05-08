@@ -68,23 +68,6 @@ mySequence.animationEnded = function(id, sequence) {
     }
     }
     
- if (id == 3) {
-      $("#logo2").attr("src", "images/logos/FindingSanctuaryLogoBW.png");
-    } else {
-       $("#logo2").attr("src", "images/logos/FindingSanctuaryLogo.png");
-    }
-    
-    if (id == 3) {
-      $("#leftarrow").attr("src", "images/Left Arrow Black.png");
-    } else {
-       $("#leftarrow").attr("src", "images/Left Arrow.png");
-    }
-    
-    if (id == 3) {
-      $("#rightarrow").attr("src", "images/Right Arrow Black.png");
-    } else {
-       $("#rightarrow").attr("src", "images/Right Arrow.png");
-    } 
 }
 
 
