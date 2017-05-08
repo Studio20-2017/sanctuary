@@ -256,7 +256,7 @@ $('html, body').animate({
     $(window).ready(function () {
         window.timer = 0;
         $(window).on('mousemove touchmove', resetTimer);
-        document.getElementById('player1').contentDocument.addEventListener('mousemove touchmove', resetTimer);
+        $("#player1").contents().find("body").on('mousemove touchmove', resetTimer);
         $(window).trigger('mousemove');
     });
 </script>
