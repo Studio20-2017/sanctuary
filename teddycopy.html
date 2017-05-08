@@ -246,19 +246,18 @@ $('html, body').animate({
 </script>
 	
 <script>
-var fadeout = null;
-$("html").mousemove(function() {
-  $("div.scrollformorebar").stop().fadeIn("fast");
-  if (fadeout != null) {
-    clearTimeout(fadeout);
-  }
-  fadeout = setTimeout(hide_playlist, 1000);
-});
+	var timer;
+        $(document).mousemove(function() {
+            if (timer) {
+                clearTimeout(timer);
+                timer = 0;
+            }
 
-function hide_playlist() {
-  $("div.scrollformorebar").stop().fadeOut("medium");
-}
-
+            $('.scrollformorebar').fadeIn();
+            timer = setTimeout(function() {
+                $('.scrollformorebar').fadeOut()
+            }, 3000)
+        })	
 </script>
   
 </body>
