@@ -245,20 +245,18 @@ $('html, body').animate({
 
 </script>
 	
-<script>
+<script type="text/javascript">
 	$(document).ready(function () {
-    var timer;
-    $(document).on("mousemove touchmove", function () {
-        if (timer) {
-            clearTimeout(timer);
-            timer = 0;
-        }
-        $('.scrollformorebar').fadeIn(100);
-        timer = setTimeout(function () {
-            $('.scrollformorebar').fadeOut(3000)
-        }, 3000)
+        window.timer = 0;
+        $(document).on('mousemove touchmove', function () {
+            $('.scrollformorebar').fadeIn(100);
+            clearTimeout(window.timer);
+            window.timer = setTimeout(function () {
+                $('.scrollformorebar').fadeOut(100);
+            }, 3000);
+        });
+        $(document).trigger('mousemove');
     });
-});	
 </script>
   
 </body>
