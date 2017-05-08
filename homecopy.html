@@ -10,14 +10,24 @@
   <script src="scripts/jquery.min.js"></script>
 
 
-  <style>
+    <style>
     body {
-      margin: 0;
-      padding: 0;
+        margin: 0;
+        padding: 0;
     }
-
-   
-  </style>
+    .berthaLinkMobile {
+        display: none;      
+    }
+    @media only screen and (max-width: 960px) {
+        .berthaLinkDesktop {
+            display: none;  
+        }    
+        .berthaLinkMobile {
+            display: block;      
+        }
+    }
+    </style>
+	
   <!--[if lt IE 9]>
     <script src="scripts/respond.min.js"></script>
   <![endif]-->
@@ -100,9 +110,10 @@
             <source src="images/BerthaPortrait.mp4" type="video/mp4"> 
           </video>
           
-
-          <a href="bertha.html" style="display:block"><div style="top: 10%; left: 12%; width: 410px;" data-seq class="seq-title"><img class="name" src="images/Bertha_Name.png">"We didn't have money, <br>but we knew how to survive."<br><br><img class="start" src="images/Start Journey White-07.png"></a>
-          </div>
+	<a href="berthawithmap.html" class="berthaLinkDesktop"><div style="top: 10%; left: 12%; width: 410px;" data-seq class="seq-title"><img class="name" src="images/Bertha_Name.png">"We didn't have money, <br>but we knew how to survive."<br><br><img class="start" src="images/Start Journey White-07.png"></div></a>
+          
+          <a href="bertha.html" class="berthaLinkMobile"><div style="top: 10%; left: 12%; width: 410px;" data-seq class="seq-title"><img class="name" src="images/Bertha_Name.png">"We didn't have money, <br>but we knew how to survive."<br><br><img class="start" src="images/Start Journey White-07.png"></div></a>
+          
         </li>
       </ul>
     </div>
