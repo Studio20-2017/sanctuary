@@ -228,7 +228,7 @@ margin: auto;
 background-color: transparent;  
 width:100%; 
 position: absolute; 
-z-index: 99999; bottom: 10%;
+z-index: 99999; bottom: 8%;
 }
 
 .scrollformoretext{
@@ -312,7 +312,6 @@ color: white;
 }
 
  
-}
 
 /* Carousel */
 #carousel {
