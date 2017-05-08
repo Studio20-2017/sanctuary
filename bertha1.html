@@ -239,14 +239,31 @@ $(function() {
   <!--When the player is ready, add listeners for pause, finish, and playProgress-->
   
   player.addEvent('ready', function() {        
-      player.addEvent('finish', finishVideoOne);
-  });
+    player.addEvent('finish', finishVideoOne);
+
+    player.addEvent('play', function() {        
+        $('.scrollformorebar').fadeOut(600);
+    });
+
+    player.addEvent('pause', function() {        
+        $('.scrollformorebar').fadeIn(100);
+    });
+});
 
  function finishVideoOne(id) {
 $('html, body').animate({
     scrollTop: $("#second").offset().top
 }, 1000);}
 });
+
+</script>
+	
+<script type="text/javascript">
+    $(window).ready(function () {
+        $(window).on('scroll', function(){
+      		$('.scrollformorebar').fadeOut(600);
+	});
+    });
 
 </script>
   
