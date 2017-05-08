@@ -247,18 +247,17 @@ $('html, body').animate({
 	
 <script>
 var fadeout = null;
-    $(document).mousemove(function() {
-        $(".scrollformorebar").stop().fadeIn("slow");
-        if (fadeout != null) {
-            clearTimeout(fadeout);
-            fadeout = setTimeout(hide_playlist, 1000);
-        }
-        fadeout = setTimeout(hide_playlist, 1000);
-    });
+$("html").mousemove(function() {
+  $(".scrollformorebar").stop().fadeIn("slow");
+  if (fadeout != null) {
+    clearTimeout(fadeout);
+  }
+  fadeout = setTimeout(hide_playlist, 3000);
+});
 
-    function hide_playlist() {
-    $(".scrollformorebar").stop().fadeOut("slow");
-    }
+function hide_playlist() {
+  $("div.fadeobject").stop().fadeOut("slow");
+}
 
 </script>
   
