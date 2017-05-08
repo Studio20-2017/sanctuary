@@ -248,7 +248,7 @@ $('html, body').animate({
 <script>
 var fadeout = null;
 $("html").mousemove(function() {
-  $(".scrollformorebar").stop().fadeIn("slow");
+  $("div.scrollformorebar").stop().fadeIn("slow");
   if (fadeout != null) {
     clearTimeout(fadeout);
   }
@@ -256,7 +256,7 @@ $("html").mousemove(function() {
 });
 
 function hide_playlist() {
-  $("div.fadeobject").stop().fadeOut("slow");
+  $("div.scrollformorebar").stop().fadeOut("slow");
 }
 
 </script>
