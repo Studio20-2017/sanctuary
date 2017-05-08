@@ -255,7 +255,7 @@ $('html, body').animate({
     }
     $(window).ready(function () {
         window.timer = 0;
-        $(window).on('mousemove touchmove', resetTimer);
+        $(window).on('mousemove touchmove blur', resetTimer);
         $("#player1").contents().find("body").on('mousemove touchmove', resetTimer);
         $(window).trigger('mousemove');
     });
