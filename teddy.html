@@ -21,15 +21,15 @@
  <div class="boxes" id="first">
  <div class="video">
  <iframe id="player1" src="https://player.vimeo.com/video/212126911?api=1&player_id=player1" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
-  <div class="scrollformorebar"><h1 class="scrollformoretext"><a href="#second">CONTINUE JOURNEY &darr;</a></h1></div>
+ <div class="scrollformorebar"><h1 class="scrollformoretext"><a href="#second">CONTINUE JOURNEY &darr;</a></h1></div>
 	 </div>
  </div>
 
  <div class="teddyheader" id="second">
  <h1>forced from their homes into internment camps</h1>
- <p>During World War II, approximately 120,000 people of Japanese ancestry from the West Coast, citizens and aliens alike, were forced into 10 relocation camps. Some of them had to travel more than halfway across the country, to the Jerome and Rohwer camps.</p>
+ <p>From 1942 to 1946, approximately 120,000 people of Japanese ancestry, citizens and aliens alike, mainly from the West Coast, were forced into 10 relocation camps. Some of them had to travel more than halfway across the country, to the Jerome and Rohwer camps.<p>
 	 <p style="color: #8baaad">Drag the slider to see how many people were in each camp between 1942 and 1946. The white lines on the map depict how far they had to travel from their hometowns.</p>
-	  <p class="source" style="text-align: right; font-size: 14px; line-height: 110%">Source: The War Relocation Authority</p>
+	  <p class="source" style="text-align: right; font-size: 12px; line-height: 110%">Source: The War Relocation Authority</p>
 	</div>
  <div id="third">
  	<style>
@@ -86,6 +86,7 @@
 </div>
 
 </div><!-- /container -->
+	</div>
 <script src="js/classie.js"></script>
 <script>
 // http://stackoverflow.com/a/11381730/989439
@@ -233,9 +234,17 @@ $(function() {
 
   <!--When the player is ready, add listeners for pause, finish, and playProgress-->
   
-  player.addEvent('ready', function() {        
-      player.addEvent('finish', finishVideoOne);
-  });
+player.addEvent('ready', function() {        
+    player.addEvent('finish', finishVideoOne);
+
+    player.addEvent('play', function() {        
+        $('.scrollformorebar').fadeOut(600);
+    });
+
+    player.addEvent('pause', function() {        
+        $('.scrollformorebar').fadeIn(100);
+    });
+});
 
  function finishVideoOne(id) {
 $('html, body').animate({
@@ -243,6 +252,14 @@ $('html, body').animate({
 }, 1000);}
 });
 
+</script>
+	
+<script type="text/javascript">
+    $(window).ready(function () {
+        $(window).on('scroll', function(){
+      		$('.scrollformorebar').fadeOut(600);
+	});
+    });
 </script>
   
 </body>
