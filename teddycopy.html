@@ -237,6 +237,12 @@ $(function() {
   player.addEvent('ready', function() {        
       player.addEvent('finish', finishVideoOne);
   });
+ player.addEvent('play', function() {        
+      $('.scrollformorebar').fadeOut(600);
+  });
+ player.addEvent('pause', function() {        
+      $('.scrollformorebar').fadeIn(100);
+  });
 
  function finishVideoOne(id) {
 $('html, body').animate({
@@ -247,18 +253,10 @@ $('html, body').animate({
 </script>
 	
 <script type="text/javascript">
-    var resetTimer = function() {
-            $('.scrollformorebar').fadeIn(100);
-            clearTimeout(window.timer);
-            window.timer = setTimeout(function () {
-                $('.scrollformorebar').fadeOut(600);
-            }, 2000);
-    }
     $(window).ready(function () {
-        window.timer = 0;
-        $(window).on('mousemove touchmove blur', resetTimer);
-        $("#player1").contents().find("body").on('mousemove touchmove', resetTimer);
-        $(window).trigger('mousemove');
+        $(window).on('scroll', function(){
+      		$('.scrollformorebar').fadeOut(600);
+	});
     });
 </script>
   
